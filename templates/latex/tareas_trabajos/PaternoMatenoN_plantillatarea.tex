@@ -1,0 +1,89 @@
+
+% ------ Clase de documento ------
+\documentclass[letterpaper, 12pt, spanish]{article}
+% Esto es para poder escribir acentos directamente:
+\usepackage{cite} %Referenciar citas en biblitex
+\usepackage{apacite}
+\usepackage[latin1]{inputenc} 
+\usepackage{enumerate}
+%% Esto es para que LaTeX sepa que el texto está en español:
+\usepackage[spanish,activeacute]{babel}
+\usepackage{graphicx, float, array} % Para imágenes, tablas y flotantes
+%%\usepackage{amsmath, amssymb} % Para matemáticas
+\usepackage[right=2.0cm,left=2.0cm,top=2.0cm,bottom=2.0cm,headsep=0cm,footskip=1cm]{geometry} % Parametros para margenes del documento
+\setlength{\parskip}{\baselineskip} %Espaciado entre cada párrafo
+%\renewcommand{\baselinestretch}{1.5} %Espaciado de línea 1.5 puntos
+%% Tipografia:
+\usepackage[defaultsans]{droidsans} %% Selección de la tipografía, fuente Droid Sans
+\renewcommand*\familydefault{\sfdefault} %% Only if the base font of the document is to be typewriter style
+\usepackage[T1]{fontenc}
+
+% Configuración (para artículo):
+\title{Título de la tarea}
+\author{Nombre Paterno Materno}
+% ----- Cuerpo del documento -----
+
+\begin{document}
+\maketitle
+
+\section{Introducción}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vehicula porta diam et volutpat. Nam mattis facilisis pulvinar. Donec consectetur pulvinar ullamcorper. Aenean ac eleifend dolor. Sed imperdiet enim id ligula tempor, eget hendrerit ex commodo. Etiam dapibus fermentum rutrum. Sed sit amet pulvinar dui. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In volutpat sem lacus, sit amet scelerisque dui consectetur quis. Nullam luctus elit ac laoreet vulputate. Mauris metus nisl, ultricies in diam eget, faucibus accumsan arcu. Quisque eget blandit nibh, in facilisis quam.
+
+Proin eleifend ex id neque pharetra, sit amet interdum massa lobortis. Phasellus sit amet ullamcorper nisl. Nulla lobortis est vel consectetur molestie. Nunc ac feugiat lacus. Ut velit mi, faucibus in lacinia bibendum, facilisis ac ex. Aliquam congue feugiat fringilla. Nulla nisi metus, dignissim sed ex nec, luctus lacinia sapien. Praesent auctor dapibus ipsum sit amet vulputate. Vestibulum semper tempus laoreet. Donec tempus ligula at nisl ultricies, eget efficitur enim elementum. Nullam aliquet ultrices rutrum. In a massa in nunc auctor interdum eu vel ante. Etiam quam enim, rutrum ut ornare non, efficitur ut ligula. Ut non pellentesque augue.
+
+In sit amet metus sapien. Donec a massa consequat purus accumsan finibus quis a dui. Aenean mauris elit, bibendum nec est vitae, consequat ultrices ligula. Suspendisse ac accumsan est. Aliquam faucibus nisl vitae lacinia pretium. Proin non vulputate nunc. Nullam quis lacinia lectus, nec bibendum enim. Duis quam magna, rutrum sit amet elit nec, scelerisque finibus nunc.
+
+Fusce ultricies tincidunt risus, nec rutrum lacus accumsan non. Quisque suscipit velit in nibh finibus commodo. Proin fringilla at lacus et venenatis. Quisque congue accumsan nisl, eu malesuada tellus placerat at. Donec euismod, dui quis viverra ornare, metus velit imperdiet turpis, quis pharetra lectus felis ut dui. Etiam ultricies tincidunt neque id finibus. Nulla a mi et dolor suscipit finibus. Vestibulum dui nulla, sagittis non nisl euismod, blandit rutrum eros. Praesent eget lectus est. Ut vitae luctus dolor.
+
+
+\section{Desarrollo del tema}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vehicula porta diam et volutpat. Nam mattis facilisis pulvinar. Donec consectetur pulvinar ullamcorper. Aenean ac eleifend dolor. Sed imperdiet enim id ligula tempor, eget hendrerit ex commodo. Etiam dapibus fermentum rutrum. Sed sit amet pulvinar dui. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In volutpat sem lacus, sit amet scelerisque dui consectetur quis. Nullam luctus elit ac laoreet vulputate. Mauris metus nisl, ultricies in diam eget, faucibus accumsan arcu. Quisque eget blandit nibh, in facilisis quamn  \cite{kaplan1999}.
+
+Proin eleifend ex id neque pharetra, sit amet interdum massa lobortis. Phasellus sit amet ullamcorper nisl. Nulla lobortis est vel consectetur molestie. Nunc ac feugiat lacus. Ut velit mi, faucibus in lacinia bibendum, facilisis ac ex. Aliquam congue feugiat fringilla. Nulla nisi metus, dignissim sed ex nec, luctus lacinia sapien. Praesent auctor dapibus ipsum sit amet vulputate. Vestibulum semper tempus laoreet. Donec tempus ligula at nisl ultricies, eget efficitur enim elementum. Nullam aliquet ultrices rutrum. In a massa in nunc auctor interdum eu vel ante. Etiam quam enim, rutrum ut ornare non, efficitur ut ligula. Ut non pellentesque augue.
+
+\subsection{Subseccón del tema}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vehicula porta diam et volutpat. Nam mattis facilisis pulvinar. Donec consectetur pulvinar ullamcorper. Aenean ac eleifend dolor. Sed imperdiet enim id ligula tempor, eget hendrerit ex commodo. Etiam dapibus fermentum rutrum. Sed sit amet pulvinar dui. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In volutpat sem lacus, sit amet scelerisque dui consectetur quis. Nullam luctus elit ac laoreet vulputate. Mauris metus nisl, ultricies in diam eget, faucibus accumsan arcu \cite{marr2015}. Quisque eget blandit nibh, in facilisis quam.
+
+Proin eleifend ex id neque pharetra, sit amet interdum massa lobortis. Phasellus sit amet ullamcorper nisl. Nulla lobortis est vel consectetur molestie. Nunc ac feugiat lacus. Ut velit mi, faucibus in lacinia bibendum, facilisis ac ex. Aliquam congue feugiat fringilla. Nulla nisi metus, dignissim sed ex nec, luctus lacinia sapien. Praesent auctor dapibus ipsum sit amet vulputate. Vestibulum semper tempus laoreet. Donec tempus ligula at nisl ultricies, eget efficitur enim elementum. Nullam aliquet ultrices rutrum. In a massa in nunc auctor interdum eu vel ante. Etiam quam enim, rutrum ut ornare non, efficitur ut ligula. Ut non pellentesque augue.
+
+In sit amet metus sapien. Donec a massa consequat purus accumsan finibus quis a dui. Aenean mauris elit, bibendum nec est vitae, consequat ultrices ligula. Suspendisse ac accumsan est. Aliquam faucibus nisl vitae lacinia pretium. Proin non vulputate nunc. Nullam quis lacinia lectus, nec bibendum enim. Duis quam magna, rutrum sit amet elit nec, scelerisque finibus nunc.
+
+\section{Otro tema o sección}
+Colocar viñetas:
+\begin{enumerate} % Inicia enumeración
+ \item \textbf{Punto 1}, In sit amet metus sapien. Donec a massa consequat purus accumsan finibus quis a dui. Aenean mauris elit, bibendum nec est vitae, consequat ultrices ligula.
+ \item \textbf{Punto 2}, cIn sit amet metus sapien. Donec a massa consequat purus accumsan finibus quis a dui. Aenean mauris elit, bibendum nec est vitae, consequat ultrices ligula.
+ \item \textbf{Punto 3},In sit amet metus sapien. Donec a massa consequat purus accumsan finibus quis a dui. Aenean mauris elit, bibendum nec est vitae, consequat ultrices ligula.
+ \item \textbf{Punto 4}, In sit amet metus sapien. Donec a massa consequat purus accumsan finibus quis a dui. Aenean mauris elit, bibendum nec est vitae, consequat ultrices ligula \cite{marr2015}.
+\end{enumerate}
+
+%Colocar una imagen
+\begin{figure}[H]
+\begin{center}
+  \includegraphics[width=200px]{./images/bsc1.jpg}
+  \caption{Perspectivas del Cuadro de Mando Integrador}
+\end{center}
+\end{figure}
+
+\subsection{Subseccón del tema}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vehicula porta diam et volutpat. Nam mattis facilisis pulvinar. Donec consectetur pulvinar ullamcorper. Aenean ac eleifend dolor. Sed imperdiet enim id ligula tempor, eget hendrerit ex commodo. Etiam dapibus fermentum rutrum. Sed sit amet pulvinar dui. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In volutpat sem lacus, sit amet scelerisque dui consectetur quis. Nullam luctus elit ac laoreet vulputate. Mauris metus nisl, ultricies in diam eget, faucibus accumsan arcu. Quisque eget blandit nibh, in facilisis quam \cite{baraybar2011}.
+
+
+\section{Conclusiones}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vehicula porta diam et volutpat. Nam mattis facilisis pulvinar. Donec consectetur pulvinar ullamcorper. Aenean ac eleifend dolor. Sed imperdiet enim id ligula tempor, eget hendrerit ex commodo. Etiam dapibus fermentum rutrum. Sed sit amet pulvinar dui. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In volutpat sem lacus, sit amet scelerisque dui consectetur quis. Nullam luctus elit ac laoreet vulputate. Mauris metus nisl, ultricies in diam eget, faucibus accumsan arcu. Quisque eget blandit nibh, in facilisis quam.
+
+
+% Bibliografía.
+%-----------------------------------------------------------------
+% para agregar más referencias es necesario abrir el archivo : biblio/bibliografia.bib
+% Compilar las referencias:
+% $ latex PaternoNombreN_plantillatarea
+% $ bibtex PaternoNombreN_plantillatarea
+% $ latex PaternoNombreN_plantillatarea
+% $ latex PaternoNombreN_plantillatarea
+%-----------------------------------------------------------------
+\bibliography{biblio/bibliografia.bib}
+\bibliographystyle{apacite}
+
+\end{document}
