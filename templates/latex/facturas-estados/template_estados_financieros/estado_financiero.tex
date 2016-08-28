@@ -1,0 +1,33 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{spreadtab}
+\usepackage[autolanguage]{numprint}
+\usepackage[english]{babel}
+\begin{document}
+\begin{spreadtab}{{tabular}{lN60N60}}
+\multicolumn3c{@EL DIABLITO SA DE CV}\\
+\multicolumn3c{@ESTADO DE SITUACIÓN FINANCIERA DEL 31 DE DICIEMBRE}\\
+\multicolumn3c{@PESOS MEXICANOS}\\\hline
+                                            	&\multicolumn1c{@\$}   &\multicolumn1c{@\$}\\
+                                             	&\multicolumn1c{@Debit}&\multicolumn1c{@Credit}\\
+@Activo Circulante								&       &\\
+@\quad GROSS PROFIT (including rental income)			&       & 496397\\[1.5ex]
+@Pasivo                                   	&       &\\
+@\quad ADVERTISING                           	&  6300 &\\
+@\quad BANK \& CREDIT CARD FEES              	&   144 &\\
+@\quad BOOKKEEPING                           	&  3350 &\\
+@\quad EMPLOYEES                             	& 88000 &\\
+@\quad ENTERTAINMENT                         	&  5550 &\\
+@\quad INSURANCE                             	&   750 &\\
+@\quad LEGAL \& PROFESSIONAL SERVICES			&  1575 &\\
+@\quad LICENSES                              	&   632 &\\
+@\quad PRINTING, POSTAGE \& STATIONERY		&   320 &\\
+@\quad RENT                                  	& 13000 &\\
+@\quad RENTAL MORTGAGES AND FEES				& 74400 &\\
+@\quad TELEPHONE                             	&  1000 &\\
+@\quad UTILITIES                             	&   491 &\\[1.5ex]
+@TOTAL EXPENSES                              			&       & sum([-1,-13]:[-1,-1])\\
+@NET INCOME                                  			&       & [0,-16]-[0,-1]\\\hline
+\end{spreadtab}
+\end{document}

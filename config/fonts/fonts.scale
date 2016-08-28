@@ -1,7 +1,8 @@
-1955
+3206
 342.ttf -itc-blairitc tt-light-r-normal--0-0-0-0-p-0-ascii-0
 342.ttf -itc-blairitc tt-light-r-normal--0-0-0-0-p-0-iso10646-1
 342.ttf -itc-blairitc tt-light-r-normal--0-0-0-0-p-0-iso8859-1
+ABFonts Santos FC 2012 Numerals.otf -misc-abfonts santos fc 2012 numerals-medium-r-normal--0-0-0-0-p-0-adobe-fontspecific
 AbyssinicaSIL-R.ttf -misc-abyssinica sil-medium-r-normal--0-0-0-0-p-0-ascii-0
 AbyssinicaSIL-R.ttf -misc-abyssinica sil-medium-r-normal--0-0-0-0-p-0-iso10646-1
 AbyssinicaSIL-R.ttf -misc-abyssinica sil-medium-r-normal--0-0-0-0-p-0-iso8859-1
@@ -90,6 +91,9 @@ Black Knight.otf -misc-black knight-medium-r-normal--0-0-0-0-p-0-ascii-0
 Black Knight.otf -misc-black knight-medium-r-normal--0-0-0-0-p-0-iso10646-1
 Black Knight.otf -misc-black knight-medium-r-normal--0-0-0-0-p-0-iso8859-1
 BodoniXT.ttf -misc-bodonixt-medium-r-normal--0-0-0-0-p-0-iso10646-1
+Brooklyn.otf -misc-brooklyn-medium-r-normal--0-0-0-0-p-0-ascii-0
+Brooklyn.otf -misc-brooklyn-medium-r-normal--0-0-0-0-p-0-iso10646-1
+Brooklyn.otf -misc-brooklyn-medium-r-normal--0-0-0-0-p-0-iso8859-1
 Cantarell-Bold.otf -misc-cantarell-bold-r-normal--0-0-0-0-p-0-ascii-0
 Cantarell-Bold.otf -misc-cantarell-bold-r-normal--0-0-0-0-p-0-iso10646-1
 Cantarell-Bold.otf -misc-cantarell-bold-r-normal--0-0-0-0-p-0-iso8859-1
@@ -102,6 +106,25 @@ Cantarell-Bold.otf -misc-cantarell-bold-r-normal--0-0-0-0-p-0-iso8859-4
 Cantarell-Bold.otf -misc-cantarell-bold-r-normal--0-0-0-0-p-0-iso8859-9
 Cantarell-Bold.otf -misc-cantarell-bold-r-normal--0-0-0-0-p-0-koi8-r
 Cantarell-Bold.otf -misc-cantarell-bold-r-normal--0-0-0-0-p-0-microsoft-cp1252
+Charter Bold Italic.otf -bitstream-charter-bold-i-normal--0-0-0-0-p-0-adobe-standard
+Charter Bold Italic.otf -bitstream-charter-bold-i-normal--0-0-0-0-p-0-ascii-0
+Charter Bold Italic.otf -bitstream-charter-bold-i-normal--0-0-0-0-p-0-iso10646-1
+Charter Bold Italic.otf -bitstream-charter-bold-i-normal--0-0-0-0-p-0-iso8859-1
+Charter Bold.otf -bitstream-charter-bold-r-normal--0-0-0-0-p-0-adobe-standard
+Charter Bold.otf -bitstream-charter-bold-r-normal--0-0-0-0-p-0-ascii-0
+Charter Bold.otf -bitstream-charter-bold-r-normal--0-0-0-0-p-0-iso10646-1
+Charter Bold.otf -bitstream-charter-bold-r-normal--0-0-0-0-p-0-iso8859-1
+Charter Italic.otf -bitstream-charter-medium-i-normal--0-0-0-0-p-0-adobe-standard
+Charter Italic.otf -bitstream-charter-medium-i-normal--0-0-0-0-p-0-ascii-0
+Charter Italic.otf -bitstream-charter-medium-i-normal--0-0-0-0-p-0-iso10646-1
+Charter Italic.otf -bitstream-charter-medium-i-normal--0-0-0-0-p-0-iso8859-1
+Charter Regular.otf -bitstream-charter-medium-r-normal--0-0-0-0-p-0-adobe-standard
+Charter Regular.otf -bitstream-charter-medium-r-normal--0-0-0-0-p-0-ascii-0
+Charter Regular.otf -bitstream-charter-medium-r-normal--0-0-0-0-p-0-iso10646-1
+Charter Regular.otf -bitstream-charter-medium-r-normal--0-0-0-0-p-0-iso8859-1
+CooperHewitt-Bold.otf -misc-cooper hewitt-bold-r-normal--0-0-0-0-p-0-iso10646-1
+CooperHewitt-Bold.otf -misc-cooper hewitt-bold-r-normal--0-0-0-0-p-0-iso8859-10
+Copa America.ttf -misc-copa america-medium-r-normal--0-0-0-0-p-0-iso10646-1
 Daniel-Black.otf -misc-daniel black-black-r-normal--0-0-0-0-p-0-iso10646-1
 Daniel-Black.otf -misc-daniel black-black-r-normal--0-0-0-0-p-0-iso8859-15
 DejaVu Sans Mono Bold Oblique for Powerline.ttf -misc-dejavu sans mono for powerline-bold-o-normal--0-0-0-0-m-0-ascii-0
@@ -879,6 +902,917 @@ DroidSerif-Regular.ttf -misc-droid serif-medium-r-normal--0-0-0-0-p-0-koi8-ru
 DroidSerif-Regular.ttf -misc-droid serif-medium-r-normal--0-0-0-0-p-0-koi8-u
 DroidSerif-Regular.ttf -misc-droid serif-medium-r-normal--0-0-0-0-p-0-koi8-uni
 DroidSerif-Regular.ttf -misc-droid serif-medium-r-normal--0-0-0-0-p-0-microsoft-cp1252
+Dusha.ttf -misc-dusha v5-medium-r-normal--0-0-0-0-p-0-iso10646-1
+Dusha.ttf -misc-dusha v5-medium-r-normal--0-0-0-0-p-0-koi8-r
+FC Barcelona Font 2013 By HD.ttf -misc-barcelona 2013 by hd-medium-r-normal--0-0-0-0-p-0-iso10646-1
+FC Midtjylland 2015-2016.ttf -misc-fc midtjylland 2015 2016-medium-r-normal--0-0-0-0-p-0-iso10646-1
+FiraCode-Bold.otf -misc-fira code-bold-r-normal--0-0-0-0-m-0-ascii-0
+FiraCode-Bold.otf -misc-fira code-bold-r-normal--0-0-0-0-m-0-ibm-cp850
+FiraCode-Bold.otf -misc-fira code-bold-r-normal--0-0-0-0-m-0-ibm-cp852
+FiraCode-Bold.otf -misc-fira code-bold-r-normal--0-0-0-0-m-0-ibm-cp866
+FiraCode-Bold.otf -misc-fira code-bold-r-normal--0-0-0-0-m-0-iso10646-1
+FiraCode-Bold.otf -misc-fira code-bold-r-normal--0-0-0-0-m-0-iso8859-1
+FiraCode-Bold.otf -misc-fira code-bold-r-normal--0-0-0-0-m-0-iso8859-10
+FiraCode-Bold.otf -misc-fira code-bold-r-normal--0-0-0-0-m-0-iso8859-13
+FiraCode-Bold.otf -misc-fira code-bold-r-normal--0-0-0-0-m-0-iso8859-15
+FiraCode-Bold.otf -misc-fira code-bold-r-normal--0-0-0-0-m-0-iso8859-16
+FiraCode-Bold.otf -misc-fira code-bold-r-normal--0-0-0-0-m-0-iso8859-2
+FiraCode-Bold.otf -misc-fira code-bold-r-normal--0-0-0-0-m-0-iso8859-3
+FiraCode-Bold.otf -misc-fira code-bold-r-normal--0-0-0-0-m-0-iso8859-4
+FiraCode-Bold.otf -misc-fira code-bold-r-normal--0-0-0-0-m-0-iso8859-5
+FiraCode-Bold.otf -misc-fira code-bold-r-normal--0-0-0-0-m-0-iso8859-9
+FiraCode-Bold.otf -misc-fira code-bold-r-normal--0-0-0-0-m-0-koi8-e
+FiraCode-Bold.otf -misc-fira code-bold-r-normal--0-0-0-0-m-0-koi8-r
+FiraCode-Bold.otf -misc-fira code-bold-r-normal--0-0-0-0-m-0-koi8-ru
+FiraCode-Bold.otf -misc-fira code-bold-r-normal--0-0-0-0-m-0-koi8-u
+FiraCode-Bold.otf -misc-fira code-bold-r-normal--0-0-0-0-m-0-koi8-uni
+FiraCode-Bold.otf -misc-fira code-bold-r-normal--0-0-0-0-m-0-microsoft-cp1252
+FiraCode-Light.otf -misc-fira code light-light-r-normal--0-0-0-0-m-0-ascii-0
+FiraCode-Light.otf -misc-fira code light-light-r-normal--0-0-0-0-m-0-ibm-cp850
+FiraCode-Light.otf -misc-fira code light-light-r-normal--0-0-0-0-m-0-ibm-cp852
+FiraCode-Light.otf -misc-fira code light-light-r-normal--0-0-0-0-m-0-ibm-cp866
+FiraCode-Light.otf -misc-fira code light-light-r-normal--0-0-0-0-m-0-iso10646-1
+FiraCode-Light.otf -misc-fira code light-light-r-normal--0-0-0-0-m-0-iso8859-1
+FiraCode-Light.otf -misc-fira code light-light-r-normal--0-0-0-0-m-0-iso8859-10
+FiraCode-Light.otf -misc-fira code light-light-r-normal--0-0-0-0-m-0-iso8859-13
+FiraCode-Light.otf -misc-fira code light-light-r-normal--0-0-0-0-m-0-iso8859-15
+FiraCode-Light.otf -misc-fira code light-light-r-normal--0-0-0-0-m-0-iso8859-16
+FiraCode-Light.otf -misc-fira code light-light-r-normal--0-0-0-0-m-0-iso8859-2
+FiraCode-Light.otf -misc-fira code light-light-r-normal--0-0-0-0-m-0-iso8859-3
+FiraCode-Light.otf -misc-fira code light-light-r-normal--0-0-0-0-m-0-iso8859-4
+FiraCode-Light.otf -misc-fira code light-light-r-normal--0-0-0-0-m-0-iso8859-5
+FiraCode-Light.otf -misc-fira code light-light-r-normal--0-0-0-0-m-0-iso8859-9
+FiraCode-Light.otf -misc-fira code light-light-r-normal--0-0-0-0-m-0-koi8-e
+FiraCode-Light.otf -misc-fira code light-light-r-normal--0-0-0-0-m-0-koi8-r
+FiraCode-Light.otf -misc-fira code light-light-r-normal--0-0-0-0-m-0-koi8-ru
+FiraCode-Light.otf -misc-fira code light-light-r-normal--0-0-0-0-m-0-koi8-u
+FiraCode-Light.otf -misc-fira code light-light-r-normal--0-0-0-0-m-0-koi8-uni
+FiraCode-Light.otf -misc-fira code light-light-r-normal--0-0-0-0-m-0-microsoft-cp1252
+FiraCode-Medium.otf -misc-fira code medium-medium-r-normal--0-0-0-0-m-0-ascii-0
+FiraCode-Medium.otf -misc-fira code medium-medium-r-normal--0-0-0-0-m-0-ibm-cp850
+FiraCode-Medium.otf -misc-fira code medium-medium-r-normal--0-0-0-0-m-0-ibm-cp852
+FiraCode-Medium.otf -misc-fira code medium-medium-r-normal--0-0-0-0-m-0-ibm-cp866
+FiraCode-Medium.otf -misc-fira code medium-medium-r-normal--0-0-0-0-m-0-iso10646-1
+FiraCode-Medium.otf -misc-fira code medium-medium-r-normal--0-0-0-0-m-0-iso8859-1
+FiraCode-Medium.otf -misc-fira code medium-medium-r-normal--0-0-0-0-m-0-iso8859-10
+FiraCode-Medium.otf -misc-fira code medium-medium-r-normal--0-0-0-0-m-0-iso8859-13
+FiraCode-Medium.otf -misc-fira code medium-medium-r-normal--0-0-0-0-m-0-iso8859-15
+FiraCode-Medium.otf -misc-fira code medium-medium-r-normal--0-0-0-0-m-0-iso8859-16
+FiraCode-Medium.otf -misc-fira code medium-medium-r-normal--0-0-0-0-m-0-iso8859-2
+FiraCode-Medium.otf -misc-fira code medium-medium-r-normal--0-0-0-0-m-0-iso8859-3
+FiraCode-Medium.otf -misc-fira code medium-medium-r-normal--0-0-0-0-m-0-iso8859-4
+FiraCode-Medium.otf -misc-fira code medium-medium-r-normal--0-0-0-0-m-0-iso8859-5
+FiraCode-Medium.otf -misc-fira code medium-medium-r-normal--0-0-0-0-m-0-iso8859-9
+FiraCode-Medium.otf -misc-fira code medium-medium-r-normal--0-0-0-0-m-0-koi8-e
+FiraCode-Medium.otf -misc-fira code medium-medium-r-normal--0-0-0-0-m-0-koi8-r
+FiraCode-Medium.otf -misc-fira code medium-medium-r-normal--0-0-0-0-m-0-koi8-ru
+FiraCode-Medium.otf -misc-fira code medium-medium-r-normal--0-0-0-0-m-0-koi8-u
+FiraCode-Medium.otf -misc-fira code medium-medium-r-normal--0-0-0-0-m-0-koi8-uni
+FiraCode-Medium.otf -misc-fira code medium-medium-r-normal--0-0-0-0-m-0-microsoft-cp1252
+FiraCode-Regular.otf -misc-fira code-medium-r-normal--0-0-0-0-m-0-ascii-0
+FiraCode-Regular.otf -misc-fira code-medium-r-normal--0-0-0-0-m-0-ibm-cp850
+FiraCode-Regular.otf -misc-fira code-medium-r-normal--0-0-0-0-m-0-ibm-cp852
+FiraCode-Regular.otf -misc-fira code-medium-r-normal--0-0-0-0-m-0-ibm-cp866
+FiraCode-Regular.otf -misc-fira code-medium-r-normal--0-0-0-0-m-0-iso10646-1
+FiraCode-Regular.otf -misc-fira code-medium-r-normal--0-0-0-0-m-0-iso8859-1
+FiraCode-Regular.otf -misc-fira code-medium-r-normal--0-0-0-0-m-0-iso8859-10
+FiraCode-Regular.otf -misc-fira code-medium-r-normal--0-0-0-0-m-0-iso8859-13
+FiraCode-Regular.otf -misc-fira code-medium-r-normal--0-0-0-0-m-0-iso8859-15
+FiraCode-Regular.otf -misc-fira code-medium-r-normal--0-0-0-0-m-0-iso8859-16
+FiraCode-Regular.otf -misc-fira code-medium-r-normal--0-0-0-0-m-0-iso8859-2
+FiraCode-Regular.otf -misc-fira code-medium-r-normal--0-0-0-0-m-0-iso8859-3
+FiraCode-Regular.otf -misc-fira code-medium-r-normal--0-0-0-0-m-0-iso8859-4
+FiraCode-Regular.otf -misc-fira code-medium-r-normal--0-0-0-0-m-0-iso8859-5
+FiraCode-Regular.otf -misc-fira code-medium-r-normal--0-0-0-0-m-0-iso8859-9
+FiraCode-Regular.otf -misc-fira code-medium-r-normal--0-0-0-0-m-0-koi8-e
+FiraCode-Regular.otf -misc-fira code-medium-r-normal--0-0-0-0-m-0-koi8-r
+FiraCode-Regular.otf -misc-fira code-medium-r-normal--0-0-0-0-m-0-koi8-ru
+FiraCode-Regular.otf -misc-fira code-medium-r-normal--0-0-0-0-m-0-koi8-u
+FiraCode-Regular.otf -misc-fira code-medium-r-normal--0-0-0-0-m-0-koi8-uni
+FiraCode-Regular.otf -misc-fira code-medium-r-normal--0-0-0-0-m-0-microsoft-cp1252
+FiraCode-Retina.otf -misc-fira code retina-medium-r-normal--0-0-0-0-m-0-ascii-0
+FiraCode-Retina.otf -misc-fira code retina-medium-r-normal--0-0-0-0-m-0-ibm-cp850
+FiraCode-Retina.otf -misc-fira code retina-medium-r-normal--0-0-0-0-m-0-ibm-cp852
+FiraCode-Retina.otf -misc-fira code retina-medium-r-normal--0-0-0-0-m-0-ibm-cp866
+FiraCode-Retina.otf -misc-fira code retina-medium-r-normal--0-0-0-0-m-0-iso10646-1
+FiraCode-Retina.otf -misc-fira code retina-medium-r-normal--0-0-0-0-m-0-iso8859-1
+FiraCode-Retina.otf -misc-fira code retina-medium-r-normal--0-0-0-0-m-0-iso8859-10
+FiraCode-Retina.otf -misc-fira code retina-medium-r-normal--0-0-0-0-m-0-iso8859-13
+FiraCode-Retina.otf -misc-fira code retina-medium-r-normal--0-0-0-0-m-0-iso8859-15
+FiraCode-Retina.otf -misc-fira code retina-medium-r-normal--0-0-0-0-m-0-iso8859-16
+FiraCode-Retina.otf -misc-fira code retina-medium-r-normal--0-0-0-0-m-0-iso8859-2
+FiraCode-Retina.otf -misc-fira code retina-medium-r-normal--0-0-0-0-m-0-iso8859-3
+FiraCode-Retina.otf -misc-fira code retina-medium-r-normal--0-0-0-0-m-0-iso8859-4
+FiraCode-Retina.otf -misc-fira code retina-medium-r-normal--0-0-0-0-m-0-iso8859-5
+FiraCode-Retina.otf -misc-fira code retina-medium-r-normal--0-0-0-0-m-0-iso8859-9
+FiraCode-Retina.otf -misc-fira code retina-medium-r-normal--0-0-0-0-m-0-koi8-e
+FiraCode-Retina.otf -misc-fira code retina-medium-r-normal--0-0-0-0-m-0-koi8-r
+FiraCode-Retina.otf -misc-fira code retina-medium-r-normal--0-0-0-0-m-0-koi8-ru
+FiraCode-Retina.otf -misc-fira code retina-medium-r-normal--0-0-0-0-m-0-koi8-u
+FiraCode-Retina.otf -misc-fira code retina-medium-r-normal--0-0-0-0-m-0-koi8-uni
+FiraCode-Retina.otf -misc-fira code retina-medium-r-normal--0-0-0-0-m-0-microsoft-cp1252
+FiraMono-Bold.otf -misc-fira mono-bold-r-normal--0-0-0-0-m-0-adobe-standard
+FiraMono-Bold.otf -misc-fira mono-bold-r-normal--0-0-0-0-m-0-ascii-0
+FiraMono-Bold.otf -misc-fira mono-bold-r-normal--0-0-0-0-m-0-ibm-cp850
+FiraMono-Bold.otf -misc-fira mono-bold-r-normal--0-0-0-0-m-0-ibm-cp852
+FiraMono-Bold.otf -misc-fira mono-bold-r-normal--0-0-0-0-m-0-ibm-cp866
+FiraMono-Bold.otf -misc-fira mono-bold-r-normal--0-0-0-0-m-0-iso10646-1
+FiraMono-Bold.otf -misc-fira mono-bold-r-normal--0-0-0-0-m-0-iso8859-1
+FiraMono-Bold.otf -misc-fira mono-bold-r-normal--0-0-0-0-m-0-iso8859-10
+FiraMono-Bold.otf -misc-fira mono-bold-r-normal--0-0-0-0-m-0-iso8859-13
+FiraMono-Bold.otf -misc-fira mono-bold-r-normal--0-0-0-0-m-0-iso8859-15
+FiraMono-Bold.otf -misc-fira mono-bold-r-normal--0-0-0-0-m-0-iso8859-16
+FiraMono-Bold.otf -misc-fira mono-bold-r-normal--0-0-0-0-m-0-iso8859-2
+FiraMono-Bold.otf -misc-fira mono-bold-r-normal--0-0-0-0-m-0-iso8859-3
+FiraMono-Bold.otf -misc-fira mono-bold-r-normal--0-0-0-0-m-0-iso8859-4
+FiraMono-Bold.otf -misc-fira mono-bold-r-normal--0-0-0-0-m-0-iso8859-5
+FiraMono-Bold.otf -misc-fira mono-bold-r-normal--0-0-0-0-m-0-iso8859-9
+FiraMono-Bold.otf -misc-fira mono-bold-r-normal--0-0-0-0-m-0-koi8-e
+FiraMono-Bold.otf -misc-fira mono-bold-r-normal--0-0-0-0-m-0-koi8-r
+FiraMono-Bold.otf -misc-fira mono-bold-r-normal--0-0-0-0-m-0-koi8-ru
+FiraMono-Bold.otf -misc-fira mono-bold-r-normal--0-0-0-0-m-0-koi8-u
+FiraMono-Bold.otf -misc-fira mono-bold-r-normal--0-0-0-0-m-0-koi8-uni
+FiraMono-Bold.otf -misc-fira mono-bold-r-normal--0-0-0-0-m-0-microsoft-cp1252
+FiraMono-Medium.otf -misc-fira mono medium-medium-r-normal--0-0-0-0-m-0-adobe-standard
+FiraMono-Medium.otf -misc-fira mono medium-medium-r-normal--0-0-0-0-m-0-ascii-0
+FiraMono-Medium.otf -misc-fira mono medium-medium-r-normal--0-0-0-0-m-0-ibm-cp850
+FiraMono-Medium.otf -misc-fira mono medium-medium-r-normal--0-0-0-0-m-0-ibm-cp852
+FiraMono-Medium.otf -misc-fira mono medium-medium-r-normal--0-0-0-0-m-0-ibm-cp866
+FiraMono-Medium.otf -misc-fira mono medium-medium-r-normal--0-0-0-0-m-0-iso10646-1
+FiraMono-Medium.otf -misc-fira mono medium-medium-r-normal--0-0-0-0-m-0-iso8859-1
+FiraMono-Medium.otf -misc-fira mono medium-medium-r-normal--0-0-0-0-m-0-iso8859-10
+FiraMono-Medium.otf -misc-fira mono medium-medium-r-normal--0-0-0-0-m-0-iso8859-13
+FiraMono-Medium.otf -misc-fira mono medium-medium-r-normal--0-0-0-0-m-0-iso8859-15
+FiraMono-Medium.otf -misc-fira mono medium-medium-r-normal--0-0-0-0-m-0-iso8859-16
+FiraMono-Medium.otf -misc-fira mono medium-medium-r-normal--0-0-0-0-m-0-iso8859-2
+FiraMono-Medium.otf -misc-fira mono medium-medium-r-normal--0-0-0-0-m-0-iso8859-3
+FiraMono-Medium.otf -misc-fira mono medium-medium-r-normal--0-0-0-0-m-0-iso8859-4
+FiraMono-Medium.otf -misc-fira mono medium-medium-r-normal--0-0-0-0-m-0-iso8859-5
+FiraMono-Medium.otf -misc-fira mono medium-medium-r-normal--0-0-0-0-m-0-iso8859-9
+FiraMono-Medium.otf -misc-fira mono medium-medium-r-normal--0-0-0-0-m-0-koi8-e
+FiraMono-Medium.otf -misc-fira mono medium-medium-r-normal--0-0-0-0-m-0-koi8-r
+FiraMono-Medium.otf -misc-fira mono medium-medium-r-normal--0-0-0-0-m-0-koi8-ru
+FiraMono-Medium.otf -misc-fira mono medium-medium-r-normal--0-0-0-0-m-0-koi8-u
+FiraMono-Medium.otf -misc-fira mono medium-medium-r-normal--0-0-0-0-m-0-koi8-uni
+FiraMono-Medium.otf -misc-fira mono medium-medium-r-normal--0-0-0-0-m-0-microsoft-cp1252
+FiraMono-Regular.otf -misc-fira mono-medium-r-normal--0-0-0-0-m-0-adobe-standard
+FiraMono-Regular.otf -misc-fira mono-medium-r-normal--0-0-0-0-m-0-ascii-0
+FiraMono-Regular.otf -misc-fira mono-medium-r-normal--0-0-0-0-m-0-ibm-cp850
+FiraMono-Regular.otf -misc-fira mono-medium-r-normal--0-0-0-0-m-0-ibm-cp852
+FiraMono-Regular.otf -misc-fira mono-medium-r-normal--0-0-0-0-m-0-ibm-cp866
+FiraMono-Regular.otf -misc-fira mono-medium-r-normal--0-0-0-0-m-0-iso10646-1
+FiraMono-Regular.otf -misc-fira mono-medium-r-normal--0-0-0-0-m-0-iso8859-1
+FiraMono-Regular.otf -misc-fira mono-medium-r-normal--0-0-0-0-m-0-iso8859-10
+FiraMono-Regular.otf -misc-fira mono-medium-r-normal--0-0-0-0-m-0-iso8859-13
+FiraMono-Regular.otf -misc-fira mono-medium-r-normal--0-0-0-0-m-0-iso8859-15
+FiraMono-Regular.otf -misc-fira mono-medium-r-normal--0-0-0-0-m-0-iso8859-16
+FiraMono-Regular.otf -misc-fira mono-medium-r-normal--0-0-0-0-m-0-iso8859-2
+FiraMono-Regular.otf -misc-fira mono-medium-r-normal--0-0-0-0-m-0-iso8859-3
+FiraMono-Regular.otf -misc-fira mono-medium-r-normal--0-0-0-0-m-0-iso8859-4
+FiraMono-Regular.otf -misc-fira mono-medium-r-normal--0-0-0-0-m-0-iso8859-5
+FiraMono-Regular.otf -misc-fira mono-medium-r-normal--0-0-0-0-m-0-iso8859-9
+FiraMono-Regular.otf -misc-fira mono-medium-r-normal--0-0-0-0-m-0-koi8-e
+FiraMono-Regular.otf -misc-fira mono-medium-r-normal--0-0-0-0-m-0-koi8-r
+FiraMono-Regular.otf -misc-fira mono-medium-r-normal--0-0-0-0-m-0-koi8-ru
+FiraMono-Regular.otf -misc-fira mono-medium-r-normal--0-0-0-0-m-0-koi8-u
+FiraMono-Regular.otf -misc-fira mono-medium-r-normal--0-0-0-0-m-0-koi8-uni
+FiraMono-Regular.otf -misc-fira mono-medium-r-normal--0-0-0-0-m-0-microsoft-cp1252
+FiraSans-Bold.otf -misc-fira sans-bold-r-normal--0-0-0-0-p-0-adobe-standard
+FiraSans-Bold.otf -misc-fira sans-bold-r-normal--0-0-0-0-p-0-ascii-0
+FiraSans-Bold.otf -misc-fira sans-bold-r-normal--0-0-0-0-p-0-iso10646-1
+FiraSans-Bold.otf -misc-fira sans-bold-r-normal--0-0-0-0-p-0-iso8859-1
+FiraSans-Bold.otf -misc-fira sans-bold-r-normal--0-0-0-0-p-0-iso8859-10
+FiraSans-Bold.otf -misc-fira sans-bold-r-normal--0-0-0-0-p-0-iso8859-13
+FiraSans-Bold.otf -misc-fira sans-bold-r-normal--0-0-0-0-p-0-iso8859-15
+FiraSans-Bold.otf -misc-fira sans-bold-r-normal--0-0-0-0-p-0-iso8859-16
+FiraSans-Bold.otf -misc-fira sans-bold-r-normal--0-0-0-0-p-0-iso8859-2
+FiraSans-Bold.otf -misc-fira sans-bold-r-normal--0-0-0-0-p-0-iso8859-3
+FiraSans-Bold.otf -misc-fira sans-bold-r-normal--0-0-0-0-p-0-iso8859-4
+FiraSans-Bold.otf -misc-fira sans-bold-r-normal--0-0-0-0-p-0-iso8859-5
+FiraSans-Bold.otf -misc-fira sans-bold-r-normal--0-0-0-0-p-0-iso8859-9
+FiraSans-Bold.otf -misc-fira sans-bold-r-normal--0-0-0-0-p-0-koi8-e
+FiraSans-Bold.otf -misc-fira sans-bold-r-normal--0-0-0-0-p-0-koi8-r
+FiraSans-Bold.otf -misc-fira sans-bold-r-normal--0-0-0-0-p-0-koi8-ru
+FiraSans-Bold.otf -misc-fira sans-bold-r-normal--0-0-0-0-p-0-koi8-u
+FiraSans-Bold.otf -misc-fira sans-bold-r-normal--0-0-0-0-p-0-koi8-uni
+FiraSans-Bold.otf -misc-fira sans-bold-r-normal--0-0-0-0-p-0-microsoft-cp1252
+FiraSans-BoldItalic.otf -misc-fira sans-bold-i-normal--0-0-0-0-p-0-adobe-standard
+FiraSans-BoldItalic.otf -misc-fira sans-bold-i-normal--0-0-0-0-p-0-ascii-0
+FiraSans-BoldItalic.otf -misc-fira sans-bold-i-normal--0-0-0-0-p-0-iso10646-1
+FiraSans-BoldItalic.otf -misc-fira sans-bold-i-normal--0-0-0-0-p-0-iso8859-1
+FiraSans-BoldItalic.otf -misc-fira sans-bold-i-normal--0-0-0-0-p-0-iso8859-10
+FiraSans-BoldItalic.otf -misc-fira sans-bold-i-normal--0-0-0-0-p-0-iso8859-13
+FiraSans-BoldItalic.otf -misc-fira sans-bold-i-normal--0-0-0-0-p-0-iso8859-15
+FiraSans-BoldItalic.otf -misc-fira sans-bold-i-normal--0-0-0-0-p-0-iso8859-16
+FiraSans-BoldItalic.otf -misc-fira sans-bold-i-normal--0-0-0-0-p-0-iso8859-2
+FiraSans-BoldItalic.otf -misc-fira sans-bold-i-normal--0-0-0-0-p-0-iso8859-3
+FiraSans-BoldItalic.otf -misc-fira sans-bold-i-normal--0-0-0-0-p-0-iso8859-4
+FiraSans-BoldItalic.otf -misc-fira sans-bold-i-normal--0-0-0-0-p-0-iso8859-5
+FiraSans-BoldItalic.otf -misc-fira sans-bold-i-normal--0-0-0-0-p-0-iso8859-9
+FiraSans-BoldItalic.otf -misc-fira sans-bold-i-normal--0-0-0-0-p-0-koi8-e
+FiraSans-BoldItalic.otf -misc-fira sans-bold-i-normal--0-0-0-0-p-0-koi8-r
+FiraSans-BoldItalic.otf -misc-fira sans-bold-i-normal--0-0-0-0-p-0-koi8-ru
+FiraSans-BoldItalic.otf -misc-fira sans-bold-i-normal--0-0-0-0-p-0-koi8-u
+FiraSans-BoldItalic.otf -misc-fira sans-bold-i-normal--0-0-0-0-p-0-koi8-uni
+FiraSans-BoldItalic.otf -misc-fira sans-bold-i-normal--0-0-0-0-p-0-microsoft-cp1252
+FiraSans-Book.otf -misc-fira sans book-medium-r-normal--0-0-0-0-p-0-adobe-standard
+FiraSans-Book.otf -misc-fira sans book-medium-r-normal--0-0-0-0-p-0-ascii-0
+FiraSans-Book.otf -misc-fira sans book-medium-r-normal--0-0-0-0-p-0-iso10646-1
+FiraSans-Book.otf -misc-fira sans book-medium-r-normal--0-0-0-0-p-0-iso8859-1
+FiraSans-Book.otf -misc-fira sans book-medium-r-normal--0-0-0-0-p-0-iso8859-10
+FiraSans-Book.otf -misc-fira sans book-medium-r-normal--0-0-0-0-p-0-iso8859-13
+FiraSans-Book.otf -misc-fira sans book-medium-r-normal--0-0-0-0-p-0-iso8859-15
+FiraSans-Book.otf -misc-fira sans book-medium-r-normal--0-0-0-0-p-0-iso8859-16
+FiraSans-Book.otf -misc-fira sans book-medium-r-normal--0-0-0-0-p-0-iso8859-2
+FiraSans-Book.otf -misc-fira sans book-medium-r-normal--0-0-0-0-p-0-iso8859-3
+FiraSans-Book.otf -misc-fira sans book-medium-r-normal--0-0-0-0-p-0-iso8859-4
+FiraSans-Book.otf -misc-fira sans book-medium-r-normal--0-0-0-0-p-0-iso8859-5
+FiraSans-Book.otf -misc-fira sans book-medium-r-normal--0-0-0-0-p-0-iso8859-9
+FiraSans-Book.otf -misc-fira sans book-medium-r-normal--0-0-0-0-p-0-koi8-e
+FiraSans-Book.otf -misc-fira sans book-medium-r-normal--0-0-0-0-p-0-koi8-r
+FiraSans-Book.otf -misc-fira sans book-medium-r-normal--0-0-0-0-p-0-koi8-ru
+FiraSans-Book.otf -misc-fira sans book-medium-r-normal--0-0-0-0-p-0-koi8-u
+FiraSans-Book.otf -misc-fira sans book-medium-r-normal--0-0-0-0-p-0-koi8-uni
+FiraSans-Book.otf -misc-fira sans book-medium-r-normal--0-0-0-0-p-0-microsoft-cp1252
+FiraSans-BookItalic.otf -misc-fira sans book-medium-i-normal--0-0-0-0-p-0-adobe-standard
+FiraSans-BookItalic.otf -misc-fira sans book-medium-i-normal--0-0-0-0-p-0-ascii-0
+FiraSans-BookItalic.otf -misc-fira sans book-medium-i-normal--0-0-0-0-p-0-iso10646-1
+FiraSans-BookItalic.otf -misc-fira sans book-medium-i-normal--0-0-0-0-p-0-iso8859-1
+FiraSans-BookItalic.otf -misc-fira sans book-medium-i-normal--0-0-0-0-p-0-iso8859-10
+FiraSans-BookItalic.otf -misc-fira sans book-medium-i-normal--0-0-0-0-p-0-iso8859-13
+FiraSans-BookItalic.otf -misc-fira sans book-medium-i-normal--0-0-0-0-p-0-iso8859-15
+FiraSans-BookItalic.otf -misc-fira sans book-medium-i-normal--0-0-0-0-p-0-iso8859-16
+FiraSans-BookItalic.otf -misc-fira sans book-medium-i-normal--0-0-0-0-p-0-iso8859-2
+FiraSans-BookItalic.otf -misc-fira sans book-medium-i-normal--0-0-0-0-p-0-iso8859-3
+FiraSans-BookItalic.otf -misc-fira sans book-medium-i-normal--0-0-0-0-p-0-iso8859-4
+FiraSans-BookItalic.otf -misc-fira sans book-medium-i-normal--0-0-0-0-p-0-iso8859-5
+FiraSans-BookItalic.otf -misc-fira sans book-medium-i-normal--0-0-0-0-p-0-iso8859-9
+FiraSans-BookItalic.otf -misc-fira sans book-medium-i-normal--0-0-0-0-p-0-koi8-e
+FiraSans-BookItalic.otf -misc-fira sans book-medium-i-normal--0-0-0-0-p-0-koi8-r
+FiraSans-BookItalic.otf -misc-fira sans book-medium-i-normal--0-0-0-0-p-0-koi8-ru
+FiraSans-BookItalic.otf -misc-fira sans book-medium-i-normal--0-0-0-0-p-0-koi8-u
+FiraSans-BookItalic.otf -misc-fira sans book-medium-i-normal--0-0-0-0-p-0-koi8-uni
+FiraSans-BookItalic.otf -misc-fira sans book-medium-i-normal--0-0-0-0-p-0-microsoft-cp1252
+FiraSans-Eight.otf -misc-fira sans eight-thin-r-normal--0-0-0-0-p-0-adobe-standard
+FiraSans-Eight.otf -misc-fira sans eight-thin-r-normal--0-0-0-0-p-0-ascii-0
+FiraSans-Eight.otf -misc-fira sans eight-thin-r-normal--0-0-0-0-p-0-iso10646-1
+FiraSans-Eight.otf -misc-fira sans eight-thin-r-normal--0-0-0-0-p-0-iso8859-1
+FiraSans-Eight.otf -misc-fira sans eight-thin-r-normal--0-0-0-0-p-0-iso8859-10
+FiraSans-Eight.otf -misc-fira sans eight-thin-r-normal--0-0-0-0-p-0-iso8859-13
+FiraSans-Eight.otf -misc-fira sans eight-thin-r-normal--0-0-0-0-p-0-iso8859-15
+FiraSans-Eight.otf -misc-fira sans eight-thin-r-normal--0-0-0-0-p-0-iso8859-16
+FiraSans-Eight.otf -misc-fira sans eight-thin-r-normal--0-0-0-0-p-0-iso8859-2
+FiraSans-Eight.otf -misc-fira sans eight-thin-r-normal--0-0-0-0-p-0-iso8859-3
+FiraSans-Eight.otf -misc-fira sans eight-thin-r-normal--0-0-0-0-p-0-iso8859-4
+FiraSans-Eight.otf -misc-fira sans eight-thin-r-normal--0-0-0-0-p-0-iso8859-5
+FiraSans-Eight.otf -misc-fira sans eight-thin-r-normal--0-0-0-0-p-0-iso8859-9
+FiraSans-Eight.otf -misc-fira sans eight-thin-r-normal--0-0-0-0-p-0-koi8-e
+FiraSans-Eight.otf -misc-fira sans eight-thin-r-normal--0-0-0-0-p-0-koi8-r
+FiraSans-Eight.otf -misc-fira sans eight-thin-r-normal--0-0-0-0-p-0-koi8-ru
+FiraSans-Eight.otf -misc-fira sans eight-thin-r-normal--0-0-0-0-p-0-koi8-u
+FiraSans-Eight.otf -misc-fira sans eight-thin-r-normal--0-0-0-0-p-0-koi8-uni
+FiraSans-Eight.otf -misc-fira sans eight-thin-r-normal--0-0-0-0-p-0-microsoft-cp1252
+FiraSans-EightItalic.otf -misc-fira sans eight-thin-i-normal--0-0-0-0-p-0-adobe-standard
+FiraSans-EightItalic.otf -misc-fira sans eight-thin-i-normal--0-0-0-0-p-0-ascii-0
+FiraSans-EightItalic.otf -misc-fira sans eight-thin-i-normal--0-0-0-0-p-0-iso10646-1
+FiraSans-EightItalic.otf -misc-fira sans eight-thin-i-normal--0-0-0-0-p-0-iso8859-1
+FiraSans-EightItalic.otf -misc-fira sans eight-thin-i-normal--0-0-0-0-p-0-iso8859-10
+FiraSans-EightItalic.otf -misc-fira sans eight-thin-i-normal--0-0-0-0-p-0-iso8859-13
+FiraSans-EightItalic.otf -misc-fira sans eight-thin-i-normal--0-0-0-0-p-0-iso8859-15
+FiraSans-EightItalic.otf -misc-fira sans eight-thin-i-normal--0-0-0-0-p-0-iso8859-16
+FiraSans-EightItalic.otf -misc-fira sans eight-thin-i-normal--0-0-0-0-p-0-iso8859-2
+FiraSans-EightItalic.otf -misc-fira sans eight-thin-i-normal--0-0-0-0-p-0-iso8859-3
+FiraSans-EightItalic.otf -misc-fira sans eight-thin-i-normal--0-0-0-0-p-0-iso8859-4
+FiraSans-EightItalic.otf -misc-fira sans eight-thin-i-normal--0-0-0-0-p-0-iso8859-5
+FiraSans-EightItalic.otf -misc-fira sans eight-thin-i-normal--0-0-0-0-p-0-iso8859-9
+FiraSans-EightItalic.otf -misc-fira sans eight-thin-i-normal--0-0-0-0-p-0-koi8-e
+FiraSans-EightItalic.otf -misc-fira sans eight-thin-i-normal--0-0-0-0-p-0-koi8-r
+FiraSans-EightItalic.otf -misc-fira sans eight-thin-i-normal--0-0-0-0-p-0-koi8-ru
+FiraSans-EightItalic.otf -misc-fira sans eight-thin-i-normal--0-0-0-0-p-0-koi8-u
+FiraSans-EightItalic.otf -misc-fira sans eight-thin-i-normal--0-0-0-0-p-0-koi8-uni
+FiraSans-EightItalic.otf -misc-fira sans eight-thin-i-normal--0-0-0-0-p-0-microsoft-cp1252
+FiraSans-ExtraBold.otf -misc-fira sans extrabold-extrabold-r-normal--0-0-0-0-p-0-adobe-standard
+FiraSans-ExtraBold.otf -misc-fira sans extrabold-extrabold-r-normal--0-0-0-0-p-0-ascii-0
+FiraSans-ExtraBold.otf -misc-fira sans extrabold-extrabold-r-normal--0-0-0-0-p-0-iso10646-1
+FiraSans-ExtraBold.otf -misc-fira sans extrabold-extrabold-r-normal--0-0-0-0-p-0-iso8859-1
+FiraSans-ExtraBold.otf -misc-fira sans extrabold-extrabold-r-normal--0-0-0-0-p-0-iso8859-10
+FiraSans-ExtraBold.otf -misc-fira sans extrabold-extrabold-r-normal--0-0-0-0-p-0-iso8859-13
+FiraSans-ExtraBold.otf -misc-fira sans extrabold-extrabold-r-normal--0-0-0-0-p-0-iso8859-15
+FiraSans-ExtraBold.otf -misc-fira sans extrabold-extrabold-r-normal--0-0-0-0-p-0-iso8859-16
+FiraSans-ExtraBold.otf -misc-fira sans extrabold-extrabold-r-normal--0-0-0-0-p-0-iso8859-2
+FiraSans-ExtraBold.otf -misc-fira sans extrabold-extrabold-r-normal--0-0-0-0-p-0-iso8859-3
+FiraSans-ExtraBold.otf -misc-fira sans extrabold-extrabold-r-normal--0-0-0-0-p-0-iso8859-4
+FiraSans-ExtraBold.otf -misc-fira sans extrabold-extrabold-r-normal--0-0-0-0-p-0-iso8859-5
+FiraSans-ExtraBold.otf -misc-fira sans extrabold-extrabold-r-normal--0-0-0-0-p-0-iso8859-9
+FiraSans-ExtraBold.otf -misc-fira sans extrabold-extrabold-r-normal--0-0-0-0-p-0-koi8-e
+FiraSans-ExtraBold.otf -misc-fira sans extrabold-extrabold-r-normal--0-0-0-0-p-0-koi8-r
+FiraSans-ExtraBold.otf -misc-fira sans extrabold-extrabold-r-normal--0-0-0-0-p-0-koi8-ru
+FiraSans-ExtraBold.otf -misc-fira sans extrabold-extrabold-r-normal--0-0-0-0-p-0-koi8-u
+FiraSans-ExtraBold.otf -misc-fira sans extrabold-extrabold-r-normal--0-0-0-0-p-0-koi8-uni
+FiraSans-ExtraBold.otf -misc-fira sans extrabold-extrabold-r-normal--0-0-0-0-p-0-microsoft-cp1252
+FiraSans-ExtraBoldItalic.otf -misc-fira sans extrabold-extrabold-i-normal--0-0-0-0-p-0-adobe-standard
+FiraSans-ExtraBoldItalic.otf -misc-fira sans extrabold-extrabold-i-normal--0-0-0-0-p-0-ascii-0
+FiraSans-ExtraBoldItalic.otf -misc-fira sans extrabold-extrabold-i-normal--0-0-0-0-p-0-iso10646-1
+FiraSans-ExtraBoldItalic.otf -misc-fira sans extrabold-extrabold-i-normal--0-0-0-0-p-0-iso8859-1
+FiraSans-ExtraBoldItalic.otf -misc-fira sans extrabold-extrabold-i-normal--0-0-0-0-p-0-iso8859-10
+FiraSans-ExtraBoldItalic.otf -misc-fira sans extrabold-extrabold-i-normal--0-0-0-0-p-0-iso8859-13
+FiraSans-ExtraBoldItalic.otf -misc-fira sans extrabold-extrabold-i-normal--0-0-0-0-p-0-iso8859-15
+FiraSans-ExtraBoldItalic.otf -misc-fira sans extrabold-extrabold-i-normal--0-0-0-0-p-0-iso8859-16
+FiraSans-ExtraBoldItalic.otf -misc-fira sans extrabold-extrabold-i-normal--0-0-0-0-p-0-iso8859-2
+FiraSans-ExtraBoldItalic.otf -misc-fira sans extrabold-extrabold-i-normal--0-0-0-0-p-0-iso8859-3
+FiraSans-ExtraBoldItalic.otf -misc-fira sans extrabold-extrabold-i-normal--0-0-0-0-p-0-iso8859-4
+FiraSans-ExtraBoldItalic.otf -misc-fira sans extrabold-extrabold-i-normal--0-0-0-0-p-0-iso8859-5
+FiraSans-ExtraBoldItalic.otf -misc-fira sans extrabold-extrabold-i-normal--0-0-0-0-p-0-iso8859-9
+FiraSans-ExtraBoldItalic.otf -misc-fira sans extrabold-extrabold-i-normal--0-0-0-0-p-0-koi8-e
+FiraSans-ExtraBoldItalic.otf -misc-fira sans extrabold-extrabold-i-normal--0-0-0-0-p-0-koi8-r
+FiraSans-ExtraBoldItalic.otf -misc-fira sans extrabold-extrabold-i-normal--0-0-0-0-p-0-koi8-ru
+FiraSans-ExtraBoldItalic.otf -misc-fira sans extrabold-extrabold-i-normal--0-0-0-0-p-0-koi8-u
+FiraSans-ExtraBoldItalic.otf -misc-fira sans extrabold-extrabold-i-normal--0-0-0-0-p-0-koi8-uni
+FiraSans-ExtraBoldItalic.otf -misc-fira sans extrabold-extrabold-i-normal--0-0-0-0-p-0-microsoft-cp1252
+FiraSans-ExtraLight.otf -misc-fira sans extralight-light-r-normal--0-0-0-0-p-0-adobe-standard
+FiraSans-ExtraLight.otf -misc-fira sans extralight-light-r-normal--0-0-0-0-p-0-ascii-0
+FiraSans-ExtraLight.otf -misc-fira sans extralight-light-r-normal--0-0-0-0-p-0-iso10646-1
+FiraSans-ExtraLight.otf -misc-fira sans extralight-light-r-normal--0-0-0-0-p-0-iso8859-1
+FiraSans-ExtraLight.otf -misc-fira sans extralight-light-r-normal--0-0-0-0-p-0-iso8859-10
+FiraSans-ExtraLight.otf -misc-fira sans extralight-light-r-normal--0-0-0-0-p-0-iso8859-13
+FiraSans-ExtraLight.otf -misc-fira sans extralight-light-r-normal--0-0-0-0-p-0-iso8859-15
+FiraSans-ExtraLight.otf -misc-fira sans extralight-light-r-normal--0-0-0-0-p-0-iso8859-16
+FiraSans-ExtraLight.otf -misc-fira sans extralight-light-r-normal--0-0-0-0-p-0-iso8859-2
+FiraSans-ExtraLight.otf -misc-fira sans extralight-light-r-normal--0-0-0-0-p-0-iso8859-3
+FiraSans-ExtraLight.otf -misc-fira sans extralight-light-r-normal--0-0-0-0-p-0-iso8859-4
+FiraSans-ExtraLight.otf -misc-fira sans extralight-light-r-normal--0-0-0-0-p-0-iso8859-5
+FiraSans-ExtraLight.otf -misc-fira sans extralight-light-r-normal--0-0-0-0-p-0-iso8859-9
+FiraSans-ExtraLight.otf -misc-fira sans extralight-light-r-normal--0-0-0-0-p-0-koi8-e
+FiraSans-ExtraLight.otf -misc-fira sans extralight-light-r-normal--0-0-0-0-p-0-koi8-r
+FiraSans-ExtraLight.otf -misc-fira sans extralight-light-r-normal--0-0-0-0-p-0-koi8-ru
+FiraSans-ExtraLight.otf -misc-fira sans extralight-light-r-normal--0-0-0-0-p-0-koi8-u
+FiraSans-ExtraLight.otf -misc-fira sans extralight-light-r-normal--0-0-0-0-p-0-koi8-uni
+FiraSans-ExtraLight.otf -misc-fira sans extralight-light-r-normal--0-0-0-0-p-0-microsoft-cp1252
+FiraSans-ExtraLightItalic.otf -misc-fira sans extralight-light-i-normal--0-0-0-0-p-0-adobe-standard
+FiraSans-ExtraLightItalic.otf -misc-fira sans extralight-light-i-normal--0-0-0-0-p-0-ascii-0
+FiraSans-ExtraLightItalic.otf -misc-fira sans extralight-light-i-normal--0-0-0-0-p-0-iso10646-1
+FiraSans-ExtraLightItalic.otf -misc-fira sans extralight-light-i-normal--0-0-0-0-p-0-iso8859-1
+FiraSans-ExtraLightItalic.otf -misc-fira sans extralight-light-i-normal--0-0-0-0-p-0-iso8859-10
+FiraSans-ExtraLightItalic.otf -misc-fira sans extralight-light-i-normal--0-0-0-0-p-0-iso8859-13
+FiraSans-ExtraLightItalic.otf -misc-fira sans extralight-light-i-normal--0-0-0-0-p-0-iso8859-15
+FiraSans-ExtraLightItalic.otf -misc-fira sans extralight-light-i-normal--0-0-0-0-p-0-iso8859-16
+FiraSans-ExtraLightItalic.otf -misc-fira sans extralight-light-i-normal--0-0-0-0-p-0-iso8859-2
+FiraSans-ExtraLightItalic.otf -misc-fira sans extralight-light-i-normal--0-0-0-0-p-0-iso8859-3
+FiraSans-ExtraLightItalic.otf -misc-fira sans extralight-light-i-normal--0-0-0-0-p-0-iso8859-4
+FiraSans-ExtraLightItalic.otf -misc-fira sans extralight-light-i-normal--0-0-0-0-p-0-iso8859-5
+FiraSans-ExtraLightItalic.otf -misc-fira sans extralight-light-i-normal--0-0-0-0-p-0-iso8859-9
+FiraSans-ExtraLightItalic.otf -misc-fira sans extralight-light-i-normal--0-0-0-0-p-0-koi8-e
+FiraSans-ExtraLightItalic.otf -misc-fira sans extralight-light-i-normal--0-0-0-0-p-0-koi8-r
+FiraSans-ExtraLightItalic.otf -misc-fira sans extralight-light-i-normal--0-0-0-0-p-0-koi8-ru
+FiraSans-ExtraLightItalic.otf -misc-fira sans extralight-light-i-normal--0-0-0-0-p-0-koi8-u
+FiraSans-ExtraLightItalic.otf -misc-fira sans extralight-light-i-normal--0-0-0-0-p-0-koi8-uni
+FiraSans-ExtraLightItalic.otf -misc-fira sans extralight-light-i-normal--0-0-0-0-p-0-microsoft-cp1252
+FiraSans-Four.otf -misc-fira sans four-thin-r-normal--0-0-0-0-p-0-adobe-standard
+FiraSans-Four.otf -misc-fira sans four-thin-r-normal--0-0-0-0-p-0-ascii-0
+FiraSans-Four.otf -misc-fira sans four-thin-r-normal--0-0-0-0-p-0-iso10646-1
+FiraSans-Four.otf -misc-fira sans four-thin-r-normal--0-0-0-0-p-0-iso8859-1
+FiraSans-Four.otf -misc-fira sans four-thin-r-normal--0-0-0-0-p-0-iso8859-10
+FiraSans-Four.otf -misc-fira sans four-thin-r-normal--0-0-0-0-p-0-iso8859-13
+FiraSans-Four.otf -misc-fira sans four-thin-r-normal--0-0-0-0-p-0-iso8859-15
+FiraSans-Four.otf -misc-fira sans four-thin-r-normal--0-0-0-0-p-0-iso8859-16
+FiraSans-Four.otf -misc-fira sans four-thin-r-normal--0-0-0-0-p-0-iso8859-2
+FiraSans-Four.otf -misc-fira sans four-thin-r-normal--0-0-0-0-p-0-iso8859-3
+FiraSans-Four.otf -misc-fira sans four-thin-r-normal--0-0-0-0-p-0-iso8859-4
+FiraSans-Four.otf -misc-fira sans four-thin-r-normal--0-0-0-0-p-0-iso8859-5
+FiraSans-Four.otf -misc-fira sans four-thin-r-normal--0-0-0-0-p-0-iso8859-9
+FiraSans-Four.otf -misc-fira sans four-thin-r-normal--0-0-0-0-p-0-koi8-e
+FiraSans-Four.otf -misc-fira sans four-thin-r-normal--0-0-0-0-p-0-koi8-r
+FiraSans-Four.otf -misc-fira sans four-thin-r-normal--0-0-0-0-p-0-koi8-ru
+FiraSans-Four.otf -misc-fira sans four-thin-r-normal--0-0-0-0-p-0-koi8-u
+FiraSans-Four.otf -misc-fira sans four-thin-r-normal--0-0-0-0-p-0-koi8-uni
+FiraSans-Four.otf -misc-fira sans four-thin-r-normal--0-0-0-0-p-0-microsoft-cp1252
+FiraSans-FourItalic.otf -misc-fira sans four-thin-i-normal--0-0-0-0-p-0-adobe-standard
+FiraSans-FourItalic.otf -misc-fira sans four-thin-i-normal--0-0-0-0-p-0-ascii-0
+FiraSans-FourItalic.otf -misc-fira sans four-thin-i-normal--0-0-0-0-p-0-iso10646-1
+FiraSans-FourItalic.otf -misc-fira sans four-thin-i-normal--0-0-0-0-p-0-iso8859-1
+FiraSans-FourItalic.otf -misc-fira sans four-thin-i-normal--0-0-0-0-p-0-iso8859-10
+FiraSans-FourItalic.otf -misc-fira sans four-thin-i-normal--0-0-0-0-p-0-iso8859-13
+FiraSans-FourItalic.otf -misc-fira sans four-thin-i-normal--0-0-0-0-p-0-iso8859-15
+FiraSans-FourItalic.otf -misc-fira sans four-thin-i-normal--0-0-0-0-p-0-iso8859-16
+FiraSans-FourItalic.otf -misc-fira sans four-thin-i-normal--0-0-0-0-p-0-iso8859-2
+FiraSans-FourItalic.otf -misc-fira sans four-thin-i-normal--0-0-0-0-p-0-iso8859-3
+FiraSans-FourItalic.otf -misc-fira sans four-thin-i-normal--0-0-0-0-p-0-iso8859-4
+FiraSans-FourItalic.otf -misc-fira sans four-thin-i-normal--0-0-0-0-p-0-iso8859-5
+FiraSans-FourItalic.otf -misc-fira sans four-thin-i-normal--0-0-0-0-p-0-iso8859-9
+FiraSans-FourItalic.otf -misc-fira sans four-thin-i-normal--0-0-0-0-p-0-koi8-e
+FiraSans-FourItalic.otf -misc-fira sans four-thin-i-normal--0-0-0-0-p-0-koi8-r
+FiraSans-FourItalic.otf -misc-fira sans four-thin-i-normal--0-0-0-0-p-0-koi8-ru
+FiraSans-FourItalic.otf -misc-fira sans four-thin-i-normal--0-0-0-0-p-0-koi8-u
+FiraSans-FourItalic.otf -misc-fira sans four-thin-i-normal--0-0-0-0-p-0-koi8-uni
+FiraSans-FourItalic.otf -misc-fira sans four-thin-i-normal--0-0-0-0-p-0-microsoft-cp1252
+FiraSans-Hair.otf -misc-fira sans hair-thin-r-normal--0-0-0-0-p-0-adobe-standard
+FiraSans-Hair.otf -misc-fira sans hair-thin-r-normal--0-0-0-0-p-0-ascii-0
+FiraSans-Hair.otf -misc-fira sans hair-thin-r-normal--0-0-0-0-p-0-iso10646-1
+FiraSans-Hair.otf -misc-fira sans hair-thin-r-normal--0-0-0-0-p-0-iso8859-1
+FiraSans-Hair.otf -misc-fira sans hair-thin-r-normal--0-0-0-0-p-0-iso8859-10
+FiraSans-Hair.otf -misc-fira sans hair-thin-r-normal--0-0-0-0-p-0-iso8859-13
+FiraSans-Hair.otf -misc-fira sans hair-thin-r-normal--0-0-0-0-p-0-iso8859-15
+FiraSans-Hair.otf -misc-fira sans hair-thin-r-normal--0-0-0-0-p-0-iso8859-16
+FiraSans-Hair.otf -misc-fira sans hair-thin-r-normal--0-0-0-0-p-0-iso8859-2
+FiraSans-Hair.otf -misc-fira sans hair-thin-r-normal--0-0-0-0-p-0-iso8859-3
+FiraSans-Hair.otf -misc-fira sans hair-thin-r-normal--0-0-0-0-p-0-iso8859-4
+FiraSans-Hair.otf -misc-fira sans hair-thin-r-normal--0-0-0-0-p-0-iso8859-5
+FiraSans-Hair.otf -misc-fira sans hair-thin-r-normal--0-0-0-0-p-0-iso8859-9
+FiraSans-Hair.otf -misc-fira sans hair-thin-r-normal--0-0-0-0-p-0-koi8-e
+FiraSans-Hair.otf -misc-fira sans hair-thin-r-normal--0-0-0-0-p-0-koi8-r
+FiraSans-Hair.otf -misc-fira sans hair-thin-r-normal--0-0-0-0-p-0-koi8-ru
+FiraSans-Hair.otf -misc-fira sans hair-thin-r-normal--0-0-0-0-p-0-koi8-u
+FiraSans-Hair.otf -misc-fira sans hair-thin-r-normal--0-0-0-0-p-0-koi8-uni
+FiraSans-Hair.otf -misc-fira sans hair-thin-r-normal--0-0-0-0-p-0-microsoft-cp1252
+FiraSans-HairItalic.otf -misc-fira sans hair-thin-i-normal--0-0-0-0-p-0-adobe-standard
+FiraSans-HairItalic.otf -misc-fira sans hair-thin-i-normal--0-0-0-0-p-0-ascii-0
+FiraSans-HairItalic.otf -misc-fira sans hair-thin-i-normal--0-0-0-0-p-0-iso10646-1
+FiraSans-HairItalic.otf -misc-fira sans hair-thin-i-normal--0-0-0-0-p-0-iso8859-1
+FiraSans-HairItalic.otf -misc-fira sans hair-thin-i-normal--0-0-0-0-p-0-iso8859-10
+FiraSans-HairItalic.otf -misc-fira sans hair-thin-i-normal--0-0-0-0-p-0-iso8859-13
+FiraSans-HairItalic.otf -misc-fira sans hair-thin-i-normal--0-0-0-0-p-0-iso8859-15
+FiraSans-HairItalic.otf -misc-fira sans hair-thin-i-normal--0-0-0-0-p-0-iso8859-16
+FiraSans-HairItalic.otf -misc-fira sans hair-thin-i-normal--0-0-0-0-p-0-iso8859-2
+FiraSans-HairItalic.otf -misc-fira sans hair-thin-i-normal--0-0-0-0-p-0-iso8859-3
+FiraSans-HairItalic.otf -misc-fira sans hair-thin-i-normal--0-0-0-0-p-0-iso8859-4
+FiraSans-HairItalic.otf -misc-fira sans hair-thin-i-normal--0-0-0-0-p-0-iso8859-5
+FiraSans-HairItalic.otf -misc-fira sans hair-thin-i-normal--0-0-0-0-p-0-iso8859-9
+FiraSans-HairItalic.otf -misc-fira sans hair-thin-i-normal--0-0-0-0-p-0-koi8-e
+FiraSans-HairItalic.otf -misc-fira sans hair-thin-i-normal--0-0-0-0-p-0-koi8-r
+FiraSans-HairItalic.otf -misc-fira sans hair-thin-i-normal--0-0-0-0-p-0-koi8-ru
+FiraSans-HairItalic.otf -misc-fira sans hair-thin-i-normal--0-0-0-0-p-0-koi8-u
+FiraSans-HairItalic.otf -misc-fira sans hair-thin-i-normal--0-0-0-0-p-0-koi8-uni
+FiraSans-HairItalic.otf -misc-fira sans hair-thin-i-normal--0-0-0-0-p-0-microsoft-cp1252
+FiraSans-Heavy.otf -misc-fira sans heavy-black-r-normal--0-0-0-0-p-0-adobe-standard
+FiraSans-Heavy.otf -misc-fira sans heavy-black-r-normal--0-0-0-0-p-0-ascii-0
+FiraSans-Heavy.otf -misc-fira sans heavy-black-r-normal--0-0-0-0-p-0-iso10646-1
+FiraSans-Heavy.otf -misc-fira sans heavy-black-r-normal--0-0-0-0-p-0-iso8859-1
+FiraSans-Heavy.otf -misc-fira sans heavy-black-r-normal--0-0-0-0-p-0-iso8859-10
+FiraSans-Heavy.otf -misc-fira sans heavy-black-r-normal--0-0-0-0-p-0-iso8859-13
+FiraSans-Heavy.otf -misc-fira sans heavy-black-r-normal--0-0-0-0-p-0-iso8859-15
+FiraSans-Heavy.otf -misc-fira sans heavy-black-r-normal--0-0-0-0-p-0-iso8859-16
+FiraSans-Heavy.otf -misc-fira sans heavy-black-r-normal--0-0-0-0-p-0-iso8859-2
+FiraSans-Heavy.otf -misc-fira sans heavy-black-r-normal--0-0-0-0-p-0-iso8859-3
+FiraSans-Heavy.otf -misc-fira sans heavy-black-r-normal--0-0-0-0-p-0-iso8859-4
+FiraSans-Heavy.otf -misc-fira sans heavy-black-r-normal--0-0-0-0-p-0-iso8859-5
+FiraSans-Heavy.otf -misc-fira sans heavy-black-r-normal--0-0-0-0-p-0-iso8859-9
+FiraSans-Heavy.otf -misc-fira sans heavy-black-r-normal--0-0-0-0-p-0-koi8-e
+FiraSans-Heavy.otf -misc-fira sans heavy-black-r-normal--0-0-0-0-p-0-koi8-r
+FiraSans-Heavy.otf -misc-fira sans heavy-black-r-normal--0-0-0-0-p-0-koi8-ru
+FiraSans-Heavy.otf -misc-fira sans heavy-black-r-normal--0-0-0-0-p-0-koi8-u
+FiraSans-Heavy.otf -misc-fira sans heavy-black-r-normal--0-0-0-0-p-0-koi8-uni
+FiraSans-Heavy.otf -misc-fira sans heavy-black-r-normal--0-0-0-0-p-0-microsoft-cp1252
+FiraSans-HeavyItalic.otf -misc-fira sans heavy-black-i-normal--0-0-0-0-p-0-adobe-standard
+FiraSans-HeavyItalic.otf -misc-fira sans heavy-black-i-normal--0-0-0-0-p-0-ascii-0
+FiraSans-HeavyItalic.otf -misc-fira sans heavy-black-i-normal--0-0-0-0-p-0-iso10646-1
+FiraSans-HeavyItalic.otf -misc-fira sans heavy-black-i-normal--0-0-0-0-p-0-iso8859-1
+FiraSans-HeavyItalic.otf -misc-fira sans heavy-black-i-normal--0-0-0-0-p-0-iso8859-10
+FiraSans-HeavyItalic.otf -misc-fira sans heavy-black-i-normal--0-0-0-0-p-0-iso8859-13
+FiraSans-HeavyItalic.otf -misc-fira sans heavy-black-i-normal--0-0-0-0-p-0-iso8859-15
+FiraSans-HeavyItalic.otf -misc-fira sans heavy-black-i-normal--0-0-0-0-p-0-iso8859-16
+FiraSans-HeavyItalic.otf -misc-fira sans heavy-black-i-normal--0-0-0-0-p-0-iso8859-2
+FiraSans-HeavyItalic.otf -misc-fira sans heavy-black-i-normal--0-0-0-0-p-0-iso8859-3
+FiraSans-HeavyItalic.otf -misc-fira sans heavy-black-i-normal--0-0-0-0-p-0-iso8859-4
+FiraSans-HeavyItalic.otf -misc-fira sans heavy-black-i-normal--0-0-0-0-p-0-iso8859-5
+FiraSans-HeavyItalic.otf -misc-fira sans heavy-black-i-normal--0-0-0-0-p-0-iso8859-9
+FiraSans-HeavyItalic.otf -misc-fira sans heavy-black-i-normal--0-0-0-0-p-0-koi8-e
+FiraSans-HeavyItalic.otf -misc-fira sans heavy-black-i-normal--0-0-0-0-p-0-koi8-r
+FiraSans-HeavyItalic.otf -misc-fira sans heavy-black-i-normal--0-0-0-0-p-0-koi8-ru
+FiraSans-HeavyItalic.otf -misc-fira sans heavy-black-i-normal--0-0-0-0-p-0-koi8-u
+FiraSans-HeavyItalic.otf -misc-fira sans heavy-black-i-normal--0-0-0-0-p-0-koi8-uni
+FiraSans-HeavyItalic.otf -misc-fira sans heavy-black-i-normal--0-0-0-0-p-0-microsoft-cp1252
+FiraSans-Italic.otf -misc-fira sans-medium-i-normal--0-0-0-0-p-0-adobe-standard
+FiraSans-Italic.otf -misc-fira sans-medium-i-normal--0-0-0-0-p-0-ascii-0
+FiraSans-Italic.otf -misc-fira sans-medium-i-normal--0-0-0-0-p-0-iso10646-1
+FiraSans-Italic.otf -misc-fira sans-medium-i-normal--0-0-0-0-p-0-iso8859-1
+FiraSans-Italic.otf -misc-fira sans-medium-i-normal--0-0-0-0-p-0-iso8859-10
+FiraSans-Italic.otf -misc-fira sans-medium-i-normal--0-0-0-0-p-0-iso8859-13
+FiraSans-Italic.otf -misc-fira sans-medium-i-normal--0-0-0-0-p-0-iso8859-15
+FiraSans-Italic.otf -misc-fira sans-medium-i-normal--0-0-0-0-p-0-iso8859-16
+FiraSans-Italic.otf -misc-fira sans-medium-i-normal--0-0-0-0-p-0-iso8859-2
+FiraSans-Italic.otf -misc-fira sans-medium-i-normal--0-0-0-0-p-0-iso8859-3
+FiraSans-Italic.otf -misc-fira sans-medium-i-normal--0-0-0-0-p-0-iso8859-4
+FiraSans-Italic.otf -misc-fira sans-medium-i-normal--0-0-0-0-p-0-iso8859-5
+FiraSans-Italic.otf -misc-fira sans-medium-i-normal--0-0-0-0-p-0-iso8859-9
+FiraSans-Italic.otf -misc-fira sans-medium-i-normal--0-0-0-0-p-0-koi8-e
+FiraSans-Italic.otf -misc-fira sans-medium-i-normal--0-0-0-0-p-0-koi8-r
+FiraSans-Italic.otf -misc-fira sans-medium-i-normal--0-0-0-0-p-0-koi8-ru
+FiraSans-Italic.otf -misc-fira sans-medium-i-normal--0-0-0-0-p-0-koi8-u
+FiraSans-Italic.otf -misc-fira sans-medium-i-normal--0-0-0-0-p-0-koi8-uni
+FiraSans-Italic.otf -misc-fira sans-medium-i-normal--0-0-0-0-p-0-microsoft-cp1252
+FiraSans-Light.otf -misc-fira sans light-light-r-normal--0-0-0-0-p-0-adobe-standard
+FiraSans-Light.otf -misc-fira sans light-light-r-normal--0-0-0-0-p-0-ascii-0
+FiraSans-Light.otf -misc-fira sans light-light-r-normal--0-0-0-0-p-0-iso10646-1
+FiraSans-Light.otf -misc-fira sans light-light-r-normal--0-0-0-0-p-0-iso8859-1
+FiraSans-Light.otf -misc-fira sans light-light-r-normal--0-0-0-0-p-0-iso8859-10
+FiraSans-Light.otf -misc-fira sans light-light-r-normal--0-0-0-0-p-0-iso8859-13
+FiraSans-Light.otf -misc-fira sans light-light-r-normal--0-0-0-0-p-0-iso8859-15
+FiraSans-Light.otf -misc-fira sans light-light-r-normal--0-0-0-0-p-0-iso8859-16
+FiraSans-Light.otf -misc-fira sans light-light-r-normal--0-0-0-0-p-0-iso8859-2
+FiraSans-Light.otf -misc-fira sans light-light-r-normal--0-0-0-0-p-0-iso8859-3
+FiraSans-Light.otf -misc-fira sans light-light-r-normal--0-0-0-0-p-0-iso8859-4
+FiraSans-Light.otf -misc-fira sans light-light-r-normal--0-0-0-0-p-0-iso8859-5
+FiraSans-Light.otf -misc-fira sans light-light-r-normal--0-0-0-0-p-0-iso8859-9
+FiraSans-Light.otf -misc-fira sans light-light-r-normal--0-0-0-0-p-0-koi8-e
+FiraSans-Light.otf -misc-fira sans light-light-r-normal--0-0-0-0-p-0-koi8-r
+FiraSans-Light.otf -misc-fira sans light-light-r-normal--0-0-0-0-p-0-koi8-ru
+FiraSans-Light.otf -misc-fira sans light-light-r-normal--0-0-0-0-p-0-koi8-u
+FiraSans-Light.otf -misc-fira sans light-light-r-normal--0-0-0-0-p-0-koi8-uni
+FiraSans-Light.otf -misc-fira sans light-light-r-normal--0-0-0-0-p-0-microsoft-cp1252
+FiraSans-LightItalic.otf -misc-fira sans light-light-i-normal--0-0-0-0-p-0-adobe-standard
+FiraSans-LightItalic.otf -misc-fira sans light-light-i-normal--0-0-0-0-p-0-ascii-0
+FiraSans-LightItalic.otf -misc-fira sans light-light-i-normal--0-0-0-0-p-0-iso10646-1
+FiraSans-LightItalic.otf -misc-fira sans light-light-i-normal--0-0-0-0-p-0-iso8859-1
+FiraSans-LightItalic.otf -misc-fira sans light-light-i-normal--0-0-0-0-p-0-iso8859-10
+FiraSans-LightItalic.otf -misc-fira sans light-light-i-normal--0-0-0-0-p-0-iso8859-13
+FiraSans-LightItalic.otf -misc-fira sans light-light-i-normal--0-0-0-0-p-0-iso8859-15
+FiraSans-LightItalic.otf -misc-fira sans light-light-i-normal--0-0-0-0-p-0-iso8859-16
+FiraSans-LightItalic.otf -misc-fira sans light-light-i-normal--0-0-0-0-p-0-iso8859-2
+FiraSans-LightItalic.otf -misc-fira sans light-light-i-normal--0-0-0-0-p-0-iso8859-3
+FiraSans-LightItalic.otf -misc-fira sans light-light-i-normal--0-0-0-0-p-0-iso8859-4
+FiraSans-LightItalic.otf -misc-fira sans light-light-i-normal--0-0-0-0-p-0-iso8859-5
+FiraSans-LightItalic.otf -misc-fira sans light-light-i-normal--0-0-0-0-p-0-iso8859-9
+FiraSans-LightItalic.otf -misc-fira sans light-light-i-normal--0-0-0-0-p-0-koi8-e
+FiraSans-LightItalic.otf -misc-fira sans light-light-i-normal--0-0-0-0-p-0-koi8-r
+FiraSans-LightItalic.otf -misc-fira sans light-light-i-normal--0-0-0-0-p-0-koi8-ru
+FiraSans-LightItalic.otf -misc-fira sans light-light-i-normal--0-0-0-0-p-0-koi8-u
+FiraSans-LightItalic.otf -misc-fira sans light-light-i-normal--0-0-0-0-p-0-koi8-uni
+FiraSans-LightItalic.otf -misc-fira sans light-light-i-normal--0-0-0-0-p-0-microsoft-cp1252
+FiraSans-Medium.otf -misc-fira sans medium-medium-r-normal--0-0-0-0-p-0-adobe-standard
+FiraSans-Medium.otf -misc-fira sans medium-medium-r-normal--0-0-0-0-p-0-ascii-0
+FiraSans-Medium.otf -misc-fira sans medium-medium-r-normal--0-0-0-0-p-0-iso10646-1
+FiraSans-Medium.otf -misc-fira sans medium-medium-r-normal--0-0-0-0-p-0-iso8859-1
+FiraSans-Medium.otf -misc-fira sans medium-medium-r-normal--0-0-0-0-p-0-iso8859-10
+FiraSans-Medium.otf -misc-fira sans medium-medium-r-normal--0-0-0-0-p-0-iso8859-13
+FiraSans-Medium.otf -misc-fira sans medium-medium-r-normal--0-0-0-0-p-0-iso8859-15
+FiraSans-Medium.otf -misc-fira sans medium-medium-r-normal--0-0-0-0-p-0-iso8859-16
+FiraSans-Medium.otf -misc-fira sans medium-medium-r-normal--0-0-0-0-p-0-iso8859-2
+FiraSans-Medium.otf -misc-fira sans medium-medium-r-normal--0-0-0-0-p-0-iso8859-3
+FiraSans-Medium.otf -misc-fira sans medium-medium-r-normal--0-0-0-0-p-0-iso8859-4
+FiraSans-Medium.otf -misc-fira sans medium-medium-r-normal--0-0-0-0-p-0-iso8859-5
+FiraSans-Medium.otf -misc-fira sans medium-medium-r-normal--0-0-0-0-p-0-iso8859-9
+FiraSans-Medium.otf -misc-fira sans medium-medium-r-normal--0-0-0-0-p-0-koi8-e
+FiraSans-Medium.otf -misc-fira sans medium-medium-r-normal--0-0-0-0-p-0-koi8-r
+FiraSans-Medium.otf -misc-fira sans medium-medium-r-normal--0-0-0-0-p-0-koi8-ru
+FiraSans-Medium.otf -misc-fira sans medium-medium-r-normal--0-0-0-0-p-0-koi8-u
+FiraSans-Medium.otf -misc-fira sans medium-medium-r-normal--0-0-0-0-p-0-koi8-uni
+FiraSans-Medium.otf -misc-fira sans medium-medium-r-normal--0-0-0-0-p-0-microsoft-cp1252
+FiraSans-MediumItalic.otf -misc-fira sans medium-medium-i-normal--0-0-0-0-p-0-adobe-standard
+FiraSans-MediumItalic.otf -misc-fira sans medium-medium-i-normal--0-0-0-0-p-0-ascii-0
+FiraSans-MediumItalic.otf -misc-fira sans medium-medium-i-normal--0-0-0-0-p-0-iso10646-1
+FiraSans-MediumItalic.otf -misc-fira sans medium-medium-i-normal--0-0-0-0-p-0-iso8859-1
+FiraSans-MediumItalic.otf -misc-fira sans medium-medium-i-normal--0-0-0-0-p-0-iso8859-10
+FiraSans-MediumItalic.otf -misc-fira sans medium-medium-i-normal--0-0-0-0-p-0-iso8859-13
+FiraSans-MediumItalic.otf -misc-fira sans medium-medium-i-normal--0-0-0-0-p-0-iso8859-15
+FiraSans-MediumItalic.otf -misc-fira sans medium-medium-i-normal--0-0-0-0-p-0-iso8859-16
+FiraSans-MediumItalic.otf -misc-fira sans medium-medium-i-normal--0-0-0-0-p-0-iso8859-2
+FiraSans-MediumItalic.otf -misc-fira sans medium-medium-i-normal--0-0-0-0-p-0-iso8859-3
+FiraSans-MediumItalic.otf -misc-fira sans medium-medium-i-normal--0-0-0-0-p-0-iso8859-4
+FiraSans-MediumItalic.otf -misc-fira sans medium-medium-i-normal--0-0-0-0-p-0-iso8859-5
+FiraSans-MediumItalic.otf -misc-fira sans medium-medium-i-normal--0-0-0-0-p-0-iso8859-9
+FiraSans-MediumItalic.otf -misc-fira sans medium-medium-i-normal--0-0-0-0-p-0-koi8-e
+FiraSans-MediumItalic.otf -misc-fira sans medium-medium-i-normal--0-0-0-0-p-0-koi8-r
+FiraSans-MediumItalic.otf -misc-fira sans medium-medium-i-normal--0-0-0-0-p-0-koi8-ru
+FiraSans-MediumItalic.otf -misc-fira sans medium-medium-i-normal--0-0-0-0-p-0-koi8-u
+FiraSans-MediumItalic.otf -misc-fira sans medium-medium-i-normal--0-0-0-0-p-0-koi8-uni
+FiraSans-MediumItalic.otf -misc-fira sans medium-medium-i-normal--0-0-0-0-p-0-microsoft-cp1252
+FiraSans-Regular.otf -misc-fira sans-medium-r-normal--0-0-0-0-p-0-adobe-standard
+FiraSans-Regular.otf -misc-fira sans-medium-r-normal--0-0-0-0-p-0-ascii-0
+FiraSans-Regular.otf -misc-fira sans-medium-r-normal--0-0-0-0-p-0-iso10646-1
+FiraSans-Regular.otf -misc-fira sans-medium-r-normal--0-0-0-0-p-0-iso8859-1
+FiraSans-Regular.otf -misc-fira sans-medium-r-normal--0-0-0-0-p-0-iso8859-10
+FiraSans-Regular.otf -misc-fira sans-medium-r-normal--0-0-0-0-p-0-iso8859-13
+FiraSans-Regular.otf -misc-fira sans-medium-r-normal--0-0-0-0-p-0-iso8859-15
+FiraSans-Regular.otf -misc-fira sans-medium-r-normal--0-0-0-0-p-0-iso8859-16
+FiraSans-Regular.otf -misc-fira sans-medium-r-normal--0-0-0-0-p-0-iso8859-2
+FiraSans-Regular.otf -misc-fira sans-medium-r-normal--0-0-0-0-p-0-iso8859-3
+FiraSans-Regular.otf -misc-fira sans-medium-r-normal--0-0-0-0-p-0-iso8859-4
+FiraSans-Regular.otf -misc-fira sans-medium-r-normal--0-0-0-0-p-0-iso8859-5
+FiraSans-Regular.otf -misc-fira sans-medium-r-normal--0-0-0-0-p-0-iso8859-9
+FiraSans-Regular.otf -misc-fira sans-medium-r-normal--0-0-0-0-p-0-koi8-e
+FiraSans-Regular.otf -misc-fira sans-medium-r-normal--0-0-0-0-p-0-koi8-r
+FiraSans-Regular.otf -misc-fira sans-medium-r-normal--0-0-0-0-p-0-koi8-ru
+FiraSans-Regular.otf -misc-fira sans-medium-r-normal--0-0-0-0-p-0-koi8-u
+FiraSans-Regular.otf -misc-fira sans-medium-r-normal--0-0-0-0-p-0-koi8-uni
+FiraSans-Regular.otf -misc-fira sans-medium-r-normal--0-0-0-0-p-0-microsoft-cp1252
+FiraSans-SemiBold.otf -misc-fira sans semibold-semibold-r-normal--0-0-0-0-p-0-adobe-standard
+FiraSans-SemiBold.otf -misc-fira sans semibold-semibold-r-normal--0-0-0-0-p-0-ascii-0
+FiraSans-SemiBold.otf -misc-fira sans semibold-semibold-r-normal--0-0-0-0-p-0-iso10646-1
+FiraSans-SemiBold.otf -misc-fira sans semibold-semibold-r-normal--0-0-0-0-p-0-iso8859-1
+FiraSans-SemiBold.otf -misc-fira sans semibold-semibold-r-normal--0-0-0-0-p-0-iso8859-10
+FiraSans-SemiBold.otf -misc-fira sans semibold-semibold-r-normal--0-0-0-0-p-0-iso8859-13
+FiraSans-SemiBold.otf -misc-fira sans semibold-semibold-r-normal--0-0-0-0-p-0-iso8859-15
+FiraSans-SemiBold.otf -misc-fira sans semibold-semibold-r-normal--0-0-0-0-p-0-iso8859-16
+FiraSans-SemiBold.otf -misc-fira sans semibold-semibold-r-normal--0-0-0-0-p-0-iso8859-2
+FiraSans-SemiBold.otf -misc-fira sans semibold-semibold-r-normal--0-0-0-0-p-0-iso8859-3
+FiraSans-SemiBold.otf -misc-fira sans semibold-semibold-r-normal--0-0-0-0-p-0-iso8859-4
+FiraSans-SemiBold.otf -misc-fira sans semibold-semibold-r-normal--0-0-0-0-p-0-iso8859-5
+FiraSans-SemiBold.otf -misc-fira sans semibold-semibold-r-normal--0-0-0-0-p-0-iso8859-9
+FiraSans-SemiBold.otf -misc-fira sans semibold-semibold-r-normal--0-0-0-0-p-0-koi8-e
+FiraSans-SemiBold.otf -misc-fira sans semibold-semibold-r-normal--0-0-0-0-p-0-koi8-r
+FiraSans-SemiBold.otf -misc-fira sans semibold-semibold-r-normal--0-0-0-0-p-0-koi8-ru
+FiraSans-SemiBold.otf -misc-fira sans semibold-semibold-r-normal--0-0-0-0-p-0-koi8-u
+FiraSans-SemiBold.otf -misc-fira sans semibold-semibold-r-normal--0-0-0-0-p-0-koi8-uni
+FiraSans-SemiBold.otf -misc-fira sans semibold-semibold-r-normal--0-0-0-0-p-0-microsoft-cp1252
+FiraSans-SemiBoldItalic.otf -misc-fira sans semibold-semibold-i-normal--0-0-0-0-p-0-adobe-standard
+FiraSans-SemiBoldItalic.otf -misc-fira sans semibold-semibold-i-normal--0-0-0-0-p-0-ascii-0
+FiraSans-SemiBoldItalic.otf -misc-fira sans semibold-semibold-i-normal--0-0-0-0-p-0-iso10646-1
+FiraSans-SemiBoldItalic.otf -misc-fira sans semibold-semibold-i-normal--0-0-0-0-p-0-iso8859-1
+FiraSans-SemiBoldItalic.otf -misc-fira sans semibold-semibold-i-normal--0-0-0-0-p-0-iso8859-10
+FiraSans-SemiBoldItalic.otf -misc-fira sans semibold-semibold-i-normal--0-0-0-0-p-0-iso8859-13
+FiraSans-SemiBoldItalic.otf -misc-fira sans semibold-semibold-i-normal--0-0-0-0-p-0-iso8859-15
+FiraSans-SemiBoldItalic.otf -misc-fira sans semibold-semibold-i-normal--0-0-0-0-p-0-iso8859-16
+FiraSans-SemiBoldItalic.otf -misc-fira sans semibold-semibold-i-normal--0-0-0-0-p-0-iso8859-2
+FiraSans-SemiBoldItalic.otf -misc-fira sans semibold-semibold-i-normal--0-0-0-0-p-0-iso8859-3
+FiraSans-SemiBoldItalic.otf -misc-fira sans semibold-semibold-i-normal--0-0-0-0-p-0-iso8859-4
+FiraSans-SemiBoldItalic.otf -misc-fira sans semibold-semibold-i-normal--0-0-0-0-p-0-iso8859-5
+FiraSans-SemiBoldItalic.otf -misc-fira sans semibold-semibold-i-normal--0-0-0-0-p-0-iso8859-9
+FiraSans-SemiBoldItalic.otf -misc-fira sans semibold-semibold-i-normal--0-0-0-0-p-0-koi8-e
+FiraSans-SemiBoldItalic.otf -misc-fira sans semibold-semibold-i-normal--0-0-0-0-p-0-koi8-r
+FiraSans-SemiBoldItalic.otf -misc-fira sans semibold-semibold-i-normal--0-0-0-0-p-0-koi8-ru
+FiraSans-SemiBoldItalic.otf -misc-fira sans semibold-semibold-i-normal--0-0-0-0-p-0-koi8-u
+FiraSans-SemiBoldItalic.otf -misc-fira sans semibold-semibold-i-normal--0-0-0-0-p-0-koi8-uni
+FiraSans-SemiBoldItalic.otf -misc-fira sans semibold-semibold-i-normal--0-0-0-0-p-0-microsoft-cp1252
+FiraSans-Thin.otf -misc-fira sans thin-thin-r-normal--0-0-0-0-p-0-adobe-standard
+FiraSans-Thin.otf -misc-fira sans thin-thin-r-normal--0-0-0-0-p-0-ascii-0
+FiraSans-Thin.otf -misc-fira sans thin-thin-r-normal--0-0-0-0-p-0-iso10646-1
+FiraSans-Thin.otf -misc-fira sans thin-thin-r-normal--0-0-0-0-p-0-iso8859-1
+FiraSans-Thin.otf -misc-fira sans thin-thin-r-normal--0-0-0-0-p-0-iso8859-10
+FiraSans-Thin.otf -misc-fira sans thin-thin-r-normal--0-0-0-0-p-0-iso8859-13
+FiraSans-Thin.otf -misc-fira sans thin-thin-r-normal--0-0-0-0-p-0-iso8859-15
+FiraSans-Thin.otf -misc-fira sans thin-thin-r-normal--0-0-0-0-p-0-iso8859-16
+FiraSans-Thin.otf -misc-fira sans thin-thin-r-normal--0-0-0-0-p-0-iso8859-2
+FiraSans-Thin.otf -misc-fira sans thin-thin-r-normal--0-0-0-0-p-0-iso8859-3
+FiraSans-Thin.otf -misc-fira sans thin-thin-r-normal--0-0-0-0-p-0-iso8859-4
+FiraSans-Thin.otf -misc-fira sans thin-thin-r-normal--0-0-0-0-p-0-iso8859-5
+FiraSans-Thin.otf -misc-fira sans thin-thin-r-normal--0-0-0-0-p-0-iso8859-9
+FiraSans-Thin.otf -misc-fira sans thin-thin-r-normal--0-0-0-0-p-0-koi8-e
+FiraSans-Thin.otf -misc-fira sans thin-thin-r-normal--0-0-0-0-p-0-koi8-r
+FiraSans-Thin.otf -misc-fira sans thin-thin-r-normal--0-0-0-0-p-0-koi8-ru
+FiraSans-Thin.otf -misc-fira sans thin-thin-r-normal--0-0-0-0-p-0-koi8-u
+FiraSans-Thin.otf -misc-fira sans thin-thin-r-normal--0-0-0-0-p-0-koi8-uni
+FiraSans-Thin.otf -misc-fira sans thin-thin-r-normal--0-0-0-0-p-0-microsoft-cp1252
+FiraSans-ThinItalic.otf -misc-fira sans thin-thin-i-normal--0-0-0-0-p-0-adobe-standard
+FiraSans-ThinItalic.otf -misc-fira sans thin-thin-i-normal--0-0-0-0-p-0-ascii-0
+FiraSans-ThinItalic.otf -misc-fira sans thin-thin-i-normal--0-0-0-0-p-0-iso10646-1
+FiraSans-ThinItalic.otf -misc-fira sans thin-thin-i-normal--0-0-0-0-p-0-iso8859-1
+FiraSans-ThinItalic.otf -misc-fira sans thin-thin-i-normal--0-0-0-0-p-0-iso8859-10
+FiraSans-ThinItalic.otf -misc-fira sans thin-thin-i-normal--0-0-0-0-p-0-iso8859-13
+FiraSans-ThinItalic.otf -misc-fira sans thin-thin-i-normal--0-0-0-0-p-0-iso8859-15
+FiraSans-ThinItalic.otf -misc-fira sans thin-thin-i-normal--0-0-0-0-p-0-iso8859-16
+FiraSans-ThinItalic.otf -misc-fira sans thin-thin-i-normal--0-0-0-0-p-0-iso8859-2
+FiraSans-ThinItalic.otf -misc-fira sans thin-thin-i-normal--0-0-0-0-p-0-iso8859-3
+FiraSans-ThinItalic.otf -misc-fira sans thin-thin-i-normal--0-0-0-0-p-0-iso8859-4
+FiraSans-ThinItalic.otf -misc-fira sans thin-thin-i-normal--0-0-0-0-p-0-iso8859-5
+FiraSans-ThinItalic.otf -misc-fira sans thin-thin-i-normal--0-0-0-0-p-0-iso8859-9
+FiraSans-ThinItalic.otf -misc-fira sans thin-thin-i-normal--0-0-0-0-p-0-koi8-e
+FiraSans-ThinItalic.otf -misc-fira sans thin-thin-i-normal--0-0-0-0-p-0-koi8-r
+FiraSans-ThinItalic.otf -misc-fira sans thin-thin-i-normal--0-0-0-0-p-0-koi8-ru
+FiraSans-ThinItalic.otf -misc-fira sans thin-thin-i-normal--0-0-0-0-p-0-koi8-u
+FiraSans-ThinItalic.otf -misc-fira sans thin-thin-i-normal--0-0-0-0-p-0-koi8-uni
+FiraSans-ThinItalic.otf -misc-fira sans thin-thin-i-normal--0-0-0-0-p-0-microsoft-cp1252
+FiraSans-Two.otf -misc-fira sans two-thin-r-normal--0-0-0-0-p-0-adobe-standard
+FiraSans-Two.otf -misc-fira sans two-thin-r-normal--0-0-0-0-p-0-ascii-0
+FiraSans-Two.otf -misc-fira sans two-thin-r-normal--0-0-0-0-p-0-iso10646-1
+FiraSans-Two.otf -misc-fira sans two-thin-r-normal--0-0-0-0-p-0-iso8859-1
+FiraSans-Two.otf -misc-fira sans two-thin-r-normal--0-0-0-0-p-0-iso8859-10
+FiraSans-Two.otf -misc-fira sans two-thin-r-normal--0-0-0-0-p-0-iso8859-13
+FiraSans-Two.otf -misc-fira sans two-thin-r-normal--0-0-0-0-p-0-iso8859-15
+FiraSans-Two.otf -misc-fira sans two-thin-r-normal--0-0-0-0-p-0-iso8859-16
+FiraSans-Two.otf -misc-fira sans two-thin-r-normal--0-0-0-0-p-0-iso8859-2
+FiraSans-Two.otf -misc-fira sans two-thin-r-normal--0-0-0-0-p-0-iso8859-3
+FiraSans-Two.otf -misc-fira sans two-thin-r-normal--0-0-0-0-p-0-iso8859-4
+FiraSans-Two.otf -misc-fira sans two-thin-r-normal--0-0-0-0-p-0-iso8859-5
+FiraSans-Two.otf -misc-fira sans two-thin-r-normal--0-0-0-0-p-0-iso8859-9
+FiraSans-Two.otf -misc-fira sans two-thin-r-normal--0-0-0-0-p-0-koi8-e
+FiraSans-Two.otf -misc-fira sans two-thin-r-normal--0-0-0-0-p-0-koi8-r
+FiraSans-Two.otf -misc-fira sans two-thin-r-normal--0-0-0-0-p-0-koi8-ru
+FiraSans-Two.otf -misc-fira sans two-thin-r-normal--0-0-0-0-p-0-koi8-u
+FiraSans-Two.otf -misc-fira sans two-thin-r-normal--0-0-0-0-p-0-koi8-uni
+FiraSans-Two.otf -misc-fira sans two-thin-r-normal--0-0-0-0-p-0-microsoft-cp1252
+FiraSans-TwoItalic.otf -misc-fira sans two-thin-i-normal--0-0-0-0-p-0-adobe-standard
+FiraSans-TwoItalic.otf -misc-fira sans two-thin-i-normal--0-0-0-0-p-0-ascii-0
+FiraSans-TwoItalic.otf -misc-fira sans two-thin-i-normal--0-0-0-0-p-0-iso10646-1
+FiraSans-TwoItalic.otf -misc-fira sans two-thin-i-normal--0-0-0-0-p-0-iso8859-1
+FiraSans-TwoItalic.otf -misc-fira sans two-thin-i-normal--0-0-0-0-p-0-iso8859-10
+FiraSans-TwoItalic.otf -misc-fira sans two-thin-i-normal--0-0-0-0-p-0-iso8859-13
+FiraSans-TwoItalic.otf -misc-fira sans two-thin-i-normal--0-0-0-0-p-0-iso8859-15
+FiraSans-TwoItalic.otf -misc-fira sans two-thin-i-normal--0-0-0-0-p-0-iso8859-16
+FiraSans-TwoItalic.otf -misc-fira sans two-thin-i-normal--0-0-0-0-p-0-iso8859-2
+FiraSans-TwoItalic.otf -misc-fira sans two-thin-i-normal--0-0-0-0-p-0-iso8859-3
+FiraSans-TwoItalic.otf -misc-fira sans two-thin-i-normal--0-0-0-0-p-0-iso8859-4
+FiraSans-TwoItalic.otf -misc-fira sans two-thin-i-normal--0-0-0-0-p-0-iso8859-5
+FiraSans-TwoItalic.otf -misc-fira sans two-thin-i-normal--0-0-0-0-p-0-iso8859-9
+FiraSans-TwoItalic.otf -misc-fira sans two-thin-i-normal--0-0-0-0-p-0-koi8-e
+FiraSans-TwoItalic.otf -misc-fira sans two-thin-i-normal--0-0-0-0-p-0-koi8-r
+FiraSans-TwoItalic.otf -misc-fira sans two-thin-i-normal--0-0-0-0-p-0-koi8-ru
+FiraSans-TwoItalic.otf -misc-fira sans two-thin-i-normal--0-0-0-0-p-0-koi8-u
+FiraSans-TwoItalic.otf -misc-fira sans two-thin-i-normal--0-0-0-0-p-0-koi8-uni
+FiraSans-TwoItalic.otf -misc-fira sans two-thin-i-normal--0-0-0-0-p-0-microsoft-cp1252
+FiraSans-Ultra.otf -misc-fira sans ultra-black-r-normal--0-0-0-0-p-0-adobe-standard
+FiraSans-Ultra.otf -misc-fira sans ultra-black-r-normal--0-0-0-0-p-0-ascii-0
+FiraSans-Ultra.otf -misc-fira sans ultra-black-r-normal--0-0-0-0-p-0-iso10646-1
+FiraSans-Ultra.otf -misc-fira sans ultra-black-r-normal--0-0-0-0-p-0-iso8859-1
+FiraSans-Ultra.otf -misc-fira sans ultra-black-r-normal--0-0-0-0-p-0-iso8859-10
+FiraSans-Ultra.otf -misc-fira sans ultra-black-r-normal--0-0-0-0-p-0-iso8859-13
+FiraSans-Ultra.otf -misc-fira sans ultra-black-r-normal--0-0-0-0-p-0-iso8859-15
+FiraSans-Ultra.otf -misc-fira sans ultra-black-r-normal--0-0-0-0-p-0-iso8859-16
+FiraSans-Ultra.otf -misc-fira sans ultra-black-r-normal--0-0-0-0-p-0-iso8859-2
+FiraSans-Ultra.otf -misc-fira sans ultra-black-r-normal--0-0-0-0-p-0-iso8859-3
+FiraSans-Ultra.otf -misc-fira sans ultra-black-r-normal--0-0-0-0-p-0-iso8859-4
+FiraSans-Ultra.otf -misc-fira sans ultra-black-r-normal--0-0-0-0-p-0-iso8859-5
+FiraSans-Ultra.otf -misc-fira sans ultra-black-r-normal--0-0-0-0-p-0-iso8859-9
+FiraSans-Ultra.otf -misc-fira sans ultra-black-r-normal--0-0-0-0-p-0-koi8-e
+FiraSans-Ultra.otf -misc-fira sans ultra-black-r-normal--0-0-0-0-p-0-koi8-r
+FiraSans-Ultra.otf -misc-fira sans ultra-black-r-normal--0-0-0-0-p-0-koi8-ru
+FiraSans-Ultra.otf -misc-fira sans ultra-black-r-normal--0-0-0-0-p-0-koi8-u
+FiraSans-Ultra.otf -misc-fira sans ultra-black-r-normal--0-0-0-0-p-0-koi8-uni
+FiraSans-Ultra.otf -misc-fira sans ultra-black-r-normal--0-0-0-0-p-0-microsoft-cp1252
+FiraSans-UltraItalic.otf -misc-fira sans ultra-black-i-normal--0-0-0-0-p-0-adobe-standard
+FiraSans-UltraItalic.otf -misc-fira sans ultra-black-i-normal--0-0-0-0-p-0-ascii-0
+FiraSans-UltraItalic.otf -misc-fira sans ultra-black-i-normal--0-0-0-0-p-0-iso10646-1
+FiraSans-UltraItalic.otf -misc-fira sans ultra-black-i-normal--0-0-0-0-p-0-iso8859-1
+FiraSans-UltraItalic.otf -misc-fira sans ultra-black-i-normal--0-0-0-0-p-0-iso8859-10
+FiraSans-UltraItalic.otf -misc-fira sans ultra-black-i-normal--0-0-0-0-p-0-iso8859-13
+FiraSans-UltraItalic.otf -misc-fira sans ultra-black-i-normal--0-0-0-0-p-0-iso8859-15
+FiraSans-UltraItalic.otf -misc-fira sans ultra-black-i-normal--0-0-0-0-p-0-iso8859-16
+FiraSans-UltraItalic.otf -misc-fira sans ultra-black-i-normal--0-0-0-0-p-0-iso8859-2
+FiraSans-UltraItalic.otf -misc-fira sans ultra-black-i-normal--0-0-0-0-p-0-iso8859-3
+FiraSans-UltraItalic.otf -misc-fira sans ultra-black-i-normal--0-0-0-0-p-0-iso8859-4
+FiraSans-UltraItalic.otf -misc-fira sans ultra-black-i-normal--0-0-0-0-p-0-iso8859-5
+FiraSans-UltraItalic.otf -misc-fira sans ultra-black-i-normal--0-0-0-0-p-0-iso8859-9
+FiraSans-UltraItalic.otf -misc-fira sans ultra-black-i-normal--0-0-0-0-p-0-koi8-e
+FiraSans-UltraItalic.otf -misc-fira sans ultra-black-i-normal--0-0-0-0-p-0-koi8-r
+FiraSans-UltraItalic.otf -misc-fira sans ultra-black-i-normal--0-0-0-0-p-0-koi8-ru
+FiraSans-UltraItalic.otf -misc-fira sans ultra-black-i-normal--0-0-0-0-p-0-koi8-u
+FiraSans-UltraItalic.otf -misc-fira sans ultra-black-i-normal--0-0-0-0-p-0-koi8-uni
+FiraSans-UltraItalic.otf -misc-fira sans ultra-black-i-normal--0-0-0-0-p-0-microsoft-cp1252
+FiraSans-UltraLight.otf -misc-fira sans ultralight-extralight-r-normal--0-0-0-0-p-0-adobe-standard
+FiraSans-UltraLight.otf -misc-fira sans ultralight-extralight-r-normal--0-0-0-0-p-0-ascii-0
+FiraSans-UltraLight.otf -misc-fira sans ultralight-extralight-r-normal--0-0-0-0-p-0-iso10646-1
+FiraSans-UltraLight.otf -misc-fira sans ultralight-extralight-r-normal--0-0-0-0-p-0-iso8859-1
+FiraSans-UltraLight.otf -misc-fira sans ultralight-extralight-r-normal--0-0-0-0-p-0-iso8859-10
+FiraSans-UltraLight.otf -misc-fira sans ultralight-extralight-r-normal--0-0-0-0-p-0-iso8859-13
+FiraSans-UltraLight.otf -misc-fira sans ultralight-extralight-r-normal--0-0-0-0-p-0-iso8859-15
+FiraSans-UltraLight.otf -misc-fira sans ultralight-extralight-r-normal--0-0-0-0-p-0-iso8859-16
+FiraSans-UltraLight.otf -misc-fira sans ultralight-extralight-r-normal--0-0-0-0-p-0-iso8859-2
+FiraSans-UltraLight.otf -misc-fira sans ultralight-extralight-r-normal--0-0-0-0-p-0-iso8859-3
+FiraSans-UltraLight.otf -misc-fira sans ultralight-extralight-r-normal--0-0-0-0-p-0-iso8859-4
+FiraSans-UltraLight.otf -misc-fira sans ultralight-extralight-r-normal--0-0-0-0-p-0-iso8859-5
+FiraSans-UltraLight.otf -misc-fira sans ultralight-extralight-r-normal--0-0-0-0-p-0-iso8859-9
+FiraSans-UltraLight.otf -misc-fira sans ultralight-extralight-r-normal--0-0-0-0-p-0-koi8-e
+FiraSans-UltraLight.otf -misc-fira sans ultralight-extralight-r-normal--0-0-0-0-p-0-koi8-r
+FiraSans-UltraLight.otf -misc-fira sans ultralight-extralight-r-normal--0-0-0-0-p-0-koi8-ru
+FiraSans-UltraLight.otf -misc-fira sans ultralight-extralight-r-normal--0-0-0-0-p-0-koi8-u
+FiraSans-UltraLight.otf -misc-fira sans ultralight-extralight-r-normal--0-0-0-0-p-0-koi8-uni
+FiraSans-UltraLight.otf -misc-fira sans ultralight-extralight-r-normal--0-0-0-0-p-0-microsoft-cp1252
+FiraSans-UltraLightItalic.otf -misc-fira sans ultralight-extralight-i-normal--0-0-0-0-p-0-adobe-standard
+FiraSans-UltraLightItalic.otf -misc-fira sans ultralight-extralight-i-normal--0-0-0-0-p-0-ascii-0
+FiraSans-UltraLightItalic.otf -misc-fira sans ultralight-extralight-i-normal--0-0-0-0-p-0-iso10646-1
+FiraSans-UltraLightItalic.otf -misc-fira sans ultralight-extralight-i-normal--0-0-0-0-p-0-iso8859-1
+FiraSans-UltraLightItalic.otf -misc-fira sans ultralight-extralight-i-normal--0-0-0-0-p-0-iso8859-10
+FiraSans-UltraLightItalic.otf -misc-fira sans ultralight-extralight-i-normal--0-0-0-0-p-0-iso8859-13
+FiraSans-UltraLightItalic.otf -misc-fira sans ultralight-extralight-i-normal--0-0-0-0-p-0-iso8859-15
+FiraSans-UltraLightItalic.otf -misc-fira sans ultralight-extralight-i-normal--0-0-0-0-p-0-iso8859-16
+FiraSans-UltraLightItalic.otf -misc-fira sans ultralight-extralight-i-normal--0-0-0-0-p-0-iso8859-2
+FiraSans-UltraLightItalic.otf -misc-fira sans ultralight-extralight-i-normal--0-0-0-0-p-0-iso8859-3
+FiraSans-UltraLightItalic.otf -misc-fira sans ultralight-extralight-i-normal--0-0-0-0-p-0-iso8859-4
+FiraSans-UltraLightItalic.otf -misc-fira sans ultralight-extralight-i-normal--0-0-0-0-p-0-iso8859-5
+FiraSans-UltraLightItalic.otf -misc-fira sans ultralight-extralight-i-normal--0-0-0-0-p-0-iso8859-9
+FiraSans-UltraLightItalic.otf -misc-fira sans ultralight-extralight-i-normal--0-0-0-0-p-0-koi8-e
+FiraSans-UltraLightItalic.otf -misc-fira sans ultralight-extralight-i-normal--0-0-0-0-p-0-koi8-r
+FiraSans-UltraLightItalic.otf -misc-fira sans ultralight-extralight-i-normal--0-0-0-0-p-0-koi8-ru
+FiraSans-UltraLightItalic.otf -misc-fira sans ultralight-extralight-i-normal--0-0-0-0-p-0-koi8-u
+FiraSans-UltraLightItalic.otf -misc-fira sans ultralight-extralight-i-normal--0-0-0-0-p-0-koi8-uni
+FiraSans-UltraLightItalic.otf -misc-fira sans ultralight-extralight-i-normal--0-0-0-0-p-0-microsoft-cp1252
+FiraSansCondensed-Bold.otf -misc-fira sans condensed-bold-r-condensed--0-0-0-0-p-0-iso10646-1
+FiraSansCondensed-Bold.otf -misc-fira sans condensed-bold-r-condensed--0-0-0-0-p-0-iso8859-13
+FiraSansCondensed-Bold.otf -misc-fira sans condensed-bold-r-condensed--0-0-0-0-p-0-iso8859-16
+FiraSansCondensed-Bold.otf -misc-fira sans condensed-bold-r-condensed--0-0-0-0-p-0-iso8859-2
+FiraSansCondensed-BoldItalic.otf -misc-fira sans condensed-bold-i-condensed--0-0-0-0-p-0-iso10646-1
+FiraSansCondensed-BoldItalic.otf -misc-fira sans condensed-bold-i-condensed--0-0-0-0-p-0-iso8859-13
+FiraSansCondensed-BoldItalic.otf -misc-fira sans condensed-bold-i-condensed--0-0-0-0-p-0-iso8859-16
+FiraSansCondensed-BoldItalic.otf -misc-fira sans condensed-bold-i-condensed--0-0-0-0-p-0-iso8859-2
+FiraSansCondensed-Book.otf -misc-fira sans condensed book-medium-r-condensed--0-0-0-0-p-0-iso10646-1
+FiraSansCondensed-Book.otf -misc-fira sans condensed book-medium-r-condensed--0-0-0-0-p-0-iso8859-13
+FiraSansCondensed-Book.otf -misc-fira sans condensed book-medium-r-condensed--0-0-0-0-p-0-iso8859-16
+FiraSansCondensed-Book.otf -misc-fira sans condensed book-medium-r-condensed--0-0-0-0-p-0-iso8859-2
+FiraSansCondensed-BookItalic.otf -misc-fira sans condensed book-medium-i-condensed--0-0-0-0-p-0-iso10646-1
+FiraSansCondensed-BookItalic.otf -misc-fira sans condensed book-medium-i-condensed--0-0-0-0-p-0-iso8859-13
+FiraSansCondensed-BookItalic.otf -misc-fira sans condensed book-medium-i-condensed--0-0-0-0-p-0-iso8859-16
+FiraSansCondensed-BookItalic.otf -misc-fira sans condensed book-medium-i-condensed--0-0-0-0-p-0-iso8859-2
+FiraSansCondensed-Eight.otf -misc-fira sans condensed eight-thin-r-condensed--0-0-0-0-p-0-iso10646-1
+FiraSansCondensed-Eight.otf -misc-fira sans condensed eight-thin-r-condensed--0-0-0-0-p-0-iso8859-13
+FiraSansCondensed-Eight.otf -misc-fira sans condensed eight-thin-r-condensed--0-0-0-0-p-0-iso8859-16
+FiraSansCondensed-Eight.otf -misc-fira sans condensed eight-thin-r-condensed--0-0-0-0-p-0-iso8859-2
+FiraSansCondensed-EightItalic.otf -misc-fira sans condensed eight-thin-i-condensed--0-0-0-0-p-0-iso10646-1
+FiraSansCondensed-EightItalic.otf -misc-fira sans condensed eight-thin-i-condensed--0-0-0-0-p-0-iso8859-13
+FiraSansCondensed-EightItalic.otf -misc-fira sans condensed eight-thin-i-condensed--0-0-0-0-p-0-iso8859-16
+FiraSansCondensed-EightItalic.otf -misc-fira sans condensed eight-thin-i-condensed--0-0-0-0-p-0-iso8859-2
+FiraSansCondensed-ExtraBold.otf -misc-fira sans condensed extrabold-extrabold-r-condensed--0-0-0-0-p-0-iso10646-1
+FiraSansCondensed-ExtraBold.otf -misc-fira sans condensed extrabold-extrabold-r-condensed--0-0-0-0-p-0-iso8859-13
+FiraSansCondensed-ExtraBold.otf -misc-fira sans condensed extrabold-extrabold-r-condensed--0-0-0-0-p-0-iso8859-16
+FiraSansCondensed-ExtraBold.otf -misc-fira sans condensed extrabold-extrabold-r-condensed--0-0-0-0-p-0-iso8859-2
+FiraSansCondensed-ExtraLight.otf -misc-fira sans condensed extralight-light-r-condensed--0-0-0-0-p-0-iso10646-1
+FiraSansCondensed-ExtraLight.otf -misc-fira sans condensed extralight-light-r-condensed--0-0-0-0-p-0-iso8859-13
+FiraSansCondensed-ExtraLight.otf -misc-fira sans condensed extralight-light-r-condensed--0-0-0-0-p-0-iso8859-16
+FiraSansCondensed-ExtraLight.otf -misc-fira sans condensed extralight-light-r-condensed--0-0-0-0-p-0-iso8859-2
+FiraSansCondensed-ExtraLightItalic.otf -misc-fira sans condensed extralight-light-i-condensed--0-0-0-0-p-0-iso10646-1
+FiraSansCondensed-ExtraLightItalic.otf -misc-fira sans condensed extralight-light-i-condensed--0-0-0-0-p-0-iso8859-13
+FiraSansCondensed-ExtraLightItalic.otf -misc-fira sans condensed extralight-light-i-condensed--0-0-0-0-p-0-iso8859-16
+FiraSansCondensed-ExtraLightItalic.otf -misc-fira sans condensed extralight-light-i-condensed--0-0-0-0-p-0-iso8859-2
+FiraSansCondensed-ExtraboldItalic.otf -misc-fira sans condensed extrabold-extrabold-i-condensed--0-0-0-0-p-0-iso10646-1
+FiraSansCondensed-ExtraboldItalic.otf -misc-fira sans condensed extrabold-extrabold-i-condensed--0-0-0-0-p-0-iso8859-13
+FiraSansCondensed-ExtraboldItalic.otf -misc-fira sans condensed extrabold-extrabold-i-condensed--0-0-0-0-p-0-iso8859-16
+FiraSansCondensed-ExtraboldItalic.otf -misc-fira sans condensed extrabold-extrabold-i-condensed--0-0-0-0-p-0-iso8859-2
+FiraSansCondensed-Four.otf -misc-fira sans condensed four-thin-r-condensed--0-0-0-0-p-0-iso10646-1
+FiraSansCondensed-Four.otf -misc-fira sans condensed four-thin-r-condensed--0-0-0-0-p-0-iso8859-13
+FiraSansCondensed-Four.otf -misc-fira sans condensed four-thin-r-condensed--0-0-0-0-p-0-iso8859-16
+FiraSansCondensed-Four.otf -misc-fira sans condensed four-thin-r-condensed--0-0-0-0-p-0-iso8859-2
+FiraSansCondensed-FourItalic.otf -misc-fira sans condensed four-thin-i-condensed--0-0-0-0-p-0-iso10646-1
+FiraSansCondensed-FourItalic.otf -misc-fira sans condensed four-thin-i-condensed--0-0-0-0-p-0-iso8859-13
+FiraSansCondensed-FourItalic.otf -misc-fira sans condensed four-thin-i-condensed--0-0-0-0-p-0-iso8859-16
+FiraSansCondensed-FourItalic.otf -misc-fira sans condensed four-thin-i-condensed--0-0-0-0-p-0-iso8859-2
+FiraSansCondensed-Hair.otf -misc-fira sans condensed hair-thin-r-condensed--0-0-0-0-p-0-iso10646-1
+FiraSansCondensed-Hair.otf -misc-fira sans condensed hair-thin-r-condensed--0-0-0-0-p-0-iso8859-13
+FiraSansCondensed-Hair.otf -misc-fira sans condensed hair-thin-r-condensed--0-0-0-0-p-0-iso8859-16
+FiraSansCondensed-Hair.otf -misc-fira sans condensed hair-thin-r-condensed--0-0-0-0-p-0-iso8859-2
+FiraSansCondensed-HairItalic.otf -misc-fira sans condensed hair-thin-i-condensed--0-0-0-0-p-0-iso10646-1
+FiraSansCondensed-HairItalic.otf -misc-fira sans condensed hair-thin-i-condensed--0-0-0-0-p-0-iso8859-13
+FiraSansCondensed-HairItalic.otf -misc-fira sans condensed hair-thin-i-condensed--0-0-0-0-p-0-iso8859-16
+FiraSansCondensed-HairItalic.otf -misc-fira sans condensed hair-thin-i-condensed--0-0-0-0-p-0-iso8859-2
+FiraSansCondensed-Heavy.otf -misc-fira sans condensed heavy-black-r-condensed--0-0-0-0-p-0-iso10646-1
+FiraSansCondensed-Heavy.otf -misc-fira sans condensed heavy-black-r-condensed--0-0-0-0-p-0-iso8859-13
+FiraSansCondensed-Heavy.otf -misc-fira sans condensed heavy-black-r-condensed--0-0-0-0-p-0-iso8859-16
+FiraSansCondensed-Heavy.otf -misc-fira sans condensed heavy-black-r-condensed--0-0-0-0-p-0-iso8859-2
+FiraSansCondensed-HeavyItalic.otf -misc-fira sans condensed heavy-black-i-condensed--0-0-0-0-p-0-iso10646-1
+FiraSansCondensed-HeavyItalic.otf -misc-fira sans condensed heavy-black-i-condensed--0-0-0-0-p-0-iso8859-13
+FiraSansCondensed-HeavyItalic.otf -misc-fira sans condensed heavy-black-i-condensed--0-0-0-0-p-0-iso8859-16
+FiraSansCondensed-HeavyItalic.otf -misc-fira sans condensed heavy-black-i-condensed--0-0-0-0-p-0-iso8859-2
+FiraSansCondensed-Italic.otf -misc-fira sans condensed-medium-i-condensed--0-0-0-0-p-0-iso10646-1
+FiraSansCondensed-Italic.otf -misc-fira sans condensed-medium-i-condensed--0-0-0-0-p-0-iso8859-13
+FiraSansCondensed-Italic.otf -misc-fira sans condensed-medium-i-condensed--0-0-0-0-p-0-iso8859-16
+FiraSansCondensed-Italic.otf -misc-fira sans condensed-medium-i-condensed--0-0-0-0-p-0-iso8859-2
+FiraSansCondensed-Light.otf -misc-fira sans condensed light-light-r-condensed--0-0-0-0-p-0-iso10646-1
+FiraSansCondensed-Light.otf -misc-fira sans condensed light-light-r-condensed--0-0-0-0-p-0-iso8859-13
+FiraSansCondensed-Light.otf -misc-fira sans condensed light-light-r-condensed--0-0-0-0-p-0-iso8859-16
+FiraSansCondensed-Light.otf -misc-fira sans condensed light-light-r-condensed--0-0-0-0-p-0-iso8859-2
+FiraSansCondensed-LightItalic.otf -misc-fira sans condensed light-light-i-condensed--0-0-0-0-p-0-iso10646-1
+FiraSansCondensed-LightItalic.otf -misc-fira sans condensed light-light-i-condensed--0-0-0-0-p-0-iso8859-13
+FiraSansCondensed-LightItalic.otf -misc-fira sans condensed light-light-i-condensed--0-0-0-0-p-0-iso8859-16
+FiraSansCondensed-LightItalic.otf -misc-fira sans condensed light-light-i-condensed--0-0-0-0-p-0-iso8859-2
+FiraSansCondensed-Medium.otf -misc-fira sans condensed medium-medium-r-condensed--0-0-0-0-p-0-iso10646-1
+FiraSansCondensed-Medium.otf -misc-fira sans condensed medium-medium-r-condensed--0-0-0-0-p-0-iso8859-13
+FiraSansCondensed-Medium.otf -misc-fira sans condensed medium-medium-r-condensed--0-0-0-0-p-0-iso8859-16
+FiraSansCondensed-Medium.otf -misc-fira sans condensed medium-medium-r-condensed--0-0-0-0-p-0-iso8859-2
+FiraSansCondensed-MediumItalic.otf -misc-fira sans condensed medium-medium-i-condensed--0-0-0-0-p-0-iso10646-1
+FiraSansCondensed-MediumItalic.otf -misc-fira sans condensed medium-medium-i-condensed--0-0-0-0-p-0-iso8859-13
+FiraSansCondensed-MediumItalic.otf -misc-fira sans condensed medium-medium-i-condensed--0-0-0-0-p-0-iso8859-16
+FiraSansCondensed-MediumItalic.otf -misc-fira sans condensed medium-medium-i-condensed--0-0-0-0-p-0-iso8859-2
+FiraSansCondensed-Regular.otf -misc-fira sans condensed-medium-r-condensed--0-0-0-0-p-0-iso10646-1
+FiraSansCondensed-Regular.otf -misc-fira sans condensed-medium-r-condensed--0-0-0-0-p-0-iso8859-13
+FiraSansCondensed-Regular.otf -misc-fira sans condensed-medium-r-condensed--0-0-0-0-p-0-iso8859-16
+FiraSansCondensed-Regular.otf -misc-fira sans condensed-medium-r-condensed--0-0-0-0-p-0-iso8859-2
+FiraSansCondensed-SemiBold.otf -misc-fira sans condensed semibold-semibold-r-condensed--0-0-0-0-p-0-iso10646-1
+FiraSansCondensed-SemiBold.otf -misc-fira sans condensed semibold-semibold-r-condensed--0-0-0-0-p-0-iso8859-13
+FiraSansCondensed-SemiBold.otf -misc-fira sans condensed semibold-semibold-r-condensed--0-0-0-0-p-0-iso8859-16
+FiraSansCondensed-SemiBold.otf -misc-fira sans condensed semibold-semibold-r-condensed--0-0-0-0-p-0-iso8859-2
+FiraSansCondensed-SemiboldItalic.otf -misc-fira sans condensed semibold-semibold-i-condensed--0-0-0-0-p-0-iso10646-1
+FiraSansCondensed-SemiboldItalic.otf -misc-fira sans condensed semibold-semibold-i-condensed--0-0-0-0-p-0-iso8859-13
+FiraSansCondensed-SemiboldItalic.otf -misc-fira sans condensed semibold-semibold-i-condensed--0-0-0-0-p-0-iso8859-16
+FiraSansCondensed-SemiboldItalic.otf -misc-fira sans condensed semibold-semibold-i-condensed--0-0-0-0-p-0-iso8859-2
+FiraSansCondensed-Thin.otf -misc-fira sans condensed thin-thin-r-condensed--0-0-0-0-p-0-iso10646-1
+FiraSansCondensed-Thin.otf -misc-fira sans condensed thin-thin-r-condensed--0-0-0-0-p-0-iso8859-13
+FiraSansCondensed-Thin.otf -misc-fira sans condensed thin-thin-r-condensed--0-0-0-0-p-0-iso8859-16
+FiraSansCondensed-Thin.otf -misc-fira sans condensed thin-thin-r-condensed--0-0-0-0-p-0-iso8859-2
+FiraSansCondensed-ThinItalic.otf -misc-fira sans condensed thin-thin-i-condensed--0-0-0-0-p-0-iso10646-1
+FiraSansCondensed-ThinItalic.otf -misc-fira sans condensed thin-thin-i-condensed--0-0-0-0-p-0-iso8859-13
+FiraSansCondensed-ThinItalic.otf -misc-fira sans condensed thin-thin-i-condensed--0-0-0-0-p-0-iso8859-16
+FiraSansCondensed-ThinItalic.otf -misc-fira sans condensed thin-thin-i-condensed--0-0-0-0-p-0-iso8859-2
+FiraSansCondensed-Two.otf -misc-fira sans condensed two-thin-r-condensed--0-0-0-0-p-0-iso10646-1
+FiraSansCondensed-Two.otf -misc-fira sans condensed two-thin-r-condensed--0-0-0-0-p-0-iso8859-13
+FiraSansCondensed-Two.otf -misc-fira sans condensed two-thin-r-condensed--0-0-0-0-p-0-iso8859-16
+FiraSansCondensed-Two.otf -misc-fira sans condensed two-thin-r-condensed--0-0-0-0-p-0-iso8859-2
+FiraSansCondensed-TwoItalic.otf -misc-fira sans condensed two-thin-i-condensed--0-0-0-0-p-0-iso10646-1
+FiraSansCondensed-TwoItalic.otf -misc-fira sans condensed two-thin-i-condensed--0-0-0-0-p-0-iso8859-13
+FiraSansCondensed-TwoItalic.otf -misc-fira sans condensed two-thin-i-condensed--0-0-0-0-p-0-iso8859-16
+FiraSansCondensed-TwoItalic.otf -misc-fira sans condensed two-thin-i-condensed--0-0-0-0-p-0-iso8859-2
+FiraSansCondensed-Ultra.otf -misc-fira sans condensed ultra-black-r-condensed--0-0-0-0-p-0-iso10646-1
+FiraSansCondensed-Ultra.otf -misc-fira sans condensed ultra-black-r-condensed--0-0-0-0-p-0-iso8859-13
+FiraSansCondensed-Ultra.otf -misc-fira sans condensed ultra-black-r-condensed--0-0-0-0-p-0-iso8859-16
+FiraSansCondensed-Ultra.otf -misc-fira sans condensed ultra-black-r-condensed--0-0-0-0-p-0-iso8859-2
+FiraSansCondensed-UltraItalic.otf -misc-fira sans condensed ultra-black-i-condensed--0-0-0-0-p-0-iso10646-1
+FiraSansCondensed-UltraItalic.otf -misc-fira sans condensed ultra-black-i-condensed--0-0-0-0-p-0-iso8859-13
+FiraSansCondensed-UltraItalic.otf -misc-fira sans condensed ultra-black-i-condensed--0-0-0-0-p-0-iso8859-16
+FiraSansCondensed-UltraItalic.otf -misc-fira sans condensed ultra-black-i-condensed--0-0-0-0-p-0-iso8859-2
+FiraSansCondensed-UltraLight.otf -misc-fira sans condensed ultralight-extralight-r-condensed--0-0-0-0-p-0-iso10646-1
+FiraSansCondensed-UltraLight.otf -misc-fira sans condensed ultralight-extralight-r-condensed--0-0-0-0-p-0-iso8859-13
+FiraSansCondensed-UltraLight.otf -misc-fira sans condensed ultralight-extralight-r-condensed--0-0-0-0-p-0-iso8859-16
+FiraSansCondensed-UltraLight.otf -misc-fira sans condensed ultralight-extralight-r-condensed--0-0-0-0-p-0-iso8859-2
+FiraSansCondensed-UltraLightItalic.otf -misc-fira sans condensed ultralight-extralight-i-condensed--0-0-0-0-p-0-iso10646-1
+FiraSansCondensed-UltraLightItalic.otf -misc-fira sans condensed ultralight-extralight-i-condensed--0-0-0-0-p-0-iso8859-13
+FiraSansCondensed-UltraLightItalic.otf -misc-fira sans condensed ultralight-extralight-i-condensed--0-0-0-0-p-0-iso8859-16
+FiraSansCondensed-UltraLightItalic.otf -misc-fira sans condensed ultralight-extralight-i-condensed--0-0-0-0-p-0-iso8859-2
 FuraMono-Bold Powerline.otf -misc-fira mono for powerline-bold-r-normal--0-0-0-0-p-0-adobe-standard
 FuraMono-Bold Powerline.otf -misc-fira mono for powerline-bold-r-normal--0-0-0-0-p-0-ascii-0
 FuraMono-Bold Powerline.otf -misc-fira mono for powerline-bold-r-normal--0-0-0-0-p-0-ibm-cp850
@@ -945,6 +1879,12 @@ FuraMono-Regular Powerline.otf -misc-fira mono for powerline-medium-r-normal--0-
 FuraMono-Regular Powerline.otf -misc-fira mono for powerline-medium-r-normal--0-0-0-0-p-0-koi8-u
 FuraMono-Regular Powerline.otf -misc-fira mono for powerline-medium-r-normal--0-0-0-0-p-0-koi8-uni
 FuraMono-Regular Powerline.otf -misc-fira mono for powerline-medium-r-normal--0-0-0-0-p-0-microsoft-cp1252
+Gli Azzurri 2016.otf -misc-gli azzurri 2016-medium-r-normal--0-0-0-0-p-0-ascii-0
+Gli Azzurri 2016.otf -misc-gli azzurri 2016-medium-r-normal--0-0-0-0-p-0-iso10646-1
+Gli Azzurri 2016.otf -misc-gli azzurri 2016-medium-r-normal--0-0-0-0-p-0-iso8859-1
+Golden Gopher.otf -misc-golden gopher-medium-r-normal--0-0-0-0-p-0-ascii-0
+Golden Gopher.otf -misc-golden gopher-medium-r-normal--0-0-0-0-p-0-iso10646-1
+Golden Gopher.otf -misc-golden gopher-medium-r-normal--0-0-0-0-p-0-iso8859-1
 Hack-Bold.ttf -misc-hack-bold-r-normal--0-0-0-0-m-0-ascii-0
 Hack-Bold.ttf -misc-hack-bold-r-normal--0-0-0-0-m-0-ibm-cp850
 Hack-Bold.ttf -misc-hack-bold-r-normal--0-0-0-0-m-0-iso10646-1
@@ -981,9 +1921,15 @@ Hack-Regular.ttf -misc-hack-medium-r-normal--0-0-0-0-m-0-koi8-r
 Hack-Regular.ttf -misc-hack-medium-r-normal--0-0-0-0-m-0-koi8-u
 Hack-Regular.ttf -misc-hack-medium-r-normal--0-0-0-0-m-0-microsoft-cp1252
 Hack-RegularOblique.ttf -misc-hack-medium-o-normal--0-0-0-0-m-0-iso10646-1
+Half Block.otf -misc-half block-medium-r-normal--0-0-0-0-p-0-ascii-0
+Half Block.otf -misc-half block-medium-r-normal--0-0-0-0-p-0-iso10646-1
+Half Block.otf -misc-half block-medium-r-normal--0-0-0-0-p-0-iso8859-1
 Huskies.otf -misc-huskies-medium-r-normal--0-0-0-0-p-0-ascii-0
 Huskies.otf -misc-huskies-medium-r-normal--0-0-0-0-p-0-iso10646-1
 Huskies.otf -misc-huskies-medium-r-normal--0-0-0-0-p-0-iso8859-1
+Hyper Elite Condensed.otf -misc-hyper elite condensed-medium-r-normal--0-0-0-0-p-0-ascii-0
+Hyper Elite Condensed.otf -misc-hyper elite condensed-medium-r-normal--0-0-0-0-p-0-iso10646-1
+Hyper Elite Condensed.otf -misc-hyper elite condensed-medium-r-normal--0-0-0-0-p-0-iso8859-1
 Inconsolata for Powerline.otf -misc-inconsolata for powerline-medium-r-normal--0-0-0-0-p-0-ascii-0
 Inconsolata for Powerline.otf -misc-inconsolata for powerline-medium-r-normal--0-0-0-0-p-0-iso10646-1
 Inconsolata for Powerline.otf -misc-inconsolata for powerline-medium-r-normal--0-0-0-0-p-0-iso8859-1
@@ -1008,6 +1954,9 @@ Inconsolata-g for Powerline.otf -misc-inconsolata g for powerline-medium-r-norma
 Inconsolata-g for Powerline.otf -misc-inconsolata g for powerline-medium-r-normal--0-0-0-0-m-0-iso8859-15
 Inconsolata-g for Powerline.otf -misc-inconsolata g for powerline-medium-r-normal--0-0-0-0-m-0-iso8859-2
 Inconsolata-g for Powerline.otf -misc-inconsolata g for powerline-medium-r-normal--0-0-0-0-m-0-iso8859-9
+Invader 2014.otf -misc-invader 2014-medium-r-normal--0-0-0-0-p-0-ascii-0
+Invader 2014.otf -misc-invader 2014-medium-r-normal--0-0-0-0-p-0-iso10646-1
+Invader 2014.otf -misc-invader 2014-medium-r-normal--0-0-0-0-p-0-iso8859-1
 LUNABAR_.TTF -macromedia-luna bar-medium-r-normal--0-0-0-0-p-0-iso10646-1
 Literation Mono Powerline Bold Italic.ttf -misc-literation mono powerline-bold-i-normal--0-0-0-0-p-0-adobe-standard
 Literation Mono Powerline Bold Italic.ttf -misc-literation mono powerline-bold-i-normal--0-0-0-0-p-0-ascii-0
@@ -1270,6 +2219,196 @@ Meslo LG S Regular for Powerline.otf -bitstream-meslo lg s for powerline-medium-
 Meslo LG S Regular for Powerline.otf -bitstream-meslo lg s for powerline-medium-r-normal--0-0-0-0-p-0-koi8-uni
 Meslo LG S Regular for Powerline.otf -bitstream-meslo lg s for powerline-medium-r-normal--0-0-0-0-p-0-microsoft-cp1252
 Meslo LG S Regular for Powerline.otf -bitstream-meslo lg s for powerline-medium-r-normal--0-0-0-0-p-0-suneu-greek
+MinionPro-Bold.otf -adobe-minion pro-bold-r-normal--0-0-0-0-p-0-adobe-standard
+MinionPro-Bold.otf -adobe-minion pro-bold-r-normal--0-0-0-0-p-0-ascii-0
+MinionPro-Bold.otf -adobe-minion pro-bold-r-normal--0-0-0-0-p-0-iso10646-1
+MinionPro-Bold.otf -adobe-minion pro-bold-r-normal--0-0-0-0-p-0-iso8859-1
+MinionPro-Bold.otf -adobe-minion pro-bold-r-normal--0-0-0-0-p-0-iso8859-10
+MinionPro-Bold.otf -adobe-minion pro-bold-r-normal--0-0-0-0-p-0-iso8859-13
+MinionPro-Bold.otf -adobe-minion pro-bold-r-normal--0-0-0-0-p-0-iso8859-15
+MinionPro-Bold.otf -adobe-minion pro-bold-r-normal--0-0-0-0-p-0-iso8859-16
+MinionPro-Bold.otf -adobe-minion pro-bold-r-normal--0-0-0-0-p-0-iso8859-2
+MinionPro-Bold.otf -adobe-minion pro-bold-r-normal--0-0-0-0-p-0-iso8859-3
+MinionPro-Bold.otf -adobe-minion pro-bold-r-normal--0-0-0-0-p-0-iso8859-4
+MinionPro-Bold.otf -adobe-minion pro-bold-r-normal--0-0-0-0-p-0-iso8859-5
+MinionPro-Bold.otf -adobe-minion pro-bold-r-normal--0-0-0-0-p-0-iso8859-9
+MinionPro-Bold.otf -adobe-minion pro-bold-r-normal--0-0-0-0-p-0-koi8-e
+MinionPro-Bold.otf -adobe-minion pro-bold-r-normal--0-0-0-0-p-0-koi8-r
+MinionPro-Bold.otf -adobe-minion pro-bold-r-normal--0-0-0-0-p-0-koi8-ru
+MinionPro-Bold.otf -adobe-minion pro-bold-r-normal--0-0-0-0-p-0-koi8-u
+MinionPro-Bold.otf -adobe-minion pro-bold-r-normal--0-0-0-0-p-0-koi8-uni
+MinionPro-Bold.otf -adobe-minion pro-bold-r-normal--0-0-0-0-p-0-microsoft-cp1252
+MinionPro-BoldCn.otf -adobe-minion pro cond-bold-r-condensed--0-0-0-0-p-0-adobe-standard
+MinionPro-BoldCn.otf -adobe-minion pro cond-bold-r-condensed--0-0-0-0-p-0-ascii-0
+MinionPro-BoldCn.otf -adobe-minion pro cond-bold-r-condensed--0-0-0-0-p-0-iso10646-1
+MinionPro-BoldCn.otf -adobe-minion pro cond-bold-r-condensed--0-0-0-0-p-0-iso8859-1
+MinionPro-BoldCn.otf -adobe-minion pro cond-bold-r-condensed--0-0-0-0-p-0-iso8859-10
+MinionPro-BoldCn.otf -adobe-minion pro cond-bold-r-condensed--0-0-0-0-p-0-iso8859-13
+MinionPro-BoldCn.otf -adobe-minion pro cond-bold-r-condensed--0-0-0-0-p-0-iso8859-15
+MinionPro-BoldCn.otf -adobe-minion pro cond-bold-r-condensed--0-0-0-0-p-0-iso8859-16
+MinionPro-BoldCn.otf -adobe-minion pro cond-bold-r-condensed--0-0-0-0-p-0-iso8859-2
+MinionPro-BoldCn.otf -adobe-minion pro cond-bold-r-condensed--0-0-0-0-p-0-iso8859-3
+MinionPro-BoldCn.otf -adobe-minion pro cond-bold-r-condensed--0-0-0-0-p-0-iso8859-4
+MinionPro-BoldCn.otf -adobe-minion pro cond-bold-r-condensed--0-0-0-0-p-0-iso8859-5
+MinionPro-BoldCn.otf -adobe-minion pro cond-bold-r-condensed--0-0-0-0-p-0-iso8859-9
+MinionPro-BoldCn.otf -adobe-minion pro cond-bold-r-condensed--0-0-0-0-p-0-koi8-e
+MinionPro-BoldCn.otf -adobe-minion pro cond-bold-r-condensed--0-0-0-0-p-0-koi8-r
+MinionPro-BoldCn.otf -adobe-minion pro cond-bold-r-condensed--0-0-0-0-p-0-koi8-ru
+MinionPro-BoldCn.otf -adobe-minion pro cond-bold-r-condensed--0-0-0-0-p-0-koi8-u
+MinionPro-BoldCn.otf -adobe-minion pro cond-bold-r-condensed--0-0-0-0-p-0-koi8-uni
+MinionPro-BoldCn.otf -adobe-minion pro cond-bold-r-condensed--0-0-0-0-p-0-microsoft-cp1252
+MinionPro-BoldCnIt.otf -adobe-minion pro cond-bold-i-condensed--0-0-0-0-p-0-adobe-standard
+MinionPro-BoldCnIt.otf -adobe-minion pro cond-bold-i-condensed--0-0-0-0-p-0-ascii-0
+MinionPro-BoldCnIt.otf -adobe-minion pro cond-bold-i-condensed--0-0-0-0-p-0-iso10646-1
+MinionPro-BoldCnIt.otf -adobe-minion pro cond-bold-i-condensed--0-0-0-0-p-0-iso8859-1
+MinionPro-BoldCnIt.otf -adobe-minion pro cond-bold-i-condensed--0-0-0-0-p-0-iso8859-10
+MinionPro-BoldCnIt.otf -adobe-minion pro cond-bold-i-condensed--0-0-0-0-p-0-iso8859-13
+MinionPro-BoldCnIt.otf -adobe-minion pro cond-bold-i-condensed--0-0-0-0-p-0-iso8859-15
+MinionPro-BoldCnIt.otf -adobe-minion pro cond-bold-i-condensed--0-0-0-0-p-0-iso8859-16
+MinionPro-BoldCnIt.otf -adobe-minion pro cond-bold-i-condensed--0-0-0-0-p-0-iso8859-2
+MinionPro-BoldCnIt.otf -adobe-minion pro cond-bold-i-condensed--0-0-0-0-p-0-iso8859-3
+MinionPro-BoldCnIt.otf -adobe-minion pro cond-bold-i-condensed--0-0-0-0-p-0-iso8859-4
+MinionPro-BoldCnIt.otf -adobe-minion pro cond-bold-i-condensed--0-0-0-0-p-0-iso8859-5
+MinionPro-BoldCnIt.otf -adobe-minion pro cond-bold-i-condensed--0-0-0-0-p-0-iso8859-9
+MinionPro-BoldCnIt.otf -adobe-minion pro cond-bold-i-condensed--0-0-0-0-p-0-koi8-e
+MinionPro-BoldCnIt.otf -adobe-minion pro cond-bold-i-condensed--0-0-0-0-p-0-koi8-r
+MinionPro-BoldCnIt.otf -adobe-minion pro cond-bold-i-condensed--0-0-0-0-p-0-koi8-ru
+MinionPro-BoldCnIt.otf -adobe-minion pro cond-bold-i-condensed--0-0-0-0-p-0-koi8-u
+MinionPro-BoldCnIt.otf -adobe-minion pro cond-bold-i-condensed--0-0-0-0-p-0-koi8-uni
+MinionPro-BoldCnIt.otf -adobe-minion pro cond-bold-i-condensed--0-0-0-0-p-0-microsoft-cp1252
+MinionPro-BoldIt.otf -adobe-minion pro-bold-i-normal--0-0-0-0-p-0-adobe-standard
+MinionPro-BoldIt.otf -adobe-minion pro-bold-i-normal--0-0-0-0-p-0-ascii-0
+MinionPro-BoldIt.otf -adobe-minion pro-bold-i-normal--0-0-0-0-p-0-iso10646-1
+MinionPro-BoldIt.otf -adobe-minion pro-bold-i-normal--0-0-0-0-p-0-iso8859-1
+MinionPro-BoldIt.otf -adobe-minion pro-bold-i-normal--0-0-0-0-p-0-iso8859-10
+MinionPro-BoldIt.otf -adobe-minion pro-bold-i-normal--0-0-0-0-p-0-iso8859-13
+MinionPro-BoldIt.otf -adobe-minion pro-bold-i-normal--0-0-0-0-p-0-iso8859-15
+MinionPro-BoldIt.otf -adobe-minion pro-bold-i-normal--0-0-0-0-p-0-iso8859-16
+MinionPro-BoldIt.otf -adobe-minion pro-bold-i-normal--0-0-0-0-p-0-iso8859-2
+MinionPro-BoldIt.otf -adobe-minion pro-bold-i-normal--0-0-0-0-p-0-iso8859-3
+MinionPro-BoldIt.otf -adobe-minion pro-bold-i-normal--0-0-0-0-p-0-iso8859-4
+MinionPro-BoldIt.otf -adobe-minion pro-bold-i-normal--0-0-0-0-p-0-iso8859-5
+MinionPro-BoldIt.otf -adobe-minion pro-bold-i-normal--0-0-0-0-p-0-iso8859-9
+MinionPro-BoldIt.otf -adobe-minion pro-bold-i-normal--0-0-0-0-p-0-koi8-e
+MinionPro-BoldIt.otf -adobe-minion pro-bold-i-normal--0-0-0-0-p-0-koi8-r
+MinionPro-BoldIt.otf -adobe-minion pro-bold-i-normal--0-0-0-0-p-0-koi8-ru
+MinionPro-BoldIt.otf -adobe-minion pro-bold-i-normal--0-0-0-0-p-0-koi8-u
+MinionPro-BoldIt.otf -adobe-minion pro-bold-i-normal--0-0-0-0-p-0-koi8-uni
+MinionPro-BoldIt.otf -adobe-minion pro-bold-i-normal--0-0-0-0-p-0-microsoft-cp1252
+MinionPro-It.otf -adobe-minion pro-medium-i-normal--0-0-0-0-p-0-adobe-standard
+MinionPro-It.otf -adobe-minion pro-medium-i-normal--0-0-0-0-p-0-ascii-0
+MinionPro-It.otf -adobe-minion pro-medium-i-normal--0-0-0-0-p-0-iso10646-1
+MinionPro-It.otf -adobe-minion pro-medium-i-normal--0-0-0-0-p-0-iso8859-1
+MinionPro-It.otf -adobe-minion pro-medium-i-normal--0-0-0-0-p-0-iso8859-10
+MinionPro-It.otf -adobe-minion pro-medium-i-normal--0-0-0-0-p-0-iso8859-13
+MinionPro-It.otf -adobe-minion pro-medium-i-normal--0-0-0-0-p-0-iso8859-15
+MinionPro-It.otf -adobe-minion pro-medium-i-normal--0-0-0-0-p-0-iso8859-16
+MinionPro-It.otf -adobe-minion pro-medium-i-normal--0-0-0-0-p-0-iso8859-2
+MinionPro-It.otf -adobe-minion pro-medium-i-normal--0-0-0-0-p-0-iso8859-3
+MinionPro-It.otf -adobe-minion pro-medium-i-normal--0-0-0-0-p-0-iso8859-4
+MinionPro-It.otf -adobe-minion pro-medium-i-normal--0-0-0-0-p-0-iso8859-5
+MinionPro-It.otf -adobe-minion pro-medium-i-normal--0-0-0-0-p-0-iso8859-9
+MinionPro-It.otf -adobe-minion pro-medium-i-normal--0-0-0-0-p-0-koi8-e
+MinionPro-It.otf -adobe-minion pro-medium-i-normal--0-0-0-0-p-0-koi8-r
+MinionPro-It.otf -adobe-minion pro-medium-i-normal--0-0-0-0-p-0-koi8-ru
+MinionPro-It.otf -adobe-minion pro-medium-i-normal--0-0-0-0-p-0-koi8-u
+MinionPro-It.otf -adobe-minion pro-medium-i-normal--0-0-0-0-p-0-koi8-uni
+MinionPro-It.otf -adobe-minion pro-medium-i-normal--0-0-0-0-p-0-microsoft-cp1252
+MinionPro-Medium.otf -adobe-minion pro med-medium-r-normal--0-0-0-0-p-0-adobe-standard
+MinionPro-Medium.otf -adobe-minion pro med-medium-r-normal--0-0-0-0-p-0-ascii-0
+MinionPro-Medium.otf -adobe-minion pro med-medium-r-normal--0-0-0-0-p-0-iso10646-1
+MinionPro-Medium.otf -adobe-minion pro med-medium-r-normal--0-0-0-0-p-0-iso8859-1
+MinionPro-Medium.otf -adobe-minion pro med-medium-r-normal--0-0-0-0-p-0-iso8859-10
+MinionPro-Medium.otf -adobe-minion pro med-medium-r-normal--0-0-0-0-p-0-iso8859-13
+MinionPro-Medium.otf -adobe-minion pro med-medium-r-normal--0-0-0-0-p-0-iso8859-15
+MinionPro-Medium.otf -adobe-minion pro med-medium-r-normal--0-0-0-0-p-0-iso8859-16
+MinionPro-Medium.otf -adobe-minion pro med-medium-r-normal--0-0-0-0-p-0-iso8859-2
+MinionPro-Medium.otf -adobe-minion pro med-medium-r-normal--0-0-0-0-p-0-iso8859-3
+MinionPro-Medium.otf -adobe-minion pro med-medium-r-normal--0-0-0-0-p-0-iso8859-4
+MinionPro-Medium.otf -adobe-minion pro med-medium-r-normal--0-0-0-0-p-0-iso8859-5
+MinionPro-Medium.otf -adobe-minion pro med-medium-r-normal--0-0-0-0-p-0-iso8859-9
+MinionPro-Medium.otf -adobe-minion pro med-medium-r-normal--0-0-0-0-p-0-koi8-e
+MinionPro-Medium.otf -adobe-minion pro med-medium-r-normal--0-0-0-0-p-0-koi8-r
+MinionPro-Medium.otf -adobe-minion pro med-medium-r-normal--0-0-0-0-p-0-koi8-ru
+MinionPro-Medium.otf -adobe-minion pro med-medium-r-normal--0-0-0-0-p-0-koi8-u
+MinionPro-Medium.otf -adobe-minion pro med-medium-r-normal--0-0-0-0-p-0-koi8-uni
+MinionPro-Medium.otf -adobe-minion pro med-medium-r-normal--0-0-0-0-p-0-microsoft-cp1252
+MinionPro-MediumIt.otf -adobe-minion pro med-medium-i-normal--0-0-0-0-p-0-adobe-standard
+MinionPro-MediumIt.otf -adobe-minion pro med-medium-i-normal--0-0-0-0-p-0-ascii-0
+MinionPro-MediumIt.otf -adobe-minion pro med-medium-i-normal--0-0-0-0-p-0-iso10646-1
+MinionPro-MediumIt.otf -adobe-minion pro med-medium-i-normal--0-0-0-0-p-0-iso8859-1
+MinionPro-MediumIt.otf -adobe-minion pro med-medium-i-normal--0-0-0-0-p-0-iso8859-10
+MinionPro-MediumIt.otf -adobe-minion pro med-medium-i-normal--0-0-0-0-p-0-iso8859-13
+MinionPro-MediumIt.otf -adobe-minion pro med-medium-i-normal--0-0-0-0-p-0-iso8859-15
+MinionPro-MediumIt.otf -adobe-minion pro med-medium-i-normal--0-0-0-0-p-0-iso8859-16
+MinionPro-MediumIt.otf -adobe-minion pro med-medium-i-normal--0-0-0-0-p-0-iso8859-2
+MinionPro-MediumIt.otf -adobe-minion pro med-medium-i-normal--0-0-0-0-p-0-iso8859-3
+MinionPro-MediumIt.otf -adobe-minion pro med-medium-i-normal--0-0-0-0-p-0-iso8859-4
+MinionPro-MediumIt.otf -adobe-minion pro med-medium-i-normal--0-0-0-0-p-0-iso8859-5
+MinionPro-MediumIt.otf -adobe-minion pro med-medium-i-normal--0-0-0-0-p-0-iso8859-9
+MinionPro-MediumIt.otf -adobe-minion pro med-medium-i-normal--0-0-0-0-p-0-koi8-e
+MinionPro-MediumIt.otf -adobe-minion pro med-medium-i-normal--0-0-0-0-p-0-koi8-r
+MinionPro-MediumIt.otf -adobe-minion pro med-medium-i-normal--0-0-0-0-p-0-koi8-ru
+MinionPro-MediumIt.otf -adobe-minion pro med-medium-i-normal--0-0-0-0-p-0-koi8-u
+MinionPro-MediumIt.otf -adobe-minion pro med-medium-i-normal--0-0-0-0-p-0-koi8-uni
+MinionPro-MediumIt.otf -adobe-minion pro med-medium-i-normal--0-0-0-0-p-0-microsoft-cp1252
+MinionPro-Regular.otf -adobe-minion pro-medium-r-normal--0-0-0-0-p-0-adobe-standard
+MinionPro-Regular.otf -adobe-minion pro-medium-r-normal--0-0-0-0-p-0-ascii-0
+MinionPro-Regular.otf -adobe-minion pro-medium-r-normal--0-0-0-0-p-0-iso10646-1
+MinionPro-Regular.otf -adobe-minion pro-medium-r-normal--0-0-0-0-p-0-iso8859-1
+MinionPro-Regular.otf -adobe-minion pro-medium-r-normal--0-0-0-0-p-0-iso8859-10
+MinionPro-Regular.otf -adobe-minion pro-medium-r-normal--0-0-0-0-p-0-iso8859-13
+MinionPro-Regular.otf -adobe-minion pro-medium-r-normal--0-0-0-0-p-0-iso8859-15
+MinionPro-Regular.otf -adobe-minion pro-medium-r-normal--0-0-0-0-p-0-iso8859-16
+MinionPro-Regular.otf -adobe-minion pro-medium-r-normal--0-0-0-0-p-0-iso8859-2
+MinionPro-Regular.otf -adobe-minion pro-medium-r-normal--0-0-0-0-p-0-iso8859-3
+MinionPro-Regular.otf -adobe-minion pro-medium-r-normal--0-0-0-0-p-0-iso8859-4
+MinionPro-Regular.otf -adobe-minion pro-medium-r-normal--0-0-0-0-p-0-iso8859-5
+MinionPro-Regular.otf -adobe-minion pro-medium-r-normal--0-0-0-0-p-0-iso8859-9
+MinionPro-Regular.otf -adobe-minion pro-medium-r-normal--0-0-0-0-p-0-koi8-e
+MinionPro-Regular.otf -adobe-minion pro-medium-r-normal--0-0-0-0-p-0-koi8-r
+MinionPro-Regular.otf -adobe-minion pro-medium-r-normal--0-0-0-0-p-0-koi8-ru
+MinionPro-Regular.otf -adobe-minion pro-medium-r-normal--0-0-0-0-p-0-koi8-u
+MinionPro-Regular.otf -adobe-minion pro-medium-r-normal--0-0-0-0-p-0-koi8-uni
+MinionPro-Regular.otf -adobe-minion pro-medium-r-normal--0-0-0-0-p-0-microsoft-cp1252
+MinionPro-Semibold.otf -adobe-minion pro smbd-semibold-r-normal--0-0-0-0-p-0-adobe-standard
+MinionPro-Semibold.otf -adobe-minion pro smbd-semibold-r-normal--0-0-0-0-p-0-ascii-0
+MinionPro-Semibold.otf -adobe-minion pro smbd-semibold-r-normal--0-0-0-0-p-0-iso10646-1
+MinionPro-Semibold.otf -adobe-minion pro smbd-semibold-r-normal--0-0-0-0-p-0-iso8859-1
+MinionPro-Semibold.otf -adobe-minion pro smbd-semibold-r-normal--0-0-0-0-p-0-iso8859-10
+MinionPro-Semibold.otf -adobe-minion pro smbd-semibold-r-normal--0-0-0-0-p-0-iso8859-13
+MinionPro-Semibold.otf -adobe-minion pro smbd-semibold-r-normal--0-0-0-0-p-0-iso8859-15
+MinionPro-Semibold.otf -adobe-minion pro smbd-semibold-r-normal--0-0-0-0-p-0-iso8859-16
+MinionPro-Semibold.otf -adobe-minion pro smbd-semibold-r-normal--0-0-0-0-p-0-iso8859-2
+MinionPro-Semibold.otf -adobe-minion pro smbd-semibold-r-normal--0-0-0-0-p-0-iso8859-3
+MinionPro-Semibold.otf -adobe-minion pro smbd-semibold-r-normal--0-0-0-0-p-0-iso8859-4
+MinionPro-Semibold.otf -adobe-minion pro smbd-semibold-r-normal--0-0-0-0-p-0-iso8859-5
+MinionPro-Semibold.otf -adobe-minion pro smbd-semibold-r-normal--0-0-0-0-p-0-iso8859-9
+MinionPro-Semibold.otf -adobe-minion pro smbd-semibold-r-normal--0-0-0-0-p-0-koi8-e
+MinionPro-Semibold.otf -adobe-minion pro smbd-semibold-r-normal--0-0-0-0-p-0-koi8-r
+MinionPro-Semibold.otf -adobe-minion pro smbd-semibold-r-normal--0-0-0-0-p-0-koi8-ru
+MinionPro-Semibold.otf -adobe-minion pro smbd-semibold-r-normal--0-0-0-0-p-0-koi8-u
+MinionPro-Semibold.otf -adobe-minion pro smbd-semibold-r-normal--0-0-0-0-p-0-koi8-uni
+MinionPro-Semibold.otf -adobe-minion pro smbd-semibold-r-normal--0-0-0-0-p-0-microsoft-cp1252
+MinionPro-SemiboldIt.otf -adobe-minion pro smbd-semibold-i-normal--0-0-0-0-p-0-adobe-standard
+MinionPro-SemiboldIt.otf -adobe-minion pro smbd-semibold-i-normal--0-0-0-0-p-0-ascii-0
+MinionPro-SemiboldIt.otf -adobe-minion pro smbd-semibold-i-normal--0-0-0-0-p-0-iso10646-1
+MinionPro-SemiboldIt.otf -adobe-minion pro smbd-semibold-i-normal--0-0-0-0-p-0-iso8859-1
+MinionPro-SemiboldIt.otf -adobe-minion pro smbd-semibold-i-normal--0-0-0-0-p-0-iso8859-10
+MinionPro-SemiboldIt.otf -adobe-minion pro smbd-semibold-i-normal--0-0-0-0-p-0-iso8859-13
+MinionPro-SemiboldIt.otf -adobe-minion pro smbd-semibold-i-normal--0-0-0-0-p-0-iso8859-15
+MinionPro-SemiboldIt.otf -adobe-minion pro smbd-semibold-i-normal--0-0-0-0-p-0-iso8859-16
+MinionPro-SemiboldIt.otf -adobe-minion pro smbd-semibold-i-normal--0-0-0-0-p-0-iso8859-2
+MinionPro-SemiboldIt.otf -adobe-minion pro smbd-semibold-i-normal--0-0-0-0-p-0-iso8859-3
+MinionPro-SemiboldIt.otf -adobe-minion pro smbd-semibold-i-normal--0-0-0-0-p-0-iso8859-4
+MinionPro-SemiboldIt.otf -adobe-minion pro smbd-semibold-i-normal--0-0-0-0-p-0-iso8859-5
+MinionPro-SemiboldIt.otf -adobe-minion pro smbd-semibold-i-normal--0-0-0-0-p-0-iso8859-9
+MinionPro-SemiboldIt.otf -adobe-minion pro smbd-semibold-i-normal--0-0-0-0-p-0-koi8-e
+MinionPro-SemiboldIt.otf -adobe-minion pro smbd-semibold-i-normal--0-0-0-0-p-0-koi8-r
+MinionPro-SemiboldIt.otf -adobe-minion pro smbd-semibold-i-normal--0-0-0-0-p-0-koi8-ru
+MinionPro-SemiboldIt.otf -adobe-minion pro smbd-semibold-i-normal--0-0-0-0-p-0-koi8-u
+MinionPro-SemiboldIt.otf -adobe-minion pro smbd-semibold-i-normal--0-0-0-0-p-0-koi8-uni
+MinionPro-SemiboldIt.otf -adobe-minion pro smbd-semibold-i-normal--0-0-0-0-p-0-microsoft-cp1252
 Monofur Bold for Powerline.ttf -misc-monofur for powerline-bold-r-normal--0-0-0-0-p-0-adobe-standard
 Monofur Bold for Powerline.ttf -misc-monofur for powerline-bold-r-normal--0-0-0-0-p-0-ascii-0
 Monofur Bold for Powerline.ttf -misc-monofur for powerline-bold-r-normal--0-0-0-0-p-0-ibm-cp437
@@ -1355,6 +2494,15 @@ MyriadPro-Regular.otf -adobe-myriad pro-medium-r-normal--0-0-0-0-p-0-koi8-ru
 MyriadPro-Regular.otf -adobe-myriad pro-medium-r-normal--0-0-0-0-p-0-koi8-u
 MyriadPro-Regular.otf -adobe-myriad pro-medium-r-normal--0-0-0-0-p-0-koi8-uni
 MyriadPro-Regular.otf -adobe-myriad pro-medium-r-normal--0-0-0-0-p-0-microsoft-cp1252
+Nike Bureau.otf -misc-nike bureau-medium-r-normal--0-0-0-0-p-0-ascii-0
+Nike Bureau.otf -misc-nike bureau-medium-r-normal--0-0-0-0-p-0-iso10646-1
+Nike Bureau.otf -misc-nike bureau-medium-r-normal--0-0-0-0-p-0-iso8859-1
+Nike Combat Stencil.ttf -misc-nike combat stencil-medium-r-normal--0-0-0-0-p-0-ascii-0
+Nike Combat Stencil.ttf -misc-nike combat stencil-medium-r-normal--0-0-0-0-p-0-iso10646-1
+Nike Combat Stencil.ttf -misc-nike combat stencil-medium-r-normal--0-0-0-0-p-0-iso8859-1
+Nike Soccer 2016.otf -misc-nike soccer 2016-medium-r-normal--0-0-0-0-p-0-ascii-0
+Nike Soccer 2016.otf -misc-nike soccer 2016-medium-r-normal--0-0-0-0-p-0-iso10646-1
+Nike Soccer 2016.otf -misc-nike soccer 2016-medium-r-normal--0-0-0-0-p-0-iso8859-1
 OpenSans-Bold.ttf -misc-open sans-bold-r-normal--0-0-0-0-p-0-adobe-standard
 OpenSans-Bold.ttf -misc-open sans-bold-r-normal--0-0-0-0-p-0-ascii-0
 OpenSans-Bold.ttf -misc-open sans-bold-r-normal--0-0-0-0-p-0-iso10646-1
@@ -1553,6 +2701,9 @@ Orbitron Light.otf -misc-orbitron-light-r-normal--0-0-0-0-p-0-adobe-fontspecific
 Orbitron Light.otf -misc-orbitron-light-r-normal--0-0-0-0-p-0-iso10646-1
 Orbitron Medium.otf -misc-orbitron-medium-r-normal--0-0-0-0-p-0-adobe-fontspecific
 Orbitron Medium.otf -misc-orbitron-medium-r-normal--0-0-0-0-p-0-iso10646-1
+Pro Full Block.otf -misc-pro full block-medium-r-normal--0-0-0-0-p-0-ascii-0
+Pro Full Block.otf -misc-pro full block-medium-r-normal--0-0-0-0-p-0-iso10646-1
+Pro Full Block.otf -misc-pro full block-medium-r-normal--0-0-0-0-p-0-iso8859-1
 Pullman.otf -misc-pullman-medium-r-normal--0-0-0-0-p-0-ascii-0
 Pullman.otf -misc-pullman-medium-r-normal--0-0-0-0-p-0-iso10646-1
 Pullman.otf -misc-pullman-medium-r-normal--0-0-0-0-p-0-iso8859-1
@@ -1588,6 +2739,9 @@ Raleway-Thin.ttf -misc-raleway-thin-r-normal--0-0-0-0-p-0-iso10646-1
 Raleway-Thin.ttf -misc-raleway-thin-r-normal--0-0-0-0-p-0-iso8859-10
 Raleway-Thin.ttf -misc-raleway-thin-r-normal--0-0-0-0-p-0-iso8859-15
 Raleway-Thin.ttf -misc-raleway-thin-r-normal--0-0-0-0-p-0-iso8859-16
+Red Zone.otf -misc-red zone-medium-r-normal--0-0-0-0-p-0-ascii-0
+Red Zone.otf -misc-red zone-medium-r-normal--0-0-0-0-p-0-iso10646-1
+Red Zone.otf -misc-red zone-medium-r-normal--0-0-0-0-p-0-iso8859-1
 Satellite-Oblique.otf -adobe-satellite-medium-o-normal--0-0-0-0-p-0-adobe-fontspecific
 Satellite-Oblique.otf -adobe-satellite-medium-o-normal--0-0-0-0-p-0-iso10646-1
 Satellite.otf -adobe-satellite-medium-r-normal--0-0-0-0-p-0-adobe-fontspecific
@@ -1680,6 +2834,16 @@ SourceSansPro-Black.ttf -adobe-source sans pro black-black-r-normal--0-0-0-0-p-0
 SourceSansPro-Black.ttf -adobe-source sans pro black-black-r-normal--0-0-0-0-p-0-iso8859-3
 SourceSansPro-Black.ttf -adobe-source sans pro black-black-r-normal--0-0-0-0-p-0-iso8859-9
 SourceSansPro-Black.ttf -adobe-source sans pro black-black-r-normal--0-0-0-0-p-0-microsoft-cp1252
+SourceSansPro-BlackIt.otf -adobe-source sans pro black-black-i-normal--0-0-0-0-p-0-ascii-0
+SourceSansPro-BlackIt.otf -adobe-source sans pro black-black-i-normal--0-0-0-0-p-0-iso10646-1
+SourceSansPro-BlackIt.otf -adobe-source sans pro black-black-i-normal--0-0-0-0-p-0-iso8859-1
+SourceSansPro-BlackIt.otf -adobe-source sans pro black-black-i-normal--0-0-0-0-p-0-iso8859-13
+SourceSansPro-BlackIt.otf -adobe-source sans pro black-black-i-normal--0-0-0-0-p-0-iso8859-15
+SourceSansPro-BlackIt.otf -adobe-source sans pro black-black-i-normal--0-0-0-0-p-0-iso8859-16
+SourceSansPro-BlackIt.otf -adobe-source sans pro black-black-i-normal--0-0-0-0-p-0-iso8859-2
+SourceSansPro-BlackIt.otf -adobe-source sans pro black-black-i-normal--0-0-0-0-p-0-iso8859-3
+SourceSansPro-BlackIt.otf -adobe-source sans pro black-black-i-normal--0-0-0-0-p-0-iso8859-9
+SourceSansPro-BlackIt.otf -adobe-source sans pro black-black-i-normal--0-0-0-0-p-0-microsoft-cp1252
 SourceSansPro-Bold.ttf -adobe-source sans pro-bold-r-normal--0-0-0-0-p-0-adobe-standard
 SourceSansPro-Bold.ttf -adobe-source sans pro-bold-r-normal--0-0-0-0-p-0-ascii-0
 SourceSansPro-Bold.ttf -adobe-source sans pro-bold-r-normal--0-0-0-0-p-0-iso10646-1
@@ -1691,6 +2855,36 @@ SourceSansPro-Bold.ttf -adobe-source sans pro-bold-r-normal--0-0-0-0-p-0-iso8859
 SourceSansPro-Bold.ttf -adobe-source sans pro-bold-r-normal--0-0-0-0-p-0-iso8859-3
 SourceSansPro-Bold.ttf -adobe-source sans pro-bold-r-normal--0-0-0-0-p-0-iso8859-9
 SourceSansPro-Bold.ttf -adobe-source sans pro-bold-r-normal--0-0-0-0-p-0-microsoft-cp1252
+SourceSansPro-BoldIt.otf -adobe-source sans pro-bold-i-normal--0-0-0-0-p-0-ascii-0
+SourceSansPro-BoldIt.otf -adobe-source sans pro-bold-i-normal--0-0-0-0-p-0-iso10646-1
+SourceSansPro-BoldIt.otf -adobe-source sans pro-bold-i-normal--0-0-0-0-p-0-iso8859-1
+SourceSansPro-BoldIt.otf -adobe-source sans pro-bold-i-normal--0-0-0-0-p-0-iso8859-13
+SourceSansPro-BoldIt.otf -adobe-source sans pro-bold-i-normal--0-0-0-0-p-0-iso8859-15
+SourceSansPro-BoldIt.otf -adobe-source sans pro-bold-i-normal--0-0-0-0-p-0-iso8859-16
+SourceSansPro-BoldIt.otf -adobe-source sans pro-bold-i-normal--0-0-0-0-p-0-iso8859-2
+SourceSansPro-BoldIt.otf -adobe-source sans pro-bold-i-normal--0-0-0-0-p-0-iso8859-3
+SourceSansPro-BoldIt.otf -adobe-source sans pro-bold-i-normal--0-0-0-0-p-0-iso8859-9
+SourceSansPro-BoldIt.otf -adobe-source sans pro-bold-i-normal--0-0-0-0-p-0-microsoft-cp1252
+SourceSansPro-ExtraLight.otf -adobe-source sans pro extralight-extralight-r-normal--0-0-0-0-p-0-ascii-0
+SourceSansPro-ExtraLight.otf -adobe-source sans pro extralight-extralight-r-normal--0-0-0-0-p-0-iso10646-1
+SourceSansPro-ExtraLight.otf -adobe-source sans pro extralight-extralight-r-normal--0-0-0-0-p-0-iso8859-1
+SourceSansPro-ExtraLight.otf -adobe-source sans pro extralight-extralight-r-normal--0-0-0-0-p-0-iso8859-13
+SourceSansPro-ExtraLight.otf -adobe-source sans pro extralight-extralight-r-normal--0-0-0-0-p-0-iso8859-15
+SourceSansPro-ExtraLight.otf -adobe-source sans pro extralight-extralight-r-normal--0-0-0-0-p-0-iso8859-16
+SourceSansPro-ExtraLight.otf -adobe-source sans pro extralight-extralight-r-normal--0-0-0-0-p-0-iso8859-2
+SourceSansPro-ExtraLight.otf -adobe-source sans pro extralight-extralight-r-normal--0-0-0-0-p-0-iso8859-3
+SourceSansPro-ExtraLight.otf -adobe-source sans pro extralight-extralight-r-normal--0-0-0-0-p-0-iso8859-9
+SourceSansPro-ExtraLight.otf -adobe-source sans pro extralight-extralight-r-normal--0-0-0-0-p-0-microsoft-cp1252
+SourceSansPro-ExtraLightIt.otf -adobe-source sans pro extralight-extralight-i-normal--0-0-0-0-p-0-ascii-0
+SourceSansPro-ExtraLightIt.otf -adobe-source sans pro extralight-extralight-i-normal--0-0-0-0-p-0-iso10646-1
+SourceSansPro-ExtraLightIt.otf -adobe-source sans pro extralight-extralight-i-normal--0-0-0-0-p-0-iso8859-1
+SourceSansPro-ExtraLightIt.otf -adobe-source sans pro extralight-extralight-i-normal--0-0-0-0-p-0-iso8859-13
+SourceSansPro-ExtraLightIt.otf -adobe-source sans pro extralight-extralight-i-normal--0-0-0-0-p-0-iso8859-15
+SourceSansPro-ExtraLightIt.otf -adobe-source sans pro extralight-extralight-i-normal--0-0-0-0-p-0-iso8859-16
+SourceSansPro-ExtraLightIt.otf -adobe-source sans pro extralight-extralight-i-normal--0-0-0-0-p-0-iso8859-2
+SourceSansPro-ExtraLightIt.otf -adobe-source sans pro extralight-extralight-i-normal--0-0-0-0-p-0-iso8859-3
+SourceSansPro-ExtraLightIt.otf -adobe-source sans pro extralight-extralight-i-normal--0-0-0-0-p-0-iso8859-9
+SourceSansPro-ExtraLightIt.otf -adobe-source sans pro extralight-extralight-i-normal--0-0-0-0-p-0-microsoft-cp1252
 SourceSansPro-Italic.ttf -adobe-source sans pro-medium-i-normal--0-0-0-0-p-0-adobe-standard
 SourceSansPro-Italic.ttf -adobe-source sans pro-medium-i-normal--0-0-0-0-p-0-ascii-0
 SourceSansPro-Italic.ttf -adobe-source sans pro-medium-i-normal--0-0-0-0-p-0-iso10646-1
@@ -1702,6 +2896,26 @@ SourceSansPro-Italic.ttf -adobe-source sans pro-medium-i-normal--0-0-0-0-p-0-iso
 SourceSansPro-Italic.ttf -adobe-source sans pro-medium-i-normal--0-0-0-0-p-0-iso8859-3
 SourceSansPro-Italic.ttf -adobe-source sans pro-medium-i-normal--0-0-0-0-p-0-iso8859-9
 SourceSansPro-Italic.ttf -adobe-source sans pro-medium-i-normal--0-0-0-0-p-0-microsoft-cp1252
+SourceSansPro-Light.otf -adobe-source sans pro light-light-r-normal--0-0-0-0-p-0-ascii-0
+SourceSansPro-Light.otf -adobe-source sans pro light-light-r-normal--0-0-0-0-p-0-iso10646-1
+SourceSansPro-Light.otf -adobe-source sans pro light-light-r-normal--0-0-0-0-p-0-iso8859-1
+SourceSansPro-Light.otf -adobe-source sans pro light-light-r-normal--0-0-0-0-p-0-iso8859-13
+SourceSansPro-Light.otf -adobe-source sans pro light-light-r-normal--0-0-0-0-p-0-iso8859-15
+SourceSansPro-Light.otf -adobe-source sans pro light-light-r-normal--0-0-0-0-p-0-iso8859-16
+SourceSansPro-Light.otf -adobe-source sans pro light-light-r-normal--0-0-0-0-p-0-iso8859-2
+SourceSansPro-Light.otf -adobe-source sans pro light-light-r-normal--0-0-0-0-p-0-iso8859-3
+SourceSansPro-Light.otf -adobe-source sans pro light-light-r-normal--0-0-0-0-p-0-iso8859-9
+SourceSansPro-Light.otf -adobe-source sans pro light-light-r-normal--0-0-0-0-p-0-microsoft-cp1252
+SourceSansPro-LightIt.otf -adobe-source sans pro light-light-i-normal--0-0-0-0-p-0-ascii-0
+SourceSansPro-LightIt.otf -adobe-source sans pro light-light-i-normal--0-0-0-0-p-0-iso10646-1
+SourceSansPro-LightIt.otf -adobe-source sans pro light-light-i-normal--0-0-0-0-p-0-iso8859-1
+SourceSansPro-LightIt.otf -adobe-source sans pro light-light-i-normal--0-0-0-0-p-0-iso8859-13
+SourceSansPro-LightIt.otf -adobe-source sans pro light-light-i-normal--0-0-0-0-p-0-iso8859-15
+SourceSansPro-LightIt.otf -adobe-source sans pro light-light-i-normal--0-0-0-0-p-0-iso8859-16
+SourceSansPro-LightIt.otf -adobe-source sans pro light-light-i-normal--0-0-0-0-p-0-iso8859-2
+SourceSansPro-LightIt.otf -adobe-source sans pro light-light-i-normal--0-0-0-0-p-0-iso8859-3
+SourceSansPro-LightIt.otf -adobe-source sans pro light-light-i-normal--0-0-0-0-p-0-iso8859-9
+SourceSansPro-LightIt.otf -adobe-source sans pro light-light-i-normal--0-0-0-0-p-0-microsoft-cp1252
 SourceSansPro-Regular.ttf -adobe-source sans pro-medium-r-normal--0-0-0-0-p-0-adobe-standard
 SourceSansPro-Regular.ttf -adobe-source sans pro-medium-r-normal--0-0-0-0-p-0-ascii-0
 SourceSansPro-Regular.ttf -adobe-source sans pro-medium-r-normal--0-0-0-0-p-0-iso10646-1
@@ -1724,17 +2938,36 @@ SourceSansPro-Semibold.ttf -adobe-source sans pro semibold-semibold-r-normal--0-
 SourceSansPro-Semibold.ttf -adobe-source sans pro semibold-semibold-r-normal--0-0-0-0-p-0-iso8859-3
 SourceSansPro-Semibold.ttf -adobe-source sans pro semibold-semibold-r-normal--0-0-0-0-p-0-iso8859-9
 SourceSansPro-Semibold.ttf -adobe-source sans pro semibold-semibold-r-normal--0-0-0-0-p-0-microsoft-cp1252
+SourceSansPro-SemiboldIt.otf -adobe-source sans pro semibold-semibold-i-normal--0-0-0-0-p-0-ascii-0
+SourceSansPro-SemiboldIt.otf -adobe-source sans pro semibold-semibold-i-normal--0-0-0-0-p-0-iso10646-1
+SourceSansPro-SemiboldIt.otf -adobe-source sans pro semibold-semibold-i-normal--0-0-0-0-p-0-iso8859-1
+SourceSansPro-SemiboldIt.otf -adobe-source sans pro semibold-semibold-i-normal--0-0-0-0-p-0-iso8859-13
+SourceSansPro-SemiboldIt.otf -adobe-source sans pro semibold-semibold-i-normal--0-0-0-0-p-0-iso8859-15
+SourceSansPro-SemiboldIt.otf -adobe-source sans pro semibold-semibold-i-normal--0-0-0-0-p-0-iso8859-16
+SourceSansPro-SemiboldIt.otf -adobe-source sans pro semibold-semibold-i-normal--0-0-0-0-p-0-iso8859-2
+SourceSansPro-SemiboldIt.otf -adobe-source sans pro semibold-semibold-i-normal--0-0-0-0-p-0-iso8859-3
+SourceSansPro-SemiboldIt.otf -adobe-source sans pro semibold-semibold-i-normal--0-0-0-0-p-0-iso8859-9
+SourceSansPro-SemiboldIt.otf -adobe-source sans pro semibold-semibold-i-normal--0-0-0-0-p-0-microsoft-cp1252
 Stillwater Highlight.otf -misc-stillwater highlight-medium-r-normal--0-0-0-0-p-0-ascii-0
 Stillwater Highlight.otf -misc-stillwater highlight-medium-r-normal--0-0-0-0-p-0-iso10646-1
 Stillwater Highlight.otf -misc-stillwater highlight-medium-r-normal--0-0-0-0-p-0-iso8859-1
 Stillwater.otf -misc-stillwater-medium-r-normal--0-0-0-0-p-0-ascii-0
 Stillwater.otf -misc-stillwater-medium-r-normal--0-0-0-0-p-0-iso10646-1
 Stillwater.otf -misc-stillwater-medium-r-normal--0-0-0-0-p-0-iso8859-1
+Thornaby.otf -misc-thornaby-medium-r-normal--0-0-0-0-p-0-ascii-0
+Thornaby.otf -misc-thornaby-medium-r-normal--0-0-0-0-p-0-iso10646-1
+Thornaby.otf -misc-thornaby-medium-r-normal--0-0-0-0-p-0-iso8859-1
+Timão Terceiro 2016.otf -misc-tim o terceiro 2016-medium-r-normal--0-0-0-0-p-0-ascii-0
+Timão Terceiro 2016.otf -misc-tim o terceiro 2016-medium-r-normal--0-0-0-0-p-0-iso10646-1
+Timão Terceiro 2016.otf -misc-tim o terceiro 2016-medium-r-normal--0-0-0-0-p-0-iso8859-1
 Trajan Bold.ttf -macromedia-trajan-medium-r-normal--0-0-0-0-p-0-iso10646-1
 Trajan-Roman.otf -misc-trajan-medium-r-normal--0-0-0-0-p-0-adobe-fontspecific
 Trajan-Roman.otf -misc-trajan-medium-r-normal--0-0-0-0-p-0-iso10646-1
 Trajan-Slanted.otf -misc-trajan-medium-o-normal--0-0-0-0-p-0-adobe-fontspecific
 Trajan-Slanted.otf -misc-trajan-medium-o-normal--0-0-0-0-p-0-iso10646-1
+USSF 90 Minutes Kit.otf -misc-ussf 90 minutes kit-medium-r-normal--0-0-0-0-p-0-ascii-0
+USSF 90 Minutes Kit.otf -misc-ussf 90 minutes kit-medium-r-normal--0-0-0-0-p-0-iso10646-1
+USSF 90 Minutes Kit.otf -misc-ussf 90 minutes kit-medium-r-normal--0-0-0-0-p-0-iso8859-1
 Ubuntu Mono derivative Powerline Bold Italic.ttf -misc-ubuntu mono derivative powerline-bold-i-normal--0-0-0-0-m-0-adobe-standard
 Ubuntu Mono derivative Powerline Bold Italic.ttf -misc-ubuntu mono derivative powerline-bold-i-normal--0-0-0-0-m-0-ascii-0
 Ubuntu Mono derivative Powerline Bold Italic.ttf -misc-ubuntu mono derivative powerline-bold-i-normal--0-0-0-0-m-0-iso10646-1
@@ -1811,6 +3044,9 @@ Ubuntu Mono derivative Powerline.ttf -misc-ubuntu mono derivative powerline-medi
 Ubuntu Mono derivative Powerline.ttf -misc-ubuntu mono derivative powerline-medium-r-normal--0-0-0-0-m-0-koi8-u
 Ubuntu Mono derivative Powerline.ttf -misc-ubuntu mono derivative powerline-medium-r-normal--0-0-0-0-m-0-koi8-uni
 Ubuntu Mono derivative Powerline.ttf -misc-ubuntu mono derivative powerline-medium-r-normal--0-0-0-0-m-0-microsoft-cp1252
+Unconquered.otf -misc-unconquered-medium-r-normal--0-0-0-0-p-0-ascii-0
+Unconquered.otf -misc-unconquered-medium-r-normal--0-0-0-0-p-0-iso10646-1
+Unconquered.otf -misc-unconquered-medium-r-normal--0-0-0-0-p-0-iso8859-1
 UnitedSansCond-Bold.otf -misc-united sans cd bd-semibold-r-normal--0-0-0-0-p-0-adobe-fontspecific
 UnitedSansCond-Bold.otf -misc-united sans cd bd-semibold-r-normal--0-0-0-0-p-0-iso10646-1
 Utes.otf -misc-utes-medium-r-normal--0-0-0-0-p-0-ascii-0
@@ -1840,10 +3076,19 @@ VeraMono.ttf -bitstream-bitstream vera sans mono-medium-r-normal--0-0-0-0-m-0-is
 VeraMono.ttf -bitstream-bitstream vera sans mono-medium-r-normal--0-0-0-0-m-0-iso8859-15
 VeraMono.ttf -bitstream-bitstream vera sans mono-medium-r-normal--0-0-0-0-m-0-iso8859-9
 VeraMono.ttf -bitstream-bitstream vera sans mono-medium-r-normal--0-0-0-0-m-0-microsoft-cp1252
+White Hart Lane.otf -misc-white hart lane-medium-r-normal--0-0-0-0-p-0-ascii-0
+White Hart Lane.otf -misc-white hart lane-medium-r-normal--0-0-0-0-p-0-iso10646-1
+White Hart Lane.otf -misc-white hart lane-medium-r-normal--0-0-0-0-p-0-iso8859-1
 Zag Bold.otf -misc-zag bold-bold-r-normal--0-0-0-0-p-0-adobe-fontspecific
 Zag Bold.otf -misc-zag bold-bold-r-normal--0-0-0-0-p-0-iso10646-1
 Zag Regular.otf -misc-zag regular-medium-r-normal--0-0-0-0-p-0-adobe-fontspecific
 Zag Regular.otf -misc-zag regular-medium-r-normal--0-0-0-0-p-0-iso10646-1
+achtzehn99 2016.otf -misc-achtzehn99 2016-medium-r-normal--0-0-0-0-p-0-ascii-0
+achtzehn99 2016.otf -misc-achtzehn99 2016-medium-r-normal--0-0-0-0-p-0-iso10646-1
+achtzehn99 2016.otf -misc-achtzehn99 2016-medium-r-normal--0-0-0-0-p-0-iso8859-1
+blair_itc_medium1.ttf -itc-blair itc-medium-r-normal--0-0-0-0-p-0-ascii-0
+blair_itc_medium1.ttf -itc-blair itc-medium-r-normal--0-0-0-0-p-0-iso10646-1
+blair_itc_medium1.ttf -itc-blair itc-medium-r-normal--0-0-0-0-p-0-iso8859-1
 daniel.ttf -misc-daniel-medium-r-normal--0-0-0-0-p-0-iso10646-1
 danielbd.ttf -misc-daniel-bold-r-normal--0-0-0-0-p-0-iso10646-1
 elementaryos_icon_font.ttf -misc-econ-medium-r-normal--0-0-0-0-p-0-iso10646-1
@@ -1852,6 +3097,7 @@ estre.ttf -misc-estrangelo edessa-medium-r-normal--0-0-0-0-p-0-iso10646-1
 estre.ttf -misc-estrangelo edessa-medium-r-normal--0-0-0-0-p-0-iso8859-1
 estre.ttf -misc-estrangelo edessa-medium-r-normal--0-0-0-0-p-0-iso8859-15
 estre.ttf -misc-estrangelo edessa-medium-r-normal--0-0-0-0-p-0-microsoft-cp1252
+glyphicons-halflings-regular.ttf -misc-glyphicons halflings-medium-r-normal--0-0-0-0-p-0-iso10646-1
 helen_pro_bold-webfont.ttf -misc-helen pro-bold-r-normal--0-0-0-0-p-0-adobe-standard
 helen_pro_bold-webfont.ttf -misc-helen pro-bold-r-normal--0-0-0-0-p-0-iso10646-1
 helen_pro_bold-webfont.ttf -misc-helen pro-bold-r-normal--0-0-0-0-p-0-iso8859-10
@@ -1939,6 +3185,11 @@ mrporter-logofont.ttf -monotype-sackers gothic w01 heavy-medium-r-normal--0-0-0-
 mrporter-webfont.ttf -misc-mr porter-medium-r-normal--0-0-0-0-p-0-ascii-0
 mrporter-webfont.ttf -misc-mr porter-medium-r-normal--0-0-0-0-p-0-iso10646-1
 mrporter-webfont.ttf -misc-mr porter-medium-r-normal--0-0-0-0-p-0-iso8859-1
+nike risk everything.ttf -misc-nike risk everything-medium-r-normal--0-0-0-0-p-0-ascii-0
+nike risk everything.ttf -misc-nike risk everything-medium-r-normal--0-0-0-0-p-0-iso10646-1
+nike risk everything.ttf -misc-nike risk everything-medium-r-normal--0-0-0-0-p-0-iso8859-1
+norwester.otf -misc-norwester-medium-r-condensed--0-0-0-0-p-0-adobe-fontspecific
+norwester.otf -misc-norwester-medium-r-condensed--0-0-0-0-p-0-iso10646-1
 uming.ttc -misc-ar pl uming cn-light-r-normal--0-0-0-0-p-0-ascii-0
 uming.ttc -misc-ar pl uming cn-light-r-normal--0-0-0-0-p-0-cns11643-1
 uming.ttc -misc-ar pl uming cn-light-r-normal--0-0-0-0-p-0-cns11643-2

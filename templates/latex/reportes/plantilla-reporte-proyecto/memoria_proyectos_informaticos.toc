@@ -1,0 +1,13 @@
+\select@language {spanish}
+\contentsline {chapter}{\numberline {1}Introducci\'on}{3}
+\contentsline {chapter}{\numberline {2}Estado actual del tema}{5}
+\contentsline {chapter}{\numberline {3}Metodolog\IeC {\"\i }\IeC {\textquestiondown }\IeC {\textonehalf }a}{7}
+\contentsline {chapter}{\numberline {4}Recursos necesarios}{9}
+\contentsline {chapter}{\numberline {5}Plan de trabajo y temporizaci\IeC {\"\i }\IeC {\textquestiondown }\IeC {\textonehalf }n}{11}
+\contentsline {chapter}{\numberline {6}Etapa 1 de Mi proyecto}{13}
+\contentsline {chapter}{\numberline {7}Etapa 2 de Mi proyecto}{15}
+\contentsline {chapter}{\numberline {8}Resultados y conclusiones}{17}
+\contentsline {chapter}{\numberline {9}Trabajo Futuro}{19}
+\contentsline {chapter}{\numberline {A}Manuales de usuario}{21}
+\contentsline {chapter}{\numberline {B}Detalles Implementaci\IeC {\"\i }\IeC {\textquestiondown }\IeC {\textonehalf }n}{23}
+\contentsline {chapter}{\numberline {C}Redacci\IeC {\"\i }\IeC {\textquestiondown }\IeC {\textonehalf }n de Proyectos}{25}

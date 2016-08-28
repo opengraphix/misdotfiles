@@ -109,6 +109,15 @@ brew install bibtools
 brew install pandoc
 brew install pandoc-citeproc
 brew install cabal-install
+brew install wrk
+
+# install-homebrew-cask
+brew tap phinze/cask
+brew install brew-cask
+
+
+#install-quick-look-plugins
+brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzipql webp-quicklook suspicious-package
 
 # Remove outdated versions from the cellar.
 brew cleanup

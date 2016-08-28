@@ -1,0 +1,234 @@
+% Definimos el estilo del documento
+\documentclass[12pt,letter,spanish]{book}
+
+% Definimos los m�rgenes de la p�gina
+\usepackage[lmargin=2.5cm,rmargin=1.5cm,tmargin=3.0cm,bmargin=3.0cm]{geometry}
+
+% Utilizamos el paquete para utilizar espa�ol
+\usepackage[spanish]{babel}
+
+% Utilizamos el paquete para gestionar acentos
+\usepackage[latin1]{inputenc}
+
+%Utilizamos el paquete para incorporar graficos postcript
+\usepackage[dvips,final]{epsfig}
+
+%Empieza el documento
+\begin{document}
+
+% Definimos titulo, autor, fecha, generamos titulo e indice de contenidos
+\title{TITULO DE MI PROYECTO}
+\author{MI NOMBRE}
+\date{Facultad de Inform�tica.\\
+        Universidad de Las Palmas de G.C.}
+
+\thispagestyle{empty}
+\maketitle
+
+%Definimos p�gina posterior a la portada
+\thispagestyle{empty}
+\noindent Facultad de Inform�tica. Universidad de Las Palmas de G.C.
+
+% Definimos p�gina con datos sobre el proyecto
+\newpage
+\thispagestyle{empty}
+\section*{Proyecto fin de carrera}
+
+\bigskip
+\noindent {\bf T�tulo: } T�tulo de mi proyecto\\
+{\bf Apellidos y nombre del alumno: } Mis apellidos y nombre\\
+{\bf Fecha :  } Mes y a�o en que se present� la memoria del PFC \\
+
+\vspace{2cm}
+\noindent{\bf Tutor: } Apellidos y Nombre del tutor \\
+
+% Definimos p�gina posterior
+\newpage
+\thispagestyle{empty}
+\noindent Facultad de Inform�tica. Universidad de Las Palmas de G.C.
+\newpage
+
+% Definimos una  pagina para los agradecimientos
+\newpage
+\thispagestyle{empty}
+\section*{Agradecimientos}
+  Aqui ponemos los agradecimientos
+
+% Definimos p�gina posterior
+\newpage
+\thispagestyle{empty}
+\noindent Facultad de Inform�tica. Universidad de Las Palmas de G.C.
+\newpage
+\setcounter{page}{1}
+\tableofcontents
+
+% Definimos p�gina posterior
+\newpage
+\thispagestyle{empty}
+\noindent Facultad de Inform�tica. Universidad de Las Palmas de G.C.
+\newpage
+
+% Empezamos capitulos
+
+
+\chapter{Introducci\'on}
+
+  La introducci�n es lo primero que se lee, pero habitualmente lo �ltimo que se escribe. Pues su redacci�n
+  depende de c�mo se hayan escrito todas las otras secciones. Normalmente la introducci�n incluye una
+  descripci�n muy general del proyecto y termina con un desglose del contenido de la memoria.
+
+\chapter{Estado actual del tema}
+  Descripci�n del estado actual del tema con referencia a trabajos anteriores en el caso de proyectos que
+  sean continuaci�n o relacionados con otros proyectos.
+
+\chapter{Metodolog�a}
+  Metodolog�a a utilizar para el desarrollo del proyecto, herramientas de an�lisis, etc..
+
+\chapter{Recursos necesarios}
+  Detallar los recursos hardware, software u otros necesarios para el desarrollo del proyecto.
+
+\chapter{Plan de trabajo y temporizaci�n}
+Desarrollo del plan de trabajo desglosado en etapas, con una estimaci�n en cada etapa del tiempo de ejecuci�n
+\begin{itemize}
+\item Etapa 1 de Mi Proyecto
+\item Etapa 2 de Mi Proyecto
+\item .................
+\end{itemize}
+A continuaci�n vendr�n las secciones donde se desarrollan cada una de las etapas del proyecto
+
+
+\chapter{Etapa 1 de Mi proyecto}
+  Desarrollo de la etapa 1 de mi proyecto
+
+
+\chapter{Etapa 2 de Mi proyecto}
+  Desarrollo de la etapa 2 de mi proyecto
+
+
+\chapter{Resultados y conclusiones}
+  Desarrollo de los resultados y conclusiones del proyecto. Se debe intentar resaltar el inter�s del proyecto
+  y la calidad del trabajo realizado. Ha llegado el momento de "vender" nuestro trabajo. Se deben incluir aspectos como:
+
+\begin{itemize}
+\item Calidad, dificultad y amplitud del trabajo desarrollado que justifique el tiempo de dedicaci�n al proyecto.
+\item Aspectos integradores de las disciplinas de la titulaci�n de Ingeniero en Inform�tica.
+\item Impacto social. Utilidad del proyecto en el �mbito social
+\item Facilidad de utilizaci�n de los resultados del proyecto por terceras personas.
+\item Publicidad de los resultados del proyecto a trav�s de p�ginas web, etc.. Cuando de los resultados del proyecto
+      se derive un prototipo o programa de utilizaci�n se debe poner a disposici�n del p�blico en general una versi�n
+      de demostraci�n de dicho prototipo.
+\item Cualquier otro m�rito.
+\end{itemize}
+
+\chapter{Trabajo Futuro}
+    Continuidad del trabajo realizado a trav�s de una implementaci�n, o utilidad real del proyecto,
+      o a trav�s de otros proyectos fin de carrera.
+
+
+% EMPIEZAN LOS APENDICES DEL PROYECTO
+\appendix
+
+\chapter{Manuales de usuario}
+
+    En el caso de que el desarrollo (y/o naturaleza del proyecto haya dado lugar a la creaci�n de manuales
+      de usuario, habr� que ponerlo aqu�).
+
+\chapter[Detalles Implementaci�n]{Detalles t�cnicos sobre la implementaci�n del proyecto}
+    En las secciones anteriores del proyecto, no se debe entrar en demasiados detalles t�cnicos sobre
+      cuestiones de implementaci�n del proyecto pues dificultar�a su lectura y comprensi�n. Los detalles t�cnicos
+      sobre la implementaci�n del proyecto se incluyen preferentemente en ap�ndices al final de la memoria.
+
+
+\chapter[Redacci�n de Proyectos]{Comentarios Generales sobre la redacci�n de los proyectos}
+
+
+Por donde se empieza? Habitualmente se empieza a redactar en orden inverso al que se lee el documento, primero
+se puede empezar a rellenar la bibliograf�a utilizada que se ir� completando seg�n avance el proyecto. A continuaci�n,
+a partir de un esqueleto inicial del proyecto, que puede estar redactado, manuscrito, o simplemente en la cabeza del estudiante,
+se empieza a redactar las partes m�s concretas del proyecto, que tengamos m�s claras, y que sean lo m�s independiente posible
+de la redacci�n de otras partes del proyecto. Por ejemplo, se puede empezar por anexos donde se resuma las caracter�sticas
+de una herramienta que utilizamos, etc.., a continuaci�n empezamos a redactar de manera individual los detalles de cada
+una de las etapas en las que se constituye el proyecto, no tienen que redactarse ordenadas seg�n aparecen en el texto,
+sobre la elecci�n sobre cual empezar, siempre primar� que sea una parte que tengamos bien clara, y que hayamos delimitado
+su contenido para que sea independiente de la redacci�n de las otras etapas. Como ver�n, seg�n vayan avanzando en la
+redacci�n, cada vez ver�n las cosas m�s claras, y de forma natural ver�n la forma de ir redactando las otras partes del
+proyecto, hasta llegar a las secciones de introducci�n y conclusiones y resultados que son las m�s delicadas de desarrollar,
+pues son las m�s importantes y las que previsiblemente se van a leer en mayor detalle las personas que lean el proyecto.
+Una deficiente redacci�n de la introducci�n (que es donde se atrae al lector sobre la importancia de lo que se va a hacer)
+o una mala presentaci�n de las conclusiones y resultados (que es donde se transmite el mensaje de todo lo bueno que hay
+en proyecto) pone en entredicho la calidad global del proyecto. Una buena estrategia consiste en seg�n se van redactando
+las diferentes secciones del proyecto, ir haciendo un borrador de las secciones de introducci�n y conclusiones y resultados,
+poniendo las ideas sueltas, y en principio desordenadas, que nos vayan surgiendo  y que puedan ser de utilidad en la redacci�n
+de estas secciones. Redactar bien tiene su dificultad y no todos los d�as tenemos la inspiraci�n adecuada, para esos d�as
+negros, que no nos viene nada a la cabeza, lo mejor es dedicarse a cosas m�s mec�nicas que no requieren tanta concentraci�n,
+como puede ser completar la bibliograf�a, ir haciendo un manual de usuario o un anexo t�cnico, etc..
+
+Cuando empezamos a redactar, siempre es necesario tener en cuenta algunos criterios b�sicos como son:
+
+1. Escribir de cada cosa su esencia. Que es lo que es realmente relevante en la secci�n que estoy redactando y esforzarme
+en que ello quede claro
+
+2. Ponerse en el lugar del potencial lector. El orden y la forma en la redactamos no es s�lo para que nosotros tengamos
+claro lo que hacemos, es sobre todo para que una tercera persona que lea el texto lo pueda tener, si cabe, m�s claro
+que nosotros. Para ello hay que respetar un orden l�gico en la forma en que presentamos las cosas y no presuponer que
+el lector conoce los entresijos de lo que estamos haciendo, hay que evitar dar saltos en el vac�o, por ejemplo dando
+por supuesto conocimientos que el lector no tiene o alterando el orden natural en que deben aparecer las cosas.
+
+Algunas ideas sueltas sacadas del libro "Como elaborar y presentar un trabajo escrito" cuyo autor es el profesor Santos P�rez:
+
+El proyecto fin de carrera es un trabajo personal en el que el estudiante debe demostrar que domina el tema, sabe organizarlo,
+estructurarlo y elaborar en profundidad, y presentarlo en la forma normalizada de un trabajo t�cnico o cient�fico. Es la
+ocasi�n que tiene el estudiante de demostrar que sabe analizar un problema, sabe seleccionar la metodolog�a y t�cnicas
+apropiadas para reunir los datos, y alcanzar conclusiones razonables. Un proyecto de esta naturaleza permite la evaluaci�n
+de la capacidad del estudiante para aplicar su conocimiento a un tema concreto.
+
+El proyecto fin de carrera debe ser
+\begin{itemize}
+\item  Proyecto Personal: debe ser un producto de la reflexi�n, investigaci�n y esfuerzo del estudiante. Si se hace con
+       reflexi�n, con investigaci�n y esfuerzo personal, el rendimiento que obtiene el estudiante es muy productivo y
+       beneficioso para �l y de una duraci�n permanente.
+\item  Es un trabajo documentado: es decir, serio, cient�fico, hay que sustentar las afirmaciones con datos comprobables
+       y l�gicamente fundados.
+\item  Planificado: La elaboraci�n de un proyecto fin de carrera es un proceso complicado. Un trabajo de esta naturaleza
+       requiere una planificaci�n cuidadosa del tiempo: tiempo para investigar y documentarse, tiempo para reflexionar,
+       tiempo para corregir posibles desviaciones y finalmente tiempo para redactarlo y presentarlo de forma adecuada.
+\end{itemize}
+
+El esquema final de un proyecto fin de carrera debe llenar las siguientes caracter�sticas:
+
+\begin{itemize}
+\item   Claridad: la claridad se consigue sobre todo con una n�tida divisi�n y distribuci�n del esquema. Y a su vez esta
+        claridad deriva tambi�n de la compresi�n en profundidad del material recogido.
+\item   Convergencia hacia el objetivo: El secreto de la claridad est� en saber ordenar las partes del trabajo hacia el
+        objetivo buscado; es decir, en lograr que cada punto del esquema nos vaya encaminando con naturalidad hacia la meta
+        enunciada en el t�tulo del trabajo.
+\item   Coherencia: las distintas partes, puntos o p�rrafos deben estar trabados entre s�, concatenados, de forma que se
+        vayan preparando y completandose rec�procamente para conseguir el efectode que cada punto sea consecuencia del otro,
+        formando un todo org�nico y no una mera yuxtaposici�n de partes; por el contrario que se vaya mostrando la conexi�n
+        y la coherencia l�gica de los distintos aspectos tratados
+\item   Conformidad con el objetivo: La estructura del esquema final debe resaltar lo m�s importante y debe dejar en la
+        penumbra los accesorios.
+\item   Elegancia: en la distribuci�n del esquema, debe guardarse una cierta simetr�a y proporci�n. La elegancia no debe
+        subordinarse a la claridad y a la verdad; pero hay una elegancia no s�lo formal, sino de concepci�n y elegancia
+        que contribuye significativamente a conseguir la armon�a y transparencia en la transmisi�n del contenido principal
+        del tema. Conviene resaltar esta elegancia sobre todo ahora que nos encontramos en un mundo de zafiedad y donde se
+        hace gala del caos mental como norma de actuaci�n.
+\item   El descanso inteligente: Una vez que se ha acabado la primera redacci�n del proyecto se sugiere tomarse unos
+        d�as de descanso suficientes para que la cabeza descanse del tema. Con este descanso se adquiere perspectiva,
+        y aumenta la objetividad y sentido cr�tico del autor.
+\end{itemize}
+
+
+% Aqui va la Bibliograf�a utilizada por el proyecto.
+
+\begin{thebibliography}{1}
+
+\bibitem{La86} Leslie Lamport {\em LaTex : A document Preparation System}. Addison-Wesley, 1986.
+
+\bibitem{Ro93} Christian Rolland {\em LaTex guide pratique}. Addison-Wesley, 1993.
+
+\end{thebibliography}
+
+
+% Termina el documento
+\end{document}

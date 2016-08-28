@@ -1,0 +1,616 @@
+\documentstyle[landscape]{article}
+
+\oddsidemargin=0in
+\evensidemargin=0in
+\textwidth=7in
+\topmargin=-1.8in
+\textheight=9in
+\parindent=.25in
+
+\pagestyle{empty}
+
+\begin{document}
+
+% DEFINITIONS *************************************************
+
+% week one
+\def \OneMonSub {$\;$ }
+\def \OneMonRst {$\;$ }
+\def \OneMonSec {$\;$ }
+
+\def \OneWedSub {$\;$ }
+\def \OneWedRst {$\;$ }
+\def \OneWedSec {$\;$ }
+
+\def \OneFriSub {$\;$ }
+\def \OneFriRst {$\;$ }
+\def \OneFriSec {$\;$ }
+
+\def \OneLabSub {$\;$ }
+\def \OneLabRst {$\;$ }
+\def \OneLabSec {$\;$ }
+
+% week two
+\def \TwoMonSub {$\;$ }
+\def \TwoMonRst {$\;$ }
+\def \TwoMonSec {$\;$ }
+
+\def \TwoWedSub {$\;$ }
+\def \TwoWedRst {$\;$ }
+\def \TwoWedSec {$\;$ }
+
+\def \TwoFriSub {$\;$ }
+\def \TwoFriRst {$\;$ }
+\def \TwoFriSec {$\;$ }
+
+\def \TwoLabSub {$\;$ }
+\def \TwoLabRst {$\;$ }
+\def \TwoLabSec {$\;$ }
+
+% week three
+\def \TreMonSub {$\;$ }
+\def \TreMonRst {$\;$ }
+\def \TreMonSec {$\;$ }
+
+\def \TreWedSub {$\;$ }
+\def \TreWedRst {$\;$ }
+\def \TreWedSec {$\;$ }
+
+\def \TreFriSub {$\;$ }
+\def \TreFriRst {$\;$ }
+\def \TreFriSec {$\;$ }
+
+\def \TreLabSub {$\;$ }
+\def \TreLabRst {$\;$ }
+\def \TreLabSec {$\;$ }
+
+% week four
+\def \ForMonSub {$\;$ }
+\def \ForMonRst {$\;$ }
+\def \ForMonSec {$\;$ }
+
+\def \ForWedSub {$\;$ }
+\def \ForWedRst {$\;$ }
+\def \ForWedSec {$\;$ }
+
+\def \ForFriSub {$\;$ }
+\def \ForFriRst {$\;$ }
+\def \ForFriSec {$\;$ }
+
+\def \ForLabSub {$\;$ }
+\def \ForLabRst {$\;$ }
+\def \ForLabSec {$\;$ }
+
+% week five
+\def \FivMonSub {$\;$ }
+\def \FivMonRst {$\;$ }
+\def \FivMonSec {$\;$ }
+
+\def \FivWedSub {$\;$ }
+\def \FivWedRst {$\;$ }
+\def \FivWedSec {$\;$ }
+
+\def \FivFriSub {$\;$ }
+\def \FivFriRst {$\;$ }
+\def \FivFriSec {$\;$ }
+
+\def \FivLabSub {$\;$ }
+\def \FivLabRst {$\;$ }
+\def \FivLabSec {$\;$ }
+
+% week six
+\def \SixMonSub {$\;$ }
+\def \SixMonRst {$\;$ }
+\def \SixMonSec {$\;$ }
+
+\def \SixWedSub {$\;$ }
+\def \SixWedRst {$\;$ }
+\def \SixWedSec {$\;$ }
+
+\def \SixFriSub {$\;$ }
+\def \SixFriRst {$\;$ }
+\def \SixFriSec {$\;$ }
+
+\def \SixLabSub {$\;$ }
+\def \SixLabRst {$\;$ }
+\def \SixLabSec {$\;$ }
+
+% week seven
+\def \SevMonSub {$\;$ }
+\def \SevMonRst {$\;$ }
+\def \SevMonSec {$\;$ }
+
+\def \SevWedSub {$\;$ }
+\def \SevWedRst {$\;$ }
+\def \SevWedSec {$\;$ }
+
+\def \SevFriSub {$\;$ }
+\def \SevFriRst {$\;$ }
+\def \SevFriSec {$\;$ }
+
+\def \SevLabSub {$\;$ }
+\def \SevLabRst {$\;$ }
+\def \SevLabSec {$\;$ }
+
+% week eight
+\def \EigMonSub {$\;$ }
+\def \EigMonRst {$\;$ }
+\def \EigMonSec {$\;$ }
+
+\def \EigWedSub {$\;$ }
+\def \EigWedRst {$\;$ }
+\def \EigWedSec {$\;$ }
+
+\def \EigFriSub {$\;$ }
+\def \EigFriRst {$\;$ }
+\def \EigFriSec {$\;$ }
+
+\def \EigLabSub {$\;$ }
+\def \EigLabRst {$\;$ }
+\def \EigLabSec {$\;$ }
+
+% week nine
+\def \NinMonSub {$\;$ }
+\def \NinMonRst {$\;$ }
+\def \NinMonSec {$\;$ }
+
+\def \NinWedSub {$\;$ }
+\def \NinWedRst {$\;$ }
+\def \NinWedSec {$\;$ }
+
+\def \NinFriSub {$\;$ }
+\def \NinFriRst {$\;$ }
+\def \NinFriSec {$\;$ }
+
+\def \NinLabSub {$\;$ }
+\def \NinLabRst {$\;$ }
+\def \NinLabSec {$\;$ }
+
+% week ten
+\def \TenMonSub {$\;$ }
+\def \TenMonRst {$\;$ }
+\def \TenMonSec {$\;$ }
+
+\def \TenWedSub {$\;$ }
+\def \TenWedRst {$\;$ }
+\def \TenWedSec {$\;$ }
+
+\def \TenFriSub {$\;$ }
+\def \TenFriRst {$\;$ }
+\def \TenFriSec {$\;$ }
+
+\def \TenLabSub {$\;$ }
+\def \TenLabRst {$\;$ }
+\def \TenLabSec {$\;$ }
+
+% week eleven
+\def \EleMonSub {$\;$ }
+\def \EleMonRst {$\;$ }
+\def \EleMonSec {$\;$ }
+
+\def \EleWedSub {$\;$ }
+\def \EleWedRst {$\;$ }
+\def \EleWedSec {$\;$ }
+
+\def \EleFriSub {$\;$ }
+\def \EleFriRst {$\;$ }
+\def \EleFriSec {$\;$ }
+
+\def \EleLabSub {$\;$ }
+\def \EleLabRst {$\;$ }
+\def \EleLabSec {$\;$ }
+
+% week twelve
+\def \TweMonSub {$\;$ }
+\def \TweMonRst {$\;$ }
+\def \TweMonSec {$\;$ }
+
+\def \TweWedSub {$\;$ }
+\def \TweWedRst {$\;$ }
+\def \TweWedSec {$\;$ }
+
+\def \TweFriSub {$\;$ }
+\def \TweFriRst {$\;$ }
+\def \TweFriSec {$\;$ }
+
+\def \TweLabSub {$\;$ }
+\def \TweLabRst {$\;$ }
+\def \TweLabSec {$\;$ }
+
+% week thirteen
+\def \ThiMonSub {$\;$ }
+\def \ThiMonRst {$\;$ }
+\def \ThiMonSec {$\;$ }
+
+\def \ThiWedSub {$\;$ }
+\def \ThiWedRst {$\;$ }
+\def \ThiWedSec {$\;$ }
+
+\def \ThiFriSub {$\;$ }
+\def \ThiFriRst {$\;$ }
+\def \ThiFriSec {$\;$ }
+
+\def \ThiLabSub {$\;$ }
+\def \ThiLabRst {$\;$ }
+\def \ThiLabSec {$\;$ }
+
+% week fourteen
+\def \FrtMonSub {$\;$ }
+\def \FrtMonRst {$\;$ }
+\def \FrtMonSec {$\;$ }
+
+\def \FrtWedSub {$\;$ }
+\def \FrtWedRst {$\;$ }
+\def \FrtWedSec {$\;$ }
+
+\def \FrtFriSub {$\;$ }
+\def \FrtFriRst {$\;$ }
+\def \FrtFriSec {$\;$ }
+
+\def \FrtLabSub {$\;$ }
+\def \FrtLabRst {$\;$ }
+\def \FrtLabSec {$\;$ }
+
+% week fifteen
+\def \FifMonSub {$\;$ }
+\def \FifMonRst {$\;$ }
+\def \FifMonSec {$\;$ }
+
+\def \FifWedSub {$\;$ }
+\def \FifWedRst {$\;$ }
+\def \FifWedSec {$\;$ }
+
+\def \FifFriSub {$\;$ }
+\def \FifFriRst {$\;$ }
+\def \FifFriSec {$\;$ }
+
+\def \FifLabSub {$\;$ }
+\def \FifLabRst {$\;$ }
+\def \FifLabSec {$\;$ }
+
+% template
+%\def \XxxMonSub {$\;$ }
+%\def \XxxMonRst {$\;$ }
+%\def \XxxMonSec {$\;$ }
+%
+%\def \XxxWedSub {$\;$ }
+%\def \XxxWedRst {$\;$ }
+%\def \XxxWedSec {$\;$ }
+%
+%\def \XxxFriSub {$\;$ }
+%\def \XxxFriRst {$\;$ }
+%\def \XxxFriSec {$\;$ }
+%
+%\def \XxxLabSub {$\;$ }
+%\def \XxxLabRst {$\;$ }
+%\def \XxxLabSec {$\;$ }
+
+
+% MAKE CALENDAR ************************************************
+% PAGE ONE ***************************************************** 
+
+\begin{table} 
+
+{\huge \bf TITLE FOR PAGE ONE} \\
+\phantom{stuff} \\
+
+\centering
+\begin{tabular}{||l||l||l|l|l||}
+\cline{1-1}\cline{3-5}
+
+{\bf \phantom{xxxxxxxxx}Lab\phantom{xxxxxxxxx}}
+ & \phantom{xxxxxxxx}
+ & {\bf \phantom{xxxxxxxxx}Monday\phantom{xxxxxxxxx}}
+ & {\bf \phantom{xxxxxxxx}Wednesday\phantom{xxxxxxx}}
+ & {\bf \phantom{xxxxxxxxx}Friday\phantom{xxxxxxxxx}} \\
+\cline{1-1}\cline{3-5}
+
+
+% WEEK 1 *******************************************************
+
+           && {\bf 1}    & {\bf 3}    & {\bf 5}    \\
+
+           &&            &            &            \\
+
+\OneLabSub && \OneMonSub & \OneWedSub & \OneFriSub \\
+
+\OneLabRst && \OneMonRst & \OneWedRst & \OneFriRst \\
+
+\OneLabSec && \OneMonSec & \OneWedSec & \OneFriSec \\
+
+           &&            &            &            \\
+\cline{1-1}\cline{3-5}
+
+
+% WEEK 2 ******************************************************
+
+           && {\bf 8}    & {\bf 10}   & {\bf 12}   \\
+
+           &&            &            &            \\
+
+\TwoLabSub && \TwoMonSub & \TwoWedSub & \TwoFriSub \\
+
+\TwoLabRst && \TwoMonRst & \TwoWedRst & \TwoFriRst \\
+
+\TwoLabSec && \TwoMonSec & \TwoWedSec & \TwoFriSec \\
+
+           &&            &            &            \\
+\cline{1-1}\cline{3-5}
+
+
+% WEEK 3 ******************************************************
+
+           && {\bf 15}   & {\bf 17}   & {\bf 19}   \\
+
+           &&            &            &            \\
+
+\TreLabSub && \TreMonSub & \TreWedSub & \TreFriSub \\
+
+\TreLabRst && \TreMonRst & \TreWedRst & \TreFriRst \\
+
+\TreLabSec && \TreMonSec & \TreWedSec & \TreFriSec \\
+
+           &&            &            &            \\
+\cline{1-1}\cline{3-5}
+
+
+% WEEK 4 ******************************************************
+
+           && {\bf 22}   & {\bf 24}   & {\bf 26}   \\
+
+           &&            &            &            \\
+
+\ForLabSub && \ForMonSub & \ForWedSub & \ForFriSub \\
+
+\ForLabRst && \ForMonRst & \ForWedRst & \ForFriRst \\
+
+\ForLabSec && \ForMonSec & \ForWedSec & \ForFriSec \\
+
+           &&            &            &            \\
+\cline{1-1}\cline{3-5}
+
+
+% WEEK 5 ******************************************************
+
+           && {\bf 27}   & {\bf 29}   & {\bf 1}    \\
+
+           &&            &            &            \\
+
+\FivLabSub && \FivMonSub & \FivWedSub & \FivFriSub \\
+
+\FivLabRst && \FivMonRst & \FivWedRst & \FivFriRst \\
+
+\FivLabSec && \FivMonSec & \FivWedSec & \FivFriSec \\
+
+           &&            &            &            \\
+\cline{1-1}\cline{3-5}
+
+
+% WEEK 6 ******************************************************
+
+           && {\bf 4}    & {\bf 6}    & {\bf 8}    \\
+
+           &&            &            &            \\
+
+\SixLabSub && \SixMonSub & \SixWedSub & \SixFriSub \\
+
+\SixLabRst && \SixMonRst & \SixWedRst & \SixFriRst \\
+
+\SixLabSec && \SixMonSec & \SixWedSec & \SixFriSec \\
+
+           &&            &            &            \\
+\cline{1-1}\cline{3-5}
+\end{tabular}
+\end{table}
+
+\clearpage
+
+
+% MAKE CALENDAR ************************************************
+% PAGE TWO *****************************************************
+
+\begin{table} 
+
+{\huge \bf TITLE FOR PAGE TWO} \\
+\phantom{stuff} \\
+
+\centering
+\begin{tabular}{||l||l||l|l|l||}
+\cline{1-1}\cline{3-5}
+
+{\bf \phantom{xxxxxxxxx}Lab\phantom{xxxxxxxxx}}
+ & \phantom{xxxxxxxx}
+ & {\bf \phantom{xxxxxxxxx}Monday\phantom{xxxxxxxxx}}
+ & {\bf \phantom{xxxxxxxx}Wednesday\phantom{xxxxxxx}}
+ & {\bf \phantom{xxxxxxxxx}Friday\phantom{xxxxxxxxx}} \\
+\cline{1-1}\cline{3-5}
+           
+
+% WEEK 7 ******************************************************
+
+           && {\bf 11}   & {\bf 13}   & {\bf 15}   \\
+
+           &&            &            &            \\
+
+\SevLabSub && \SevMonSub & \SevWedSub & \SevFriSub \\
+
+\SevLabRst && \SevMonRst & \SevWedRst & \SevFriRst \\
+
+\SevLabSec && \SevMonSec & \SevWedSec & \SevFriSec \\
+
+           &&            &            &            \\
+\cline{1-1}\cline{3-5}
+
+
+% WEEK 8 ******************************************************
+
+           && {\bf 18}   & {\bf 20}   & {\bf 22}   \\
+
+           &&            &            &            \\
+
+\EigLabSub && \EigMonSub & \EigWedSub & \EigFriSub \\
+
+\EigLabRst && \EigMonRst & \EigWedRst & \EigFriRst \\
+
+\EigLabSec && \EigMonSec & \EigWedSec & \EigFriSec \\
+
+           &&            &            &            \\
+\cline{1-1}\cline{3-5}
+
+
+% WEEK 9 ******************************************************
+
+           && {\bf 25}   & {\bf 27}   & {\bf 29}    \\
+
+           &&            &            &            \\
+
+\NinLabSub && \NinMonSub & \NinWedSub & \NinFriSub \\
+
+\NinLabRst && \NinMonRst & \NinWedRst & \NinFriRst \\
+
+\NinLabSec && \NinMonSec & \NinWedSec & \NinFriSec \\
+
+           &&            &            &            \\
+\cline{1-1}\cline{3-5}
+
+
+% WEEK 10 *****************************************************
+
+           && {\bf 1}    & {\bf 3}    & {\bf 5}    \\
+
+           &&            &            &            \\
+
+\TenLabSub && \TenMonSub & \TenWedSub & \TenFriSub \\
+
+\TenLabRst && \TenMonRst & \TenWedRst & \TenFriRst \\
+
+\TenLabSec && \TenMonSec & \TenWedSec & \TenFriSec \\
+
+           &&            &            &            \\
+\cline{1-1}\cline{3-5}
+
+
+% WEEK 11 *****************************************************
+
+           && {\bf 6}    & {\bf 8}    & {\bf 10}   \\
+
+           &&            &            &            \\
+
+\EleLabSub && \EleMonSub & \EleWedSub & \EleFriSub \\
+
+\EleLabRst && \EleMonRst & \EleWedRst & \EleFriRst \\
+
+\EleLabSec && \EleMonSec & \EleWedSec & \EleFriSec \\
+
+           &&            &            &            \\
+\cline{1-1}\cline{3-5}
+
+
+% WEEK 12 *****************************************************
+
+           && {\bf 13}   & {\bf 15}   & {\bf 17}   \\
+
+           &&            &            &            \\
+
+\TweLabSub && \TweMonSub & \TweWedSub & \TweFriSub \\
+
+\TweLabRst && \TweMonRst & \TweWedRst & \TweFriRst \\
+
+\TweLabSec && \TweMonSec & \TweWedSec & \TweFriSec \\
+
+           &&            &            &            \\
+\cline{1-1}\cline{3-5}
+\end{tabular}
+\end{table}
+
+\clearpage
+
+
+% MAKE CALENDAR ************************************************
+% PAGE THREE ***************************************************
+
+\begin{table} 
+
+{\huge \bf TITLE FOR PAGE THREE} \\
+\phantom{stuff} \\
+
+\centering
+\begin{tabular}{||l||l||l|l|l||}
+\cline{1-1}\cline{3-5}
+
+{\bf \phantom{xxxxxxxxx}Lab\phantom{xxxxxxxxx}}
+ & \phantom{xxxxxxxx}
+ & {\bf \phantom{xxxxxxxxx}Monday\phantom{xxxxxxxxx}}
+ & {\bf \phantom{xxxxxxxx}Wednesday\phantom{xxxxxxx}}
+ & {\bf \phantom{xxxxxxxxx}Friday\phantom{xxxxxxxxx}} \\
+\cline{1-1}\cline{3-5}
+
+
+% WEEK 13 *****************************************************
+
+           && {\bf 20}   & {\bf 22}   & {\bf 24}   \\
+
+           &&            &            &            \\
+
+\ThiLabSub && \ThiMonSub & \ThiWedSub & \ThiFriSub \\
+
+\ThiLabRst && \ThiMonRst & \ThiWedRst & \ThiFriRst \\
+
+\ThiLabSec && \ThiMonSec & \ThiWedSec & \ThiFriSec \\
+
+           &&            &            &            \\
+\cline{1-1}\cline{3-5}
+
+
+% WEEK 14 *****************************************************
+
+           && {\bf 27}   & {\bf 29}   & {\bf 1}    \\
+
+           &&            &            &            \\
+
+\FrtLabSub && \FrtMonSub & \FrtWedSub & \FrtFriSub \\
+
+\FrtLabRst && \FrtMonRst & \FrtWedRst & \FrtFriRst \\
+
+\FrtLabSec && \FrtMonSec & \FrtWedSec & \FrtFriSec \\
+
+           &&            &            &            \\
+\cline{1-1}\cline{3-5}
+
+
+% WEEK 15 *****************************************************
+
+           && {\bf 4}    & {\bf 6}    & {\bf 8}    \\
+
+           &&            &            &            \\
+
+\FifLabSub && \FifMonSub & \FifWedSub & \FifFriSub \\
+
+\FifLabRst && \FifMonRst & \FifWedRst & \FifFriRst \\
+
+\FifLabSec && \FifMonSec & \FifWedSec & \FifFriSec \\
+
+           &&            &            &            \\
+\cline{1-1}\cline{3-5}
+\end{tabular}
+\end{table}
+
+
+
+% TEMPLATE****************************************************
+%
+%           && {\bf 4}    & {\bf 6}    & {\bf 8}    \\
+%
+%           &&            &            &            \\
+%
+%\NumLabSub && \NumMonSub & \NumWedSub & \NumFriSub \\
+%
+%\NumLabRst && \NumMonRst & \NumWedRst & \NumFriRst \\
+%
+%\NumLabSec && \NumMonSec & \NumWedSec & \NumFriSec \\
+%
+%           &&            &            &            \\
+%\cline{1-1}\cline{3-5}
+
+
+\end{document}

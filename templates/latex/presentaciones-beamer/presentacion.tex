@@ -1,0 +1,169 @@
+\documentclass[hyperref={pdfpagelabels=false}]{beamer}
+% la Hyperref opci\'on hyperref={pdfpagelabels=false} evita la advertencia :
+% Package hyperref Warning: Option `pdfpagelabels' is turned off
+% (hyperref)                because \thepage is undefined. 
+% Hyperref stopped early 
+%
+\usepackage[spanish]{babel}
+\usepackage{lmodern}
+% Das Paket lmodern erspart die folgenden Warnungen:
+% LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
+% (Font)              size <5> substituted on input line 22.
+% LaTeX Font Warning: Size substitutions with differences
+% (Font)              up to 1.0pt have occurred.
+%
+
+% cuando  \titel{…} \author{…} posicina desp\'ues \begin{document} ,
+% aparece eso  advertencia: :
+% Package hyperref Warning: Option `pdfauthor' has already been used,
+% (hyperref) ... 
+% Por tanto posicina lo antes de  \begin{document}
+
+\title{Beamer Class simple}   
+\author{Sascha Frank} 
+\date{\today} 
+
+
+\begin{document}
+
+
+\begin{frame}
+\titlepage portada
+\end{frame} 
+
+\begin{frame}
+\frametitle{\'\i ndice}
+\tableofcontents
+\end{frame} 
+
+
+\section{etapa No.1} 
+
+\begin{frame}
+\frametitle{t\'\i tulo} 
+los sueltos einzelnen Frames tengo que tener un t\'\i tulo 
+\end{frame}
+
+\subsection{subsecc\'\i on No.1.1  }
+
+\begin{frame} 
+sin t\'\i tulo algo falta
+\end{frame}
+
+
+\section{etapa No. 2} 
+\subsection{lista I}
+
+\begin{frame}
+\frametitle{lista}
+\begin{itemize}
+\item la introducci\'on del curso  \LaTeX{}  
+\item curso 2  
+\item el trabajo y presentaci\'on con  \LaTeX{} 
+\item Beamerclass 
+\end{itemize} 
+\end{frame}
+
+\begin{frame}
+\frametitle{lista con pausa sola}
+\begin{itemize}
+\item la introducci\'on del curso  \LaTeX{}  \pause 
+\item curso 2  \pause 
+\item el trabajo y presentaci\'on con  \LaTeX{} \pause 
+\item Beamerclass 
+\end{itemize} 
+\end{frame}
+
+\begin{frame}
+\frametitle{lista con pausa}
+\begin{itemize}[<+->]
+\item la introducci\'on del curso  \LaTeX{}  
+\item curso 2  
+\item el trabajo y presentaci\'on con  \LaTeX{} 
+\item Beamerclass 
+\end{itemize} 
+\end{frame}
+
+
+
+
+\subsection{ista II}
+
+\begin{frame}
+\frametitle{enumeraci\'on o la lista de n\'umeros }
+\begin{enumerate}
+\item la introducci\'on del curso  \LaTeX{}  
+\item curso 2  
+\item el trabajo y presentaci\'on con  \LaTeX{} 
+\item Beamerclass 
+\end{enumerate}
+\end{frame}
+
+\begin{frame}
+\frametitle{enumeraci\'on con pausa sola}
+\begin{enumerate}
+\item la introducci\'on del curso  \LaTeX{}  \pause 
+\item curso 2  \pause 
+\item el trabajo y presentaci\'on con  \LaTeX{} \pause 
+\item Beamerclass 
+\end{enumerate}
+\end{frame}
+
+\begin{frame}
+\frametitle{enumeraci\'on con pausa}
+\begin{enumerate}[<+->]
+\item la introducci\'on del curso  \LaTeX{}  
+\item curso 2  
+\item el trabajo y presentaci\'on con  \LaTeX{} 
+\item Beamerclass 
+\end{enumerate}
+\end{frame}
+
+
+\section{etapa No.3} 
+\subsection{tablas}
+
+\begin{frame}
+\frametitle{tablas}
+\begin{tabular}{|c|c|c|}
+\hline
+\textbf{momento} & \textbf{docente} & \textbf{t\'\i tulol} \\
+\hline cuatrimestre de invierno 04/05 & S. Frank &  primer passo con  \LaTeX{}  \\
+\hline
+cuatrimestere de verano 05 & S. Frank & \LaTeX{} el curso \\
+\hline
+\end{tabular}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{tabla con pausa}
+\begin{tabular}{c c c}
+A & B & C \\ 
+\pause 
+1 & 2 & 3 \\  
+\pause 
+A & B & C \\ 
+\end{tabular} 
+\end{frame}
+
+\section{etapa No. 4}
+\subsection{bolque}
+
+\begin{frame}
+\frametitle{bolque}
+\begin{block}{t\'\i tulo de bolque}
+texto de bolque 
+\end{block}
+
+\begin{exampleblock}{t\'\i tulo de bolque}
+texto de bolque 
+\end{exampleblock}
+
+\begin{alertblock}{t\'\i tulo de bolque}
+texto de bolque 
+\end{alertblock}
+\end{frame}
+
+
+\end{document}

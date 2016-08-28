@@ -1,0 +1,394 @@
+\documentclass[12pt]{article}
+
+\usepackage[spanish]{babel}
+  \addto\captionsspanish{\def\contentsname{\small Contenido}}
+\usepackage[latin1]{inputenc}
+\usepackage[margin=3cm]{geometry}
+\usepackage{fancyvrb}
+\usepackage{fancyhdr}
+  \pagestyle{fancy}
+  \fancyfoot{}
+  \fancyhead[LO]{\it Bibliografía en \LaTeX}
+  \fancyhead[RO]{\thepage}
+\usepackage{hyperref}
+  \hypersetup{pdfauthor=Miguel Mata, pdftitle=Bibliografia en LaTeX,
+    breaklinks=true,colorlinks=true,
+    linkcolor=blue,citecolor=blue,urlcolor=blue}
+
+\DefineVerbatimEnvironment{codigo}{Verbatim}{
+  fontsize=\footnotesize,
+  frame=single,
+  framerule=1pt,
+  framesep=3mm,
+  baselinestretch=1.2,
+  rulecolor=\color[rgb]{0.5,0.5,0.5},
+  formatcom=\color[rgb]{0.5,0.0,0.1}
+}
+
+\newcommand\ejemplo[1]{
+  \fcolorbox[gray]{.35}{.98}{\begin{minipage}{0.955\linewidth}#1\end{minipage}}}
+
+\setlength{\parindent}{0pt}
+\setlength{\fboxrule}{1pt}
+\setlength{\fboxsep}{3mm}
+\def\bibtex{{\sc Bib}\TeX{}}
+
+\title{Bibliografía en \LaTeX\\[8pt]
+  \Large{\it Una guía concisa de} \bibtex}
+\author{Miguel Mata Pérez\\
+  {\tt miguel@yalma.fime.uanl.mx}}
+\date{\small Versión 0.3, 23 de septiembre de 2011\footnotetext{El presente material es libre y puede ser usado, distribuido y comunicado bajo las únicas condiciones de {\bf atribución} (dar crédito y citar apropiadamente) y {\bf no comercialización} (no lucrar u obtener beneficio alguno de su uso). Cualquier asunto relacionado con este material, siéntase en libertad de ponerse en contacto con el autor en la dirección de correo-e proporcionada.}}
+
+\begin{document}
+
+\maketitle
+\hrule
+
+\begin{footnotesize}
+\paragraph{Resumen:} \LaTeX{} es una poderosa herramienta para la edición de documentos estructurados. Agregar una bibliografía a un documento en \LaTeX{} tampoco es complicado. Existen cuando menos dos opciones: el entorno {\tt thebibliography} y la herramienta \bibtex. Optar por una u otra depende de la naturaleza del trabajo que se esté realizando. En este documento se describen ambas en forma concisa, de tal manera que sirva como una referencia rápida. Es importante mencionar que este pequeño manual presupone que el lector está familiarizado con los conceptos básicos de \LaTeX.\bigskip
+\end{footnotesize}
+
+\hrule
+\tableofcontents
+\vfill
+
+\section{El entorno {\tt thebibliography}}
+
+El entorno {\tt thebibliography} es nativo de \LaTeX{} y puede preferirse cuando el documento llevará pocas citas bibliográficas, cuando el documento pasará por la edición de diversas personas y se dificulte la coordinación, o cuando no se dispone de una biblioteca para \bibtex{} con la bibliografía requerida y, por alguna razón, no se desea hacer una.\bigskip
+
+La bibliografía deberá editarse directamente en el documento con el entorno {\tt thebiblio\-graphy}, que se colocará en el lugar donde se desea que aparezca la bibliografía. Cada entrada bibliográfica se hará mediante la instrucción \verb+\bibitem+. Por ejemplo:
+
+\begin{codigo}
+\begin{thebibliography}{X}
+  \bibitem{Baz} \textsc{Bazaraa, M.S., J.J. Jarvis} y \textsc{H.D. Sherali},
+      \textit{Programación lineal y flujo en redes}, segunda edición,
+      Limusa, México, DF, 2004.
+  \bibitem{Dan} \textsc{Dantzig, G.B.} y \textsc{P. Wolfe},
+      <<Decomposition principle for linear programs>>,
+      \textit{Operations Research}, \textbf{8}, págs. 101--111, 1960.
+\end{thebibliography}
+\end{codigo}
+
+Lo anterior creará la siguiente salida en el documento. La numeración es creada por \LaTeX, además del encabezado «Referencias».\bigskip
+
+\ejemplo{
+\begin{thebibliography}{X}
+  \bibitem{Baz} \textsc{Bazaraa, M.S., J.J. Jarvis} y \textsc{H.D. Sherali},
+      \textit{Programación lineal y flujo en redes}, segunda edición,
+      Limusa, México, DF, 2004.
+  \bibitem{Dan} \textsc{Dantzig, G.B.} y \textsc{P. Wolfe},
+      <<Decomposition principle for linear programs>>,
+      \textit{Operations Research}, \textbf{8}, págs. 101--111, 1960.
+\end{thebibliography}
+}\bigskip
+
+El parámetro X al inicio del entorno es un número que no sea excedido por la cantidad de entradas bibliográficas, en este caso podría ser 9. Lo que se encuentra entre llaves después de cada \verb+\bibitem+ es una etiqueta con la cual se citará la entrada bibliográfica.
+
+\subsection{Algunas notas sobre el idioma}
+
+El nombre de la sección bibliográfica que aparece en forma automática (en este caso «Referencias») depende del tipo de documento en que se esté trabajando y del idioma que se haya definido y puede ser sustituido por otro cualquiera empleando la instrucción \verb+\renewcommand\refname{Nombre}+ (para documentos de clase {\tt article}) y \verb+\renewcommand\bibname{Nombre}+ (para documentos de clase {\tt book}).\bigskip
+
+En este documento se está usando la opción {\tt spanish} del paquete {\tt babel} (algo más que recomendable para hispanohablantes), por ello aparece el encabezado «Referencias» en español, en lugar del típico «References» inglés dado por defecto en \LaTeX. De igual manera, {\tt spanish} ha sustituido automáticamente los signos $<<$ y $>>$ por las comillas angulares (« y »).\bigskip
+
+Cuando se carga {\tt spanish}, se cuenta además con una manera integral para redefinir el nombre de las referencias (y que evitará posibles conflictos) que es, para el caso de {\tt refname}, \verb+\addto\captionsspanish{\def\refname{Nombre}}+ (igual para {\tt bibname}).
+
+\subsection{Citas bibliográficas}
+
+Ahora, para hacer una cita bibliográfica ha de usarse la instrucción \verb+\cite{}+.
+
+\begin{codigo}
+Como se puede ver en \cite{Baz} ...
+\end{codigo}
+
+Con lo cual se obtiene el siguiente resultado.\bigskip
+
+\ejemplo{Como se puede ver en \cite{Baz} ...}\bigskip
+
+También se pueden agregar algunas notas extras al citar una obra, por ejemplo
+
+\begin{codigo}
+Como se puede ver en \cite[pág 21]{Baz} ...
+\end{codigo}
+
+Con el siguiente resultado.\bigskip
+
+\ejemplo{Como se puede ver en \cite[pág. 21]{Baz} ...}\bigskip
+
+La disposición de las entradas y su formato está completamente a nuestra libertad (y responsabilidad). \LaTeX{} numerará las entradas bibliográficas según aparezcan en el entorno {\tt thebibliography}. Conforme las entradas sean agregadas o quitadas de la lista, \LaTeX{} actualizará automáticamente la numeración de las obras en la bibliografía y en los lugares en que fueron citadas.\bigskip
+
+También se pueden personalizar las claves con que aparecen las citas, agregando a cada entrada de la bibliografía la clave deseada de la siguiente manera.
+
+\begin{codigo}
+\bibitem[DanWol60]{Dan60} \textsc{Dantzig, G.B.} y ...
+\end{codigo}
+
+Ahora se produce el siguiente efecto al citarlo, se sigue citando igual (con la etiqueta asignada y no con la clave), en este caso \verb+\cite{Dan}+.\bigskip
+
+\ejemplo{Como se puede ver en [DanWol60] \dots}
+
+\subsection{Compilación}
+
+Es importante hacer notar que para ver correctamente las citas bibliográficas que se han hecho tal vez haga falta compilar dos o tres veces el documento. Esto, debido a que en una primera compilación se genera un archivo {\tt .aux} donde se informan las citas hechas que después, en una segunda compilación, se traducen en los números (o etiquetas) que \LaTeX{} (o el usuario) ha asignado a dichas referencias.
+
+\section{Usando \bibtex}
+
+También se puede emplear \bibtex, una poderosa herramienta hermana de \LaTeX{} especialmente diseñada para el apoyo a la bibliografía. Esta herramienta se recomienda para bibliografías muy extensas o cuando algunos recursos se citan con frecuencia ya que el trabajo de capturar una referencia bibliográfica se hace sólo una vez y se puede aprovechar tantas veces como sean necesarias en todos los documentos que se desee.\bigskip
+
+Lo único que necesitamos para emplear \bibtex{} es una {\em biblioteca virtual}, esto un archivo (o una colección de archivos) con extensión {\tt .bib} en el que se encuentra la bibliografía que requiere nuestro documento (la creación de estos archivos se discutirá más adelante). A estos archivos les llamaremos \emph{librerías}.\bigskip
+
+Después basta indicar en el documento las librerías que serán usadas. Si son más de una se deben separar por comas. Por ejemplo, supongamos que tenemos dos archivos donde se encuentra la bibliografía a emplear, {\tt librero1.bib} y {\tt librero2.bib}, entonces, para indicar a \bibtex{} que la bibliografía ha de buscarse en tales archivos es necesario agregar la siguiente linea.\medskip
+
+\begin{codigo}
+\bibliography{librero1,librero2}
+\end{codigo}
+
+Y \bibtex{} agregará de tales archivos sólo aquellas entradas que hallan sido citadas mediante un \verb+\cite{+{\it etiqueta}\verb+}+. Si, por alguna razón, desea incluirse en la bibliografía una entrada que no es citada puede emplearse la orden \verb+\nocite{+{\it etiqueta}\verb+}+ la cual no aparecerá en el documento. Y si alguno quiere incluir indiscriminadamente toda la bibliografía contenida en los archivos {\tt .bib}, le bastará colocar \verb+\nocite{*}+ en cualquier parte del documento.
+
+\subsection{Compilación}
+
+Con una lógica similar a la usada para la herramienta {\tt thebibliography}, para compilar un documento en el que se usará \bibtex{} se requiere compilar una o dos veces con {\tt latex} el documento ({\tt .tex}) seguido de compilar una o dos veces el archivo {\tt .aux} que se genera pero esta vez con {\tt bibtex} y después compilar nuevamente con {\tt latex}, una o dos veces el archivo {\tt .tex}. Finalmente se puede pasar el {\tt .dvi} a PDF con la técnica usual.\bigskip
+
+En el caso de que se esté usando un entorno gráfico para la edición de documentos en \LaTeX, es común que existan botones u opciones en los menús para las compilaciones tanto de {\tt latex} como de {\tt bibtex}. En caso de que se haga desde consola, las instrucciones son:
+
+\begin{codigo}
+> latex MiDocumento.tex
+> bibtex MiDocumento.aux
+> latex MiDocumento.tex
+\end{codigo}
+
+Y el resultado deseado debe ser satisfactoriamente obtenido.
+
+\subsection{Creando archivos {\tt .bib}}
+
+Como se decía, un archivo {\tt .bib} es una {\em base de datos} de entradas bibliográficas, el cual contiene las referencias en determinado formato. Este archivo bibliográfico, al igual que cualquier documento de \LaTeX, debe estar escrito en texto plano, pero con la extensión {\tt .bib}. Por ejemplo, para agregar las entrada usadas en la sección anterior (un artículo y un libro) al archivo, ha de hacerse como sigue:
+
+\begin{codigo}
+@ARTICLE{Dan,
+  author = {Dantzig, G.B. and P. Wolfe},
+  year = 1960,
+  title = {Decomposition principle for linear programs},
+  journal = {Operations Research},
+  volume = 8,
+  pages = {101--111}
+}
+@BOOK{Baz,
+  author = {Bazaraa, M.S. and J.J. Jarvis and H.D. Sherali},
+  year = 2004,
+  title = {Programaci\'on lineal y flujo en redes},
+  edition = 2,
+  publisher = {Limusa},
+  adress = {M\'exico, DF}
+}
+\end{codigo}
+
+Cada entrada consiste de tres partes: el {\bf tipo} de entrada (en este caso {\tt ARTICLE} y {\tt BOOK}); una {\bf etiqueta} con que ha de citarse (en el ejemplo {\tt Dan} y {\tt Baz}); y los {\bf campos}, es decir, la información de la entrada.\bigskip
+
+Los campos deben ser separados por comas, también la clave debe ser seguida de una coma. Debe tenerse en cuenta que en este archivo debe emplearse la escritura estándar de \LaTeX{} (atención con los acentos y otros signos) independientemente de los paquetes que se hayan cargado al documento.
+
+\subsection{Campos}
+
+Para cada entrada debe definirse una serie de campos. Cada tipo de publicación contiene información diferente, por ejemplo, un libro y una revista requieren diferentes campos. Para cada tipo de entrada los campos se dividen en tres clases.
+
+\begin{description}
+	\item{{\bf Requeridos:}} Si se omite un campo de este tipo se producirá un mensaje de advertencia y, algunas veces, el formato de la entrada en la bibliografía será incorrecta. Si la información de este campo no está disponible, es posible que no esté empleando el tipo de entrada correcto por lo que quizá sería mejor cambiar de tipo o, en última instancia, ignorar la advertencia.
+	\item{{\bf Opcional:}} La información de un campo de este tipo será usada si está disponible, pero puede ser omitida y no causará el menor problema.
+	\item{{\bf Ignorado:}} La información de un campo de este tipo será ignorada aunque esté disponible.
+\end{description}
+
+Todo campo que no sea {\bf requerido} u {\bf opcional} será ignorado, por lo que no será agregado a la entrada bibliográfica. Sin embargo, no es mala idea agregar tanta información relevante como sea posible en una entrada. Por ejemplo, podría agregarse el resumen, con lo cual el lector podrá hacer búsquedas bibliográficas más fácilmente consultando los archivos {\tt .bib}.\bigskip
+
+A continuación se describen los campos reconocidos por los estilos de bibliografía estándares. Cualquier entrada puede incluir otros campos, los cuales serán ignorados por esos estilos.
+
+\begin{description}
+	\item{{\tt address:}} Usualmente la dirección de la editorial.
+	\item{{\tt author:}} Nombre(s) del (de los) autor(es).
+	\item{{\tt booktitle:}} Título del libro.
+	\item{{\tt chapter:}} El número de un capítulo (o sección, etc.).
+	\item{{\tt edition:}} La edición de un libro, por ejemplo, {\em segunda}.
+	\item{{\tt editor:}} Nombre(s) del (de los) editor(es).
+	\item{{\tt howpublished:}} Forma en que fue publicada la obra.
+	\item{{\tt institution:}} Institución responsable de un informe técnico.
+	\item{{\tt journal:}} Nombre del periódico o revista.
+	\item{{\tt key:}} Empleado para la alfabetización, referencias cruzadas y para crear una clave cuando la información del autor no está disponible. No debe confundirse con la etiqueta usada en el \verb+\cite+ y que debe colocarse al inicio de la entrada.
+	\item{{\tt month:}} El mes de publicación o, para un trabajo inédito, en el que fue escrito.
+	\item{{\tt note:}} Cualquier información adicional que pueda ayudar al lector.
+	\item{{\tt number:}} El número del periódico, la revista, el informe técnico o del trabajo en una serie.
+	\item{{\tt organization:}} La organización responsable de una conferencia o que publica un manual.
+	\item{{\tt pages:}} Números de páginas.
+	\item{{\tt publisher:}} El nombre de la editorial. No debe confundirse con el editor.
+	\item{{\tt school:}} Nombre de la escuela donde fue escrita una tesis.
+	\item{{\tt series:}} El nombre de una serie o conjunto de libros.
+	\item{{\tt title:}} El título del trabajo.
+	\item{{\tt type:}} El tipo de un informe técnico.
+	\item{{\tt volume:}} El volumen de un periódico o una revista, o de algún libro que conste de volúmenes.
+	\item{{\tt year:}} El año de publicación. Para un trabajo inédito, el año en que fue escrito. Generalmente debe consistir de cuatro dígitos, por ejemplo 2007.
+\end{description}
+
+\subsection{Tipos de entrada}
+
+A continuación describimos los tipos de entrada.
+
+\begin{description}
+	\item{{\tt ARTICLE:}} Un artículo de un periódico o una revista. {\bf Campos requeridos:} author, title, journal, year. {\bf Campos opcionales:} volume, number, pages, month, note.
+	\item{{\tt BOOK:}} Un libro con una editorial explícita. {\bf Campos requeridos:} author o editor, title, publisher, year. {\bf Campos opcionales:} volume o number, series, address, edition, month, note.
+	\item{{\tt BOOKLET:}} Un trabajo impreso y distribuido, pero que no tiene una editorial o institución responsable. {\bf Campos requeridos:} title. {\bf Campos opcionales:} author, howpublished, address, month, year, note.
+	\item{{\tt INBOOK:}} Una parte de un libro, como un capítulo, una sección, un rango de páginas, etc. {\bf Campos requeridos:} author o editor, title, chapter o pages, publisher, year. {\bf Campos opcionales:} volume o number, series, type, address, edition, month, note.
+	\item{{\tt INCOLLECTION:}} Una parte de un libro con título propio. {\bf Campos requeridos:} author, title, booktitle, publisher, year. {\bf Campos opcionales:} editor, volume o number, series, type, chapter, pages, address, edition, month, note.
+	\item{{\tt INPROCEEDINGS:}} Un artículo de las memorias de un congreso. {\bf Campos requeridos:} author, title, booktitle, year. {\bf Campos opcionales:} editor, volume o number, series, pages, address, month, organization, publisher, note.
+	\item{{\tt MANUAL:}} Documentación técnica. {\bf Campos requeridos:} title. {\bf Campos opcionales:} author, organization, address, edition, month, year, note.
+	\item{{\tt MASTERSTHESIS:}} Una tesis de maestría. {\bf Campos requeridos:} author, title, school, year. {\bf Campos opcionales:} type, address, month, note.
+	\item{{\tt MISC:}} Para cuando el resto falla. {\bf Campos requeridos:} Ninguno. {\bf Campos opcionales:} author, title, howpublished, month, year, note.
+	\item{{\tt PHDTHESIS:}} Tesis de doctorado. {\bf Campos requeridos:} author, title, school, year. {\bf Campos opcionales:} type, address, month, note.
+	\item{{\tt PROCEEDINGS:}} Las memorias de un congreso. {\bf Campos requeridos:} title, year. {\bf Campos opcionales:} editor, volume o number, series, address, month, organization, publisher, note.
+	\item{{\tt TECHREPORT:}} Un informe publicado por una institución. {\bf Campos requeridos:} author, title, institution, year. {\bf Campos opcionales:} type, number, address, month, note.
+	\item{{\tt UNPUBLISHED:}} Un documento (inédito), con un autor y un título, pero que no ha sido formalmente publicado. {\bf Campos requeridos:} author, title, note. {\bf Campos opcionales:} month, year.
+\end{description}
+
+\subsection{Notas importantes}
+
+Agregamos algunas notas que no debe dejar de leer para crear correctamente su archivo {\tt .bib}.
+
+\paragraph{Autor:}
+Las indicaciones que se dan en este apartado aplican para los campos {\tt author} y {\tt editor}, sin embargo, nos referiremos indistintamente como {\em autor}.\bigskip
+
+En caso de ser más de uno, cada par de autores debe separarse por la palabra reservada {\tt and}, sin importar si son más de dos. Si son demasiados, puede recurrirse a terminar la lista con un {\tt and others}, y cualquier estilo estándar imprimirá un {\it et al.}\footnote{La abreviatura {\it et al.} viene del latín (y otros) y es aceptado en las publicaciones internacionales.}\bigskip
+
+Respecto a la forma de escribir el nombre de cada autor, es necesario aclarar que, para \bibtex{} cada nombre consiste de cuatro partes: Nombre, von, Apellido y Jr. Cada parte consiste de una lista (que puede ser vacía) de {\it palabras}. La parte Apellido deberá incluirse siempre que ninguna otra parte esté, de tal manera que cuando sólo una {\it palabra} aparece, esta será siempre la parte Apellido.\bigskip
+
+En general, \bibtex{} permite tres formas de escribir el nombre:\bigskip
+
+\begin{itemize}
+	\item Nombre von Apellido
+	\item von Apellido, Nombre
+	\item von Apellido, Jr, Nombre
+\end{itemize}\bigskip
+
+La primera forma no debe usarse si hay una parte Jr o la parte Apellido tiene más de una {\it palabra} y no hay parte von.\bigskip
+
+Por ejemplo, el nombre de {\sl Juan Hernández Pérez} deberá estar escrito como:
+
+\begin{codigo}
+author = {Hern\'andez P\'erez, Juan},
+\end{codigo}
+
+De esta manera, la parte Nombre estará dada por {\sl Juan}; la parte Apellido estará formada por dos {\it palabras}, {\sl Hernández} y {\sl Pérez}; mientras que las partes von y Jr están vacías. Si en cambio se escribiera:
+
+\begin{codigo}
+author = {Juan Hern\'andez P\'erez},
+\end{codigo}
+
+\bibtex{} tomaría (erróneamente) {\sl Juan} y {\sl Hernández} como la parte Nombre y {\sl Pérez} como la parte Apellido.
+
+\paragraph{Título:}
+Algunos estilos de la bibliografía modifican los títulos colocando la inicial de cada palabra en mayúscula (salvo algunas palabras, con reglas no siempre claras). Otros estilos hacen exactamente lo contrario, colocar cada letra que no sea la inicial del título en minúscula.\bigskip
+
+Ambos estilos suelen dar problemas pues en más de una ocasión debe respetarse la escritura de algunas palabras. Por ejemplo, siglas del tipo {\sf ONU}, corren el riesgo de ser transformadas en {\sf Onu}, o en {\sf onu}; números cardinales como XIII podrían sufrir un maltrato parecido.\bigskip
+
+Para evitar este efecto, podemos colocar entre llaves aquellas formas que se desea sean respetadas tal como las colocamos. Ejemplos:
+
+\begin{codigo}
+booktitle = {{XXXVIII} Congreso Nacional de la {SMM}},
+organization = {Consejo Nacional de Ciencia y Tecnolog\'ia ({CONACyT})},
+\end{codigo}
+
+Cabe mencionar que en el idioma español sólo la primera palabra y los nombres propios deben iniciar con mayúscula, por lo que iniciar cada palabra de un título con mayúscula es incorrecto. Esta regla debe observarse incluso si se está citando una obra cuyo título aparece con ese estilo. Como excepción, se escriben con mayúscula los sustantivos y adjetivos que forman parte del nombre de publicaciones periódicas o de colecciones.
+
+\paragraph{Comentarios:}
+En un archivo {\tt .bib} el símbolo \% no es un caracter de comentario como en \LaTeX{}, por lo que puede usarse directamente en caso de necesitarse. Ahora, para colocar un comentario en el archivo {\tt .bib}, basta colocarlo sin signo alguno, pues \bibtex{} considera como comentario toda entrada que no inicie con una @.
+
+\paragraph{El campo {\tt key}:}
+Cuando se emplean determinados estilos bibliográficos (como el {\tt alpha}, ver la sección \ref{sec:estilos}), \bibtex{} suele construir la clave con la información del campo {\tt author}, por ejemplo, quedaría [Baz04] para nuestro primer ejemplo.\bigskip
+
+Para los tipos en que no hay un autor, como {\tt MANUAL} o {\tt PROCEEDINGS}, la clave se construye con la información del campo {\tt organization}. Es común que en estos casos se desee proponer una clave. Por ejemplo para una organización como
+
+\begin{codigo}
+organization = {The Association for Computing Machinery},
+\end{codigo}
+
+es muy común que exista una abreviatura con la cual la organización es reconocida, en este caso es preferible definir la entrada\medskip
+
+\begin{codigo}
+key = {ACM},
+\end{codigo}
+
+Sin el campo {\tt key} el estilo {\tt alpha} tomaría las primeras tres letras de la organización para construir la clave (ignorando el artículo), por lo que se crearía la desafortunada clave [Ass86]. Con el campo {\tt key}, en cambio, la clave sería [ACM86] lo cual será más informativo para el lector.\bigskip
+
+No siempre será necesario crear una clave con {\tt key}, por ejemplo, la organización
+
+\begin{codigo}
+organization = {Unilogic, Ltd.},
+\end{codigo}
+
+puede razonablemente conservar la clave que se crearía por defecto, [Uni86].
+
+\paragraph{Editores de archivos {\tt .bib}:}
+Existen varias herramientas que ayudan en la gestión de librerías \bibtex{}, si no se desea hacer un archivo {\tt .bib} {\em a mano}.\bigskip
+
+Una herramienta de la que se suele hablar bien es {\bf BibDB}, también en su versión WinBibDB. Disponibles en {\tt CTAN:support/bibdb}, o bien en su página
+
+{\tt http://www.mackichan.com/BibDB/default.htm}\bigskip
+
+Otra herramienta popular es {\tt bibtex.el}, que es el modo \bibtex para {\tt emacs}. Usualmente ya viene incluido con {\tt emacs}. En todo caso se puede obtener en su página {\tt http://www.ida.ing.tu-bs.de/people/dirk/bibtex/}
+
+\subsection{Estilo de la bibliografía}\label{sec:estilos}
+
+Las entradas que se agregarán se enlistarán según el estilo que sea definido. Para definir el estilo es necesario agregar la siguiente linea.
+
+\begin{codigo}
+\bibliographystile{estilo}
+\end{codigo}
+
+Por defecto \bibtex{} cuenta con los siguientes estilos.\bigskip
+
+\begin{description}
+	\item{{\tt plain}} Dispone las entradas de la bibliografía por orden alfabético. A cada una le asigna un número entre corchetes.
+	\item{{\tt unsrt}} Dispone las entradas en el orden con que se fueron citando con \verb+\cite+ o \verb+\nocite+.
+	\item{{\tt alpha}} Ordena las entradas igual que {\tt plain} pero los marcadores se construyen con una abreviatura del autor o autores y el año de publicación.
+	\item{{\tt abbrv}} Ordena las entradas igual que {\tt plain} y construye los marcadores de la misma forma, pero en la indicación de la referencia se emplean abreviaturas para los nombres de pila, meses y, en ocasiones, los nombres de las revistas.
+\end{description}\bigskip
+
+Desafortunadamente los estilos predefinidos de \bibtex{} tienen algunos inconvenientes. El primero que salta a la vista es que su idioma por defecto es el inglés, por lo que, por ejemplo, en una lista de autores aparecerá {\it and} precediendo al último autor. Además, la disposición de las partes de una entrada bibliográfica (autor, título, publicación, año, etc.) son ordenadas según un estándar que no suele coincidir con el existente en otros idiomas, como el español.\bigskip
+
+Para remendar esto, uno puede crearse su propio estilo, un archivo con extensión {\tt .bst}. Esto se puede hacer {\em a mano}, lo cual requiere mayores conocimientos de \TeX{}, o bien mediante la herramienta {\tt custom-bib} que permite crear estilos al capricho (soporta idiomas), llenando un (nada breve) cuestionario, personalizando hasta el mínimo detalle, pero de esto no hablaremos en este documento\footnote{También es posible usar alguno de los que han sido creados por la sociedad hispana <<\LaTeX era>> y que han puesto a disposición general por la red, por ejemplo, en la página de Cervan\TeX. El autor de este modesto manual también ha creado algunos.}.\bigskip
+
+Una vez que se tiene su propio archivo {\tt .bst}, digamos {\tt miestilo.bst}, el estilo tendrá el nombre del archivo, en este caso {\tt miestilo}, por lo que la línea para especificar el estilo pasa a ser \verb+\bibliographystile{miestilo}+.\bigskip
+
+\section{El paquete {\tt natbib}}
+
+En ocasiones se desea mayor versatilidad para construir las citas bibliográficas, como por ejemplo, que al citar una referencia en lugar de colocar un número entre corchetes, se imprima el nombre del autor y el año de publicación. El paquete {\tt natbib} hace más que satisfactoriamente esta y otras tareas. Para ello este paquete define un par de instrucciones de citado: \verb+\citet+ y \verb+\citep+. El siguiente ejemplo está más que inspirado en el manual de usuario del paquete.%\bigskip
+
+\begin{tabular}{ll}
+  \begin{minipage}{.36\linewidth}
+  \vspace*{4.6mm}
+  \begin{codigo}
+\citet{jon90}
+\citep{jon90}
+\citet[cap. 2]{jon90}
+\citep[ver][]{jon90}
+\citep[ver][cap. 2]{jon90}
+  \end{codigo}
+  \end{minipage}
+  &
+  \begin{minipage}{.4\linewidth}
+  \ejemplo{
+Jones et al. (1990) \\
+(Jones et al., 1990) \\
+Jones et al. (1990, cap. 2) \\
+(ver Jones et al., 1990) \\
+(ver Jones et al., 1990, cap. 2)}
+  \end{minipage}
+\end{tabular}\bigskip
+
+Para poder usar el paquete {\tt natbib} basta cargarlo en el preámbulo de la forma usual, con la instrucción \verb+\usepackage[+{\it opciones}\verb+]{natbib}+. Es posible combinar el uso del paquete {\tt natbib} con un estilo bibliográfico ({\tt .bst}) definido por el usuario.\bigskip
+
+Un par de opciones interesantes son {\tt sort} y {\tt sort\&compress}. La opción {\tt sort} ordena citas múltiples en la secuencia en que aparecen en la lista de referencias. La opción {\tt sort\&compress} además comprime las citas, siempre que sean numéricas, por ejemplo, la cita múltiple [4, 6, 15, 5, 3] quedaría transformada en [3--6, 15].\bigskip
+
+Para saber más del paquete natbib y sus opciones (que son bastantes) se recomienda leer \cite{nat}.
+
+\begin{thebibliography}{9}
+	\bibitem[Pat88a]{doc} {\sc Patashnik, Oren}, <<\bibtex ing>>, documento {\tt btxdoc} distribuido con el paquete \bibtex, 8 de febrero de 1988.
+	\bibitem[Pat88b]{hak} {\sc Patashnik, Oren}, <<Designing \bibtex{} styles>>, documento {\tt btxhak} distribuido con el paquete \bibtex, 8 de febrero de 1988.
+	\bibitem[Dal09]{nat} {\sc Daly, Patrick W.}, <<Natural sciences citations and references (author-year and numerical schemes)>>, documento {\tt natbib.pdf} distribuido con el paquete {\tt natbib}, versión 8.31, 16 de julio de 2009.
+\end{thebibliography}
+
+\end{document}

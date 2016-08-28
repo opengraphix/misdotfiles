@@ -1,0 +1,187 @@
+\documentclass[12pt]{ucthesis}
+
+%\newif\ifpdf
+%\ifx\pdfoutput\undefined
+%    \pdffalse % we are not running PDFLaTeX
+%\else
+%\pdfoutput=1 % we are running PDFLaTeX
+%\pdftrue \fi
+
+\usepackage{url}
+%\ifpdf
+
+    \usepackage[pdftex]{graphicx}
+    % Update title and author below...
+    \usepackage[pdftex,plainpages=false,breaklinks=true,colorlinks=true,urlcolor=blue,citecolor=blue,%
+                                       linkcolor=blue,bookmarks=true,bookmarksopen=true,%
+                                       bookmarksopenlevel=3,pdfstartview=FitV,
+                                       pdfauthor={John Smith},
+                                       pdftitle={PDF Title},
+                                       pdfkeywords={thesis, masters, cal poly}
+                                       ]{hyperref}
+    %Options with pdfstartview are FitV, FitB and FitH
+    \pdfcompresslevel=1
+
+%\else
+%    \usepackage{graphicx}
+%\fi
+
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{mathtools}
+\usepackage[letterpaper]{geometry}
+\usepackage[overload]{textcase}
+
+
+
+%\bibliographystyle{abbrv}
+
+\setlength{\parindent}{0.25in} \setlength{\parskip}{6pt}
+
+\geometry{verbose,nohead,tmargin=1.25in,bmargin=1in,lmargin=1.5in,rmargin=1.3in}
+
+\setcounter{tocdepth}{2}
+
+
+% Different font in captions (single-spaced, bold) ------------
+\newcommand{\captionfonts}{\small\bf\ssp}
+
+\makeatletter  % Allow the use of @ in command names
+\long\def\@makecaption#1#2{%
+  \vskip\abovecaptionskip
+  \sbox\@tempboxa{{\captionfonts #1: #2}}%
+  \ifdim \wd\@tempboxa >\hsize
+    {\captionfonts #1: #2\par}
+  \else
+    \hbox to\hsize{\hfil\box\@tempboxa\hfil}%
+  \fi
+  \vskip\belowcaptionskip}
+\makeatother   % Cancel the effect of \makeatletter
+% ---------------------------------------
+
+
+
+
+\begin{document}
+
+% Declarations for Front Matter
+
+% Update fields below!
+\title{Cal Poly Thesis}
+\author{John Smith}
+\degreemonth{June} \degreeyear{2015} \degree{Master of Science}
+\defensemonth{June} \defenseyear{2015}
+\numberofmembers{4} 
+\chair{Ernest Merkel, Ph.D. \\ & Associate Professor \\ & Statistics Department} 
+\othermemberA{Kathy Abernathy, Ph.D.\\ & Associate Professor \\ & Engineering Department} 
+\othermemberB{Peter Chan, Ph.D.\\ &  Associate Professor \\ & Mathematics Department}
+\othermemberC{Jason Pearson, Ph.D.\\ & Professor \\ & Chemistry Department} 
+\field{Electrical Engineering} 
+\campus{San Luis Obispo}
+\copyrightyears{seven}
+
+
+
+\maketitle
+
+\begin{frontmatter}
+
+\copyrightpage
+
+\committeemembershippage
+
+\begin{abstract}
+Your abstract goes here. 
+%Leave the vspace below alone.
+\vspace*{-12pt}
+\end{abstract}
+
+\begin{acknowledgements}
+
+Add any acknowledgements here.
+
+\end{acknowledgements}
+
+
+\tableofcontents
+
+
+\listoftables
+
+\listoffigures
+
+\end{frontmatter}
+
+\pagestyle{plain}
+
+
+
+
+\renewcommand{\baselinestretch}{1.66}
+
+
+% ------------- Main chapters here --------------------
+\chapter{Introduction}
+\label{intro}
+
+\section{First Section of Introduction}
+\label{intro1}
+This is an equation:
+\begin{equation}
+c^2=a^2+b^2.
+\end{equation}
+
+\section{Another Section}
+\label{intro2}
+This is a citation \cite{comrtflms}.
+ 
+
+\chapter{This is the Second Chapter}
+\label{ch2}
+
+\section{This is the First Section of Chapter 2}
+\label{ch2s1}
+
+There is a table somewhere around here and this is filler text. 
+\begin{table}[ht!]
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|c|}
+\hline
+Day&Dogs&Parrots&Starfish&Dolphins&Eels\tabularnewline \hline
+Monday&2&1&5&7&3 \tabularnewline \hline
+Tuesday&3&1&2&3&2 \tabularnewline \hline
+Wednesday&7&6&6&7&4 \tabularnewline \hline
+Thursday&9&1&1&1&9 \tabularnewline \hline
+Friday&2&4&5&9&5 \tabularnewline \hline
+Saturday&1&1&7&7&4 \tabularnewline \hline
+\end{tabular}
+\captionfonts
+\caption[Pets]{Pets in a pet store.}
+\label{table:performance}
+\end{center}
+\end{table}
+This is filler text. This is filler text. This is filler text. This is filler text. This is filler text. This is filler text. This is filler text.
+\par This is another paragraph. This is filler text. This is filler text. This is filler text. This is filler text. This is filler text.
+
+\section{This is Another Section of Chapter 2}
+\label{ch2s2}
+\begin{figure}[ht!]
+\begin{center}
+\includegraphics[height=50mm]{ebelement.jpg}
+\captionfonts
+\caption[Euler-Bernoulli Beam Element]{Euler-Bernoulli Beam Element}
+\label{EBE}
+\end{center}
+\end{figure}
+   
+\chapter{Conclusion}
+\label{Conclusion}
+This is the conclusion.
+% ------------- End main chapters ----------------------
+
+\clearpage
+\bibliography{bibliography}
+\bibliographystyle{plain}
+%\addcontentsline{toc}{chapter}{Bibliography}
+
+\end{document}

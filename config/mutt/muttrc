@@ -1,0 +1,161 @@
+# Based on:
+# http://stevelosh.com/blog/2012/10/the-homely-mutt/
+# http://www.lucianofiandesio.com/getting-started-with-mutt-on-osx
+# http://www.bartbania.com/index.php/consolify-your-gmail-with-mutt/
+# http://lifehacker.com/5574557/how-to-use-the-fast-and-powerful-mutt-email-client-with-gmail
+# https://web.archive.org/web/20100704062413/http://cache.gawker.com/assets/images/lifehacker/2010/06/muttrc-gmail.txt
+#
+# TODO: more comments
+
+# set locale = "en_US.UTF-8"
+# Juego de caracteres de los mensajes que enviamos:                                                                                                            
+set send_charset = "utf-8"                                                                                                                                     
+set assumed_charset = "iso-8859-1"  
+
+# Account parameters
+#source ~/Dropbox/sec/gmail # FYI: no passwords have been stored in this file
+
+# Account details
+set imap_user = "lramirez88mx@gmail.com"
+set imap_pass = "2EJupiter4O" 
+set from = "lramirez88mx@gmail.com"
+set realname = "Luis O. Ramirez Fernandez"
+set smtp_url = "smtp://lramirez88mx@smtp.gmail.com:587"
+set smtp_pass = "2EJupiter4O" 
+
+# Gmail config
+set hostname = "gmail.com"
+set folder = "imaps://imap.gmail.com:993"
+set spoolfile = "+INBOX"
+set postponed = "+[GMail]/Drafts"
+set record = "+[GMail]/Sent Mail"
+# set trash = "+[GMail]/Trash" # Requires ad-hoc patch
+# set any_label = "+[Gmail]/any_label"
+set imap_check_subscribed
+set smtp_authenticators = 'gssapi:login' # Fixes 'No authenticators available' error
+set imap_keepalive = 900
+set query_command="goobook query '%s'" # Use goobook to search contacts
+
+# Paths
+set header_cache ="~/.mutt/cache/headers"
+set message_cachedir ="~/.mutt/cache/bodies"
+set certificate_file ="~/.mutt/certificates"
+set mailcap_path = "~/.mutt/mailcap"
+# set tmpdir = "~/.mutt/temp"
+# set signature = "~/.mutt/sig"
+
+# Basic Options
+set wait_key = no        # shut up, mutt
+set mbox_type = Maildir  # mailbox type
+unset move               # gmail does that
+set delete               # don't ask, just do
+unset confirmappend      # don't ask, just do!
+set quit                 # don't ask, just do!!
+unset mark_old           # read/new is good enough for me
+set pipe_decode          # strip headers and eval mimes when piping
+set thorough_search      # strip headers and eval mimes before searching
+unset markers            # Don't display ugly plus signs when wrapping lines
+set pager_index_lines=10 # Keep index visible when opening mail (split view)
+set smart_wrap           # Be smart when wrapping lines
+set pager_stop
+set include
+set fast_reply
+# set auto_tag
+
+# Email check
+set timeout=10
+set mail_check=120
+set beep_new
+
+# Index View Options
+set date_format = "%d/%m"
+set index_format = "[%Z]  %D  %-20.20F  %s"
+set sort = threads                         # like gmail
+set sort_aux = reverse-last-date-received  # like gmail
+set uncollapse_jump                        # don't collapse on an unread message
+set sort_re                                # thread based on regex
+set reply_regexp = "^(([Rr][Ee]?(\[[0-9]+\])?: *)?(\[[^]]+\] *)?)*"
+
+# Status Bar
+set status_chars  = " *%A"
+set status_format = "───[ Folder: %f ]───[%r%m messages%?n? (%n new)?%?d? (%d to delete)?%?t? (%t tagged)? ]───%>─%?p?( %p postponed )?───"
+
+# Header
+ignore *                                # ignore all headers
+unignore from: to: cc: date: subject:   # show only these
+unhdr_order *                           # some distros order things by default
+hdr_order from: to: cc: date: subject:  # and in this order
+
+# Sidebar
+# set sidebar_delim   = '│'
+# set sidebar_visible = yes
+# set sidebar_width   = 34
+# color sidebar_new color221 color0
+
+# Sidebar Bindings
+# bind index,pager <down>   sidebar-next
+# bind index,pager <up>     sidebar-prev
+# bind index,pager <right>  sidebar-open
+
+
+auto_view text/html # view html automatically
+alternative_order text/plain text/enriched text/html # save html for last
+
+# Key bindings
+bind generic,index Q exit
+bind editor <space> noop
+bind editor <Tab> complete-query
+
+bind browser gg  top-page
+bind browser G   bottom-page
+bind browser \Cb previous-page
+bind browser \Cf next-page
+bind browser A   check-new
+bind browser v   view-file
+
+bind index ~   set-flag
+bind index \Cv what-key
+bind index H   current-top
+bind index M   current-middle
+bind index L   current-bottom
+bind index /   search
+bind index :   enter-command
+bind index i   mail
+
+bind pager i   edit
+bind pager u   mark-as-new
+bind pager gg  top
+bind pager G   bottom
+bind pager j   next-line
+bind pager k   previous-line
+
+bind index,attach gg  first-entry
+bind index,attach G   last-entry
+
+bind index,pager L   list-reply
+# bind index,pager P   print-message
+bind index,pager R   group-reply
+bind index,pager \Cd half-down
+bind index,pager \Cu half-up
+bind index,pager \Cf next-page
+bind index,pager \Cb previous-page
+bind index,pager \Cn next-thread
+bind index,pager \Cp previous-thread
+
+bind index,pager f forward-message
+bind index,pager p previous-undeleted
+bind index,pager N next-unread
+bind index,pager P previous-unread
+
+bind index,pager X print-message
+
+# Gmail-style keyboard shortcuts
+macro index,pager y "<enter-command>unset trash\n <delete-message>" "Gmail archive message"
+macro index,pager d "<enter-command>set trash=\"imaps://imap.googlemail.com/[GMail]/Bin\"\n <delete-message>" "Gmail delete message"
+macro index,pager gi "<change-folder>=INBOX<enter>" "Go to inbox"
+macro index,pager ga "<change-folder>=[Gmail]/All Mail<enter>" "Go to all mail"
+macro index,pager gs "<change-folder>=[Gmail]/Starred<enter>" "Go to starred messages"
+macro index,pager gd "<change-folder>=[Gmail]/Drafts<enter>" "Go to drafts"
+
+# Color scheme
+source ~/.mutt/dark.256.muttrc.erb

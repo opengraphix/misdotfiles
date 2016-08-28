@@ -7,6 +7,7 @@ brew cask install github-desktop
 brew cask install google-chrome
 brew cask install iterm2
 brew cask install nocturne
+brew cask install flux
 brew cask install tomighty
 brew cask install caffeine
 brew cask install transmission
@@ -26,3 +27,8 @@ brew cask install texmaker
 brew cask install pandoc
 brew cask install postgres
 brew cask install pgadmin3
+brew cask install cyberduck
+brew cask install lightpaper
+brew cask install sizeup
+brew cask install launchrocket
+brew cask install selfcontrol

@@ -1,5 +1,5 @@
 \documentclass[11pt,article,oneside]{memoir}
-\usepackage[]{org-preamble-pdflatex}
+\usepackage[MinionPro]{org-preamble-pdflatex}
 %\usepackage[minion]{org-preamble-pdflatex}
 %\input{vc}
 

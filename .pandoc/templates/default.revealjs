@@ -13,7 +13,7 @@ $endif$
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <link rel="stylesheet" href="$revealjs-url$/css/reveal.min.css"/>
+  <link rel="stylesheet" href="/Users/lramirez/.pandoc/revealjs/css/reveal.css"/>
     <style type="text/css">code{white-space: pre;}</style>
 $if(highlighting-css)$
     <style type="text/css">
@@ -25,11 +25,11 @@ $for(css)$
     <link rel="stylesheet" href="$css$"/>
 $endfor$
 $else$
-    <link rel="stylesheet" href="$revealjs-url$/css/theme/simple.css" id="theme">
+    <link rel="stylesheet" href="/Users/lramirez/.pandoc/revealjs/css/theme/simple.css" id="theme">
 $endif$
-  <link rel="stylesheet" media="print" href="$revealjs-url$/css/print/pdf.css" />
+  <link rel="stylesheet" media="print" href="/Users/lramirez/.pandoc/revealjs/css/print/pdf.css" />
   <!--[if lt IE 9]>
-  <script src="$revealjs-url$/lib/js/html5shiv.js"></script>
+  <script src="/Users/lramirez/.pandoc/revealjs/lib/js/html5shiv.js"></script>
   <![endif]-->
 $if(math)$
     $math$
@@ -70,15 +70,15 @@ $for(include-after)$
 $include-after$
 $endfor$
 
-  <script src="$revealjs-url$/lib/js/head.min.js"></script>
-  <script src="$revealjs-url$/js/reveal.min.js"></script>
+  <script src="/Users/lramirez/.pandoc/revealjs/lib/js/head.min.js"></script>
+  <script src="/Users/lramirez/.pandoc/revealjs/js/reveal.js"></script>
 
   <script>
 
       // Full list of configuration options available here:
       // https://github.com/hakimel/reveal.js#configuration
       Reveal.initialize({
-        controls: true,
+        controls: false,
         progress: true,
         history: true,
         center: true,
@@ -87,11 +87,15 @@ $endfor$
 
         // Optional libraries used to extend on reveal.js
         dependencies: [
-          { src: '$revealjs-url$/lib/js/classList.js', condition: function() { return !document.body.classList; } },
-          { src: '$revealjs-url$/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
-          { src: '$revealjs-url$/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
-//          { src: '$revealjs-url$/plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; }, }
-//          { src: '$revealjs-url$/plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+          { src: '/Users/lramirez/.pandoc/revealjs/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: '/Users/lramirez/.pandoc/revealjs/plugin/markdown/showdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: '/Users/lramirez/.pandoc/revealjs/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: '/Users/lramirez/.pandoc/revealjs/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+          { src: '/Users/lramirez/.pandoc/revealjs/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+          { src: '/Users/lramirez/.pandoc/revealjs/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
+          { src: '/Users/lramirez/.pandoc/revealjs/plugin/math/math.js', async: true, condition: function() { return !!document.body.classList; } },
+//          { src: '/Users/lramirez/.pandoc/revealjs/plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; }, }
+//          { src: '/Users/lramirez/.pandoc/revealjs/plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
 ]});
     </script>
   </body>

@@ -1,0 +1,44 @@
+function proxy_status() {
+    env | grep -i proxy
+}
+
+function proxy_set() {
+    if [[ $# -lt 1 ]]
+    then
+        echo "Usage:  proxy mahproxy.com:8080 [username] [password]"
+        return
+    fi
+
+    if [[ $# -eq 3 ]]
+    then
+        export http_proxy="http://$2:$3@$1/"
+    else
+        export http_proxy="http://$1/"
+    fi
+
+    export https_proxy=$http_proxy
+    export ftp_proxy=$http_proxy
+    export rsync_proxy=$http_proxy
+    export no_proxy="localhost,127.0.0.1,localaddress,.localdomain.com,.local,.dev"
+}
+
+function proxy_unset() {
+    unset HTTP_PROXY
+    unset http_proxy
+    unset HTTPS_PROXY
+    unset https_proxy
+    unset FTP_PROXY
+    unset ftp_proxy
+    unset RSYNC_PROXY
+    unset rsync_proxy
+}
+
+proxy_prompt() {
+    protocols=()
+    [[ -n $http_proxy ]] && protocols+="http"
+    [[ -n $https_proxy ]] && protocols+="https"
+    [[ -n $rsync_proxy ]] && protocols+="rsync"
+    [[ -n $ftp_proxy ]] && protocols+="ftp"
+
+    [[ ${#protocols} -gt 0 ]] && echo "(${(j:/:)protocols} via proxy)"
+}

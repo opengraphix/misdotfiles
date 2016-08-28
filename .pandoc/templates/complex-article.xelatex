@@ -1,0 +1,172 @@
+%% Complex report template
+%  Suitable for longer reports:
+%  Titlepage, numbered sections, more complex page headers/footers
+\documentclass[11pt,a4paper,twoside,openany,final,article]{memoir}
+\usepackage{polyglossia}                                
+
+% change the language and variant for your own needs                              
+\setdefaultlanguage[variant=british]{english}
+
+% use standard math symbols
+\usepackage{amssymb}
+
+% for \text inside formulas and for \eqref
+\usepackage{amsmath}
+\usepackage[math-style=ISO]{unicode-math}
+\usepackage[svgnames]{xcolor}
+
+% you may not have these fonts on your system to customise this as required
+\usepackage{fontspec}
+\defaultfontfeatures{Ligatures=TeX}
+\newfontfeature{Microtype}{protrusion=default;expansion=default;}
+\setmainfont[Microtype,Ligatures=TeX,Numbers=OldStyle]{Minion Pro}
+\setsansfont[Microtype,Scale=MatchLowercase,Ligatures=TeX]{Myriad Pro}
+\setmonofont[Microtype,Scale=MatchLowercase,Scale=0.9]{Courier New}
+
+% set paragraph spacing
+% no indent, one baseline between paragraphs
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{\baselineskip}
+
+% Set margins and page layout
+\usepackage[left=2.5cm,right=2.5cm,top=2.5cm,bottom=3cm]{geometry}
+
+% prevent overfull lines
+\setlength{\emergencystretch}{3em}
+
+% for \includegraphics
+\usepackage{graphicx}
+
+% for exact placement of figures
+\usepackage{float}
+
+% for footnotes in tables
+\usepackage{longtable}
+
+% for hyperlinks
+\usepackage[colorlinks,urlcolor=DarkRed,filecolor=DarkRed,linkcolor=DarkRed,citecolor=black]{hyperref}
+\usepackage[all]{hypcap}
+\urlstyle{same}
+
+%% Make the style for Chapters and sections
+%  Used kjh's styles as a starting point:
+%  https://github.com/kjhealy/latex-custom-kjh/blob/master/needs-memoir/memoir-article-styles.sty
+\makechapterstyle{article-sans}{
+    \setsecheadstyle{\color{MidnightBlue}\large\sffamily\bfseries} 
+    \setsubsecheadstyle{\color{MidnightBlue}\normalsize\sffamily\bfseries}
+    \setsubsubsecheadstyle{\color{MidnightBlue}\normalsize\sffamily\itshape}
+    \renewcommand{\printchaptername}{} 
+    \renewcommand{\chapternamenum}{} 
+    \renewcommand{\chapnumfont}{\chaptitlefont} 
+    \renewcommand{\printchapternum}{\chapnumfont \thechapter\space} 
+    \renewcommand{\afterchapternum}{} 
+    \renewcommand{\printchaptername}{\secheadstyle}
+    \renewcommand{\cftchapterfont}{\normalfont} 
+    \renewcommand{\cftchapterpagefont}{\normalfont\sffamily} 
+    \renewcommand{\cftchapterpresnum}{\sffamily} 
+    %\renewcommand{\cftchapterleader}{} 
+    %\renewcommand{\cftchapterafterpnum}{\cftparfillskip}
+    \captiontitlefont{\small}
+    %\settocdepth{chapter}
+    \setsecnumdepth{subsubsection}
+    \settocdepth{subsubsection}
+    \counterwithout{section}{chapter}
+
+    %% reduce skip after section heading
+    \setaftersecskip{1.7ex}
+
+    %% set name of bibliography to 'references'
+    %%\renewcommand{\bibname}{\mdseries\Large\sffamily References}
+
+     % Titlepage layout
+    \pretitle{\par\vskip 3em 
+        \begin{center}\Huge\sffamily\bfseries\hrule\vskip 0.5em}
+    \posttitle{\end{center}\par\vskip 0.5em\hrule}
+    \preauthor{\begin{center}\Large\vskip 3em}
+    \postauthor{\end{center}}
+    \predate{\begin{center}\normalsize}
+    \postdate{\end{center}}
+
+    %% 'abstract' bigger skip from title
+    \addto\captionsamerican{\renewcommand*{\abstractname}{}}
+    \renewcommand{\abstractnamefont}{\normalfont\scriptsize}
+    \renewcommand{\abstracttextfont}{\normalfont\scriptsize}
+    \abstractrunin
+
+}
+
+
+\makepagestyle{ruled-sans} % Make ruled-sans pagestyle
+
+\makeatletter                 % Define ruled-sans pagestyle
+% \makeheadfootruleprefix{ruled-sans}{\color{LightSlateGrey}}{\color{LightSlateGrey}}
+\makeevenfoot{ruled-sans}{\sffamily\thepage}{}{} %
+\makeoddfoot{ruled-sans}{}{}{\sffamily\thepage}  %
+\makeevenhead{ruled-sans}{\sffamily\small\leftmark}{}{}
+\makeoddhead{ruled-sans}{}{}{\sffamily\small\rightmark}
+\makeheadrule{ruled-sans}{\textwidth}{\normalrulethickness}
+\makeatother                  %
+
+\makeatletter
+\makepsmarks{ruled-sans}{
+\createmark{chapter}{left}{nonumber}{\today }{}
+\createmark{section}{both}{shownumber}{}{ \quad }
+\createplainmark{toc}{both}{\contentsname}
+\createplainmark{lof}{both}{\listfigurename}
+\createplainmark{lot}{both}{\listtablename}
+\createplainmark{bib}{both}{\bibname}
+\createplainmark{index}{both}{\indexname}
+\createplainmark{glossary}{both}{\glossaryname}
+}
+\makeatother                               %
+
+\nouppercaseheads
+\pagestyle{ruled-sans}               % Choosing pagestyle and chapter pagestyle
+\chapterstyle{article-sans}
+\tightlists
+
+% Make figures as wide as the margins
+% Determine if the image is too wide for the page.
+\makeatletter
+\def\ScaleIfNeeded{%
+  \ifdim\Gin@nat@width>\linewidth
+    \linewidth
+  \else
+    \Gin@nat@width
+  \fi
+}
+\makeatother
+
+% Resize figures that are too wide for the page.
+\let\oldincludegraphics\includegraphics
+\renewcommand\includegraphics[2][]{%
+  \oldincludegraphics[width=\ScaleIfNeeded]{#2}
+}
+
+% define info for titlepage
+% At the moment this has to be hard coded, which is fiddly for the title
+\def\mytitle{Title}
+\def\myauthor{Your Name}
+\def\myaffiliation{Your Affiliation}
+\def\myemail{\href{mailto:email@example.com}{email@example.com}}
+
+
+\begin{document}
+
+
+
+\begin{titlingpage}
+    
+    \title{\mytitle}
+
+    \author{\myauthor \\
+      \emph{\myaffiliation} \\ \myemail}
+
+    \date{\today} 
+    \maketitle
+
+\end{titlingpage}
+
+$body$
+
+\end{document}

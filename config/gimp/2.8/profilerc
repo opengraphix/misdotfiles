@@ -1,0 +1,6 @@
+# GIMP color profile history
+
+(color-profile "Generic CMYK Profile.icc" "file:///System/Library/ColorSync/Profiles/Generic%20CMYK%20Profile.icc")
+(color-profile "sRGB Profile.icc" "file:///System/Library/ColorSync/Profiles/sRGB%20Profile.icc")
+
+# end of color profile history
