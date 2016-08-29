@@ -1,0 +1,100 @@
+cp $DOTFILES_DIR/.spacesmacs $HOME/,V
+,V
+cachecertificates,v
+brew cask install gdal-framework,v
+install_ohmyzsh.sh,v
+auctex-latexmk-20160706.503,v
+https://raw.githubusercontent.com/opengraphix/dotfiles-1/master/mutt/.mutt/muttrc,v
+https://github.com/opengraphix/dotfiles-1/blob/master/mutt/.mutt/muttrc,v
+  (autoload 'markdown-mode "markdown-mode",V
+    "Major mode for editing Markdown files" t),V
+  (add-to-list 'auto-mode-alist '("\\.post\\'" . markdown-mode)),V
+  (add-to-list 'auto-mode-alist '("\\.md\\'" . markdown-mode)),V
+  (defun dotspacemacs/user-config (),V
+       (set-face-attribute 'default nil :height 80),V
+  ),V
+  (setq neo-smart-open t),V
+## Conceptos de AuditoríaExamen metódico de una situación relativa a un producto, proceso u organización en materia de calidad, realizada en cooperación con los interesados para verificar la concordancia de la realidad con lo preestablecido y la adecuación al objetivo buscado.## Conceptos de AuditoríaActividad para determinar, por medio de la investigación, la adecuación de los procedimientos establecidos, instrucciones, especificaciones, codificaciones y estándares u otros requisitos, la adhesión de los mismos y la eficiencia de su implantación.## Conceptos de AuditoríaEs la investigación, consulta, revisión, verificación, comprobación y evidencia. Aplicada la empresa es el examen del estado financiero de una empresa realizada por personal cualificado e independiente, de acuerdo con normas de contabilidad, con el fin de esperar una opinión con que tales estados contables muestran lo acontecido en el negocio. Requisito fundamental es la independencia.## Conceptos de AuditoríaSe define como la acumulación y la evaluación de las evidencias sobre la información cuantificable de una entidad económica para determinar y opinar sobre el grado de correspondencia que hay entre la información y el criterio establecido. [Zamarripa, 2002].## Conceptos de AuditoríaEs un proceso sistemático para obtener y evaluar evidencias de una manera objetiva respecto a las afirmaciones correspondientes a actos económicos y eventos para determinar el grado de correspondencia entre estas afirmaciones y criterios establecidos y comunicar los resultados a los usuarios interesados.[Kell-Ziegler].## Conceptos de Auditoría,V
+E,v
+'(neo-window-position (quote right)),v
+http://132.248.14.221:8081/geoserver/ows?service=wms&version=1.3.0&request=GetCapabilities,v
+presentacion.md,v
+4ae8c2d5,v
+Adding Layers to GeoServer Using the REST API - BoundlessBootstrap 3 Nav Menu Responsive Brand Logo Image - Dispute BillsChaining Rendering Transformations in GeoServer - BoundlessCreating dynamic contour maps with server-side processing - Boundless,v
+git remote add origin git@github.com:username/new_repo,v
+opengeo,v
+JETTY_ARGS=jetty.port=8085,v
+https://www.youtube.com/watch?v=5QapF7kt1xQ,v
+JAVA_OPTIONS="-Xms256m -Xmx512m -Dfile.encoding=UTF-8",v
+maura pres,v
+<role rolename="admin"/>,v
+JAVA_OPTS="-Xms256m -Xmx2048m -XX:+UseParallelGC -XX:+UseParallelOldGC",v
+set editor = "vim -c 'set syntax=mail ft=mail enc=utf-8'" ,v
+HOMEBREW_EDITOR,v
+lramirez88mx_at_gmail.txt,v
+touch Equifax_Secure_CA.pem,v
+attachment,v
+S,v
+auto_view text/html,V
+~/.mutt/certificates,v
+auto_view text/html,v
+ ,v
+~/.muttrc,v
+file:///Users/lramirez/Sites/unigeo2016/cu2.html,v
+http://132.247.103.47/simbolos/bicipuma.svg,v
+shp_publicar_capas.sh,v
+sudo /etc/init.d/postgresql stop version 9.1,v
+https://github.com/chriskempson/base16-iterm2.git,v
+open -a Skim foo.pdf,v
+/Applications/Skim.app/Contents/MacOS/Skim,v
+syntax enable    set background=light    colorscheme solarized,v
+http://132.247.103.47/gruposfocales/style/escasez.png,v
+optimzar_raster.sh,v
+w,v
+n,v
+-,v
+#,v
+#!/bin/bash,V
+alias emacsgui='/Applications/Emacs.app/Contents/MacOS/Emacs',v
+Cauces_Sonora.zip,v
+~/Applications/Emacs.app/Contents/MacOS/Emacs,V
+  exec ~/Applications/Emacs.app/Contents/MacOS/Emacs -g 80x61+900+0,V
+fi,V
+else,V
+if [  $# -gt 0 ]; then,V
+emacs --insecure,V
+	repositoryformatversion = 0,V
+página,v
+bare = false        filemode = true        ignorecase = true        precomposeunicode = true        logallrefupdates = true,v
+y,v
+l,v
+a,v
+e,v
+h,v
+j,v
+k,v
+/,v
+m,v
+o,v
+c,v
+.,v
+b,v
+u,v
+t,v
+i,v
+g,v
+:,v
+s,v
+p,v
+https://github.com/opengraphix,v
+'for i in $(ls *.shp); donombre=$(echo $i | cut -d "." -f 1);shp2pgsql,v
+Mi código,V
+/usr/local/Cellar/fortune/9708/share/games/fortunes,v
+040777,v
+	pandoc -r markdown+simple_tables+table_captions+yaml_metadata_block -s -S --latex-engine=pdflatex --template=$(PREFIX)/templates/latex.template --filter pandoc-crossref --filter pandoc-citeproc --filter pandoc-citeproc-preamble --csl=$(PREFIX)/csl/$(CSL).csl --bibliography=$(BIB) -o $@ $<,V
+baber92:_great_connec,v
+https://github.com/kjhealy/md-starter.git,v
+estados_financieros,v
+brew cask install atom,v
+http://caskroom.io/search,v
+latex.template,v

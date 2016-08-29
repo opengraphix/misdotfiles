@@ -65,6 +65,9 @@ mkdir -p ~/.vim/undodir
 #Instalando spacemacs
 ./install_spacemacs.sh
 
-cp $DOTFILES_DIR/.spacesmacs $HOME/
+cp $DOTFILES_DIR/.spacesmacs ~/
+
+#Instalacion de vim
+./install_vim.sh
 
 echo "Ha terminado todo. ¡Reinicia tu terminal para efectuar los cambios en el shell!"
