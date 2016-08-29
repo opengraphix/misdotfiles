@@ -1,0 +1,89 @@
+% Papier à en-tête ICube
+% Version du 3 février 2013
+% Infos et bugs : vincent.mazet@unistra.fr
+
+% Mise en page
+\voffset -1in
+\topmargin 10mm
+\headheight 5mm
+\headsep 35mm
+\textheight 210mm
+\footskip 20mm
+\hoffset -1in
+\oddsidemargin 50mm
+\evensidemargin 50mm
+\textwidth 140mm
+\marginparsep -180mm
+\marginparwidth 35mm
+\parindent 0mm
+
+% En tête et pieds de page
+\pagestyle{fancy}
+\renewcommand{\headrulewidth}{0pt}
+
+% Police sans-serif
+\renewcommand{\familydefault}{\sfdefault}
+
+% Couleurs
+\definecolor{bleu}{RGB}{0,94,168}
+\definecolor{gris}{RGB}{88,88,90}
+
+% Logos
+\newcommand{\icubesign}{\includegraphics[width=40mm]{icube-sign.eps}\vspace*{-20mm}}
+\newcommand{\icube}{\includegraphics[width=40mm]{icube.eps}\vspace*{-12mm}}
+
+% Marge (expéditeur, suivi, adresse)
+\newcommand{\marge}{%
+  \vspace*{-225mm}\hspace*{-40mm}\vbox{
+    \vtop to  45mm {\vfil\usebox{\exped}\vfil}
+    \vbox to  30mm {\vfil}
+    \vbox to  30mm {\vfil\usebox{\suiv}\vfil}
+    \vbox to 100mm {\vfil}
+    \vbox to  20mm {\vfil\usebox{\adress}}
+  }
+}
+
+% Tutelles
+\newcommand{\tutelles}{
+  \begin{tabular}{@{}r@{}}%
+  \scriptsize Sous la co-tutelle de \\%
+  \hline%
+  ~\\[-3mm]%
+  \includegraphics[height=1cm]{cnrs.eps}\quad%
+  \ifthenelse{\value{engees}=1}{\includegraphics[height=1cm]{engees.eps}\quad}{}%
+  \ifthenelse{\value{insa}=1}{\includegraphics[height=1cm]{insa.eps}\quad}{}%
+  \includegraphics[height=1cm]{unistra.eps}%
+  \end{tabular}
+}
+
+% Éléments de la lettre
+\lhead{\hspace*{-40mm}\ifthenelse{\value{page}=1}{\icubesign}{\icube}}      % Logo ICube
+\chead{}                                                                    %
+\lfoot{\ifthenelse{\value{page}=1}{\marge}{}}                               % Expéditeur, suivi, adresse
+\cfoot{}                                                                    %
+\rfoot{\ifthenelse{\value{page}=1}{\tutelles}{\raisebox{-5mm}{\thepage}}}   % Tutelles
+
+% Expéditeur
+\newsavebox{\exped}
+\newcommand{\expediteur}[3]{\savebox{\exped}{\parbox{50mm}{%
+  \textcolor{bleu}{#1 \textbf{#2}} \\[1ex]\scriptsize#3}}}
+
+% Suivi de l'affaire
+\newsavebox{\suiv}
+\newcommand{\suivi}[1]{\savebox{\suiv}{\parbox{35mm}{\scriptsize%
+  \textcolor{bleu}{Affaire suivie par~:} \\[.5ex]#1}}}
+
+% Adresse du laboratoire
+\newsavebox{\adress}
+\newcommand{\adresse}[1]{\savebox{\adress}{\parbox{50mm}{%
+  \scriptsize\color{gris}\textbf{Laboratoire ICube --- UMR 7357}\\#1}}}
+
+% Autres commandes
+\newcommand{\lieudate}[1]{\rhead{\ifthenelse{\value{page}=1}{#1}{}}}
+\newcounter{engees}
+\newcommand{\logoengees}{\setcounter{engees}{1}}
+\newcommand{\nologoengees}{\setcounter{engees}{0}}
+\newcounter{insa}
+\newcommand{\logoinsa}{\setcounter{insa}{1}}
+\newcommand{\nologoinsa}{\setcounter{insa}{0}}
+\newcommand{\destinataire}[1]{\vspace*{-20mm}\vbox to 4cm {\vfil \hfill\hbox to 100mm{\parbox{90mm}{#1}}\vfil}\vspace*{20mm}}

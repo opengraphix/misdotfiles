@@ -1,0 +1,95 @@
+%% This example is adapted from the "Business Cards for Programmers/Developers" example at 
+% https://www.overleaf.com/latex/templates/business-cards-for-programmers-slash-developers/wrwgsnnmxwyg.
+
+% Instructions are at the end of the file.
+
+\documentclass[11pt,a4paper]{memoir}
+
+\setstocksize{55mm}{85mm} % UK Stock size
+\setpagecc{55mm}{85mm}{*}
+\settypeblocksize{45mm}{75mm}{*}
+\setulmargins{5mm}{*}{*}
+\setlrmargins{5mm}{*}{*}
+\usepackage{xcolor}
+
+\usepackage{datatool}
+%% The "database" is a comma-separated values (CSV) file.
+%% The first line should contain the column headers, without space characters, e.g.
+%% Name,JobTitle,Department
+%%
+%% If a field value contains a comma, then the field value needs to be surrounded with double quotes, e.g. 
+%% John Smith,Lecturer,"School of Science, Mathematics and Engineering"
+%%
+%% Spreadsheet applications can usually export such a .csv file.
+%%
+%% If field values are expected to contain LaTeX special characters like $, &, then use \DTLloadrawdb{data}.csv instead.
+\DTLloaddb{namelist}{data.csv}
+
+\setheadfoot{0.1pt}{0.1pt}
+\setheaderspaces{1pt}{*}{*}
+\usepackage[urw-garamond,scaled=0.9]{mathdesign}
+
+\checkandfixthelayout[fixed]
+
+\pagestyle{empty}
+
+\usepackage{graphicx}
+\usepackage{pstricks}
+\usepackage{auto-pst-pdf,pst-barcode}
+
+
+%% These packages only for typesetting the instructions
+\usepackage{listings}
+\usepackage{enumitem}
+
+
+\begin{document}
+
+%% For each line in namelist (which was loaded from data.csv), 
+%% output the following text (with mailmerged field values)
+\DTLforeach{namelist}{%
+    %% Map each column header in your .csv file to a command
+	\Name=Name,%
+    \Employer=Employer,%
+    \Email=Email,
+    \Mobile=Mobile,
+    \Web=Web%
+}{%%%  Start designing your output text! 
+  %%%  Mailmerged field values can be inserted using the commands
+  %%%  you've just mapped above.
+    \begin{Spacing}{0.75}%
+    \noindent
+	\textbf{(Conference Name)}\\[-1pt]
+    \rule{\textwidth}{.3mm}\\
+    \begin{minipage}[t]{28mm}
+        \vspace{-0mm}%
+        \begin{pspicture}(25mm,25mm)
+            % The MECARD format is used to exchange contact information. More information at:
+            % https://www.nttdocomo.co.jp/english/service/developer/make/content/barcode/function/application/addressbook/index.html
+\psbarcode{MECARD:N:\Name;URL:\Web;EMAIL:\Email;TEL:\Mobile;NOTE:\Employer;}{eclevel=L width=1 height=1}{qrcode}
+        \end{pspicture}
+    \end{minipage}
+    \hspace{1mm}
+    \begin{minipage}[t]{42mm}
+        \vspace{-0mm}%
+        \begin{flushleft}
+        {\small
+            \begin{Spacing}{1}%
+            \textbf{\Name}\\
+            {\footnotesize\Employer}
+            \end{Spacing}
+        }
+        \end{flushleft}
+    \end{minipage}
+
+	\vspace{3mm}
+    \mbox{}\hfill {\scriptsize \includegraphics[height=2em]{by-sa} (Other logos)}
+    \end{Spacing}
+    \clearpage
+}
+
+%% Comment out this line when typesetting for final output
+\input{instructions}
+
+
+\end{document}

@@ -1,0 +1,63 @@
+\documentclass[11pt,a4paper]{memoir}
+
+\setstocksize{55mm}{85mm} % UK Stock size
+\setpagecc{55mm}{85mm}{*}
+\settypeblocksize{45mm}{75mm}{*}
+\setulmargins{5mm}{*}{*}
+\setlrmargins{5mm}{*}{*}
+\usepackage{xcolor}
+
+\setheadfoot{0.1pt}{0.1pt}
+\setheaderspaces{1pt}{*}{*}
+\usepackage{fontspec}
+\setmainfont[]{EBGaramond12-Regular.ttf} 
+
+\checkandfixthelayout[fixed]
+
+\pagestyle{empty}
+
+\usepackage{pstricks}
+\usepackage{auto-pst-pdf,pst-barcode}
+
+\begin{document}
+    \begin{Spacing}{0.75}%
+    \noindent
+    \textbf{Helena Doe}\\
+    \tiny subtitle \hfill {\color{gray}Division / Employer}\\ 
+    \rule{74mm}{.3mm}\\
+    \begin{minipage}[t]{33mm}
+        \vspace{-0mm}%
+        \begin{pspicture}(25mm,25mm)
+            % The MECARD format is used to exchange contact information. More information at:
+            % http://www.nttdocomo.co.jp/english/service/imode/make/content/barcode/function/application/addressbook/index.html
+\psbarcode{MECARD:N:Last name, First Name;URL:https://fqdn;EMAIL:helena@univ.edu;NOTE:GPG: ;;}{eclevel=L width=1 height=1}{qrcode}
+
+        \end{pspicture}
+    \end{minipage}
+    \hspace{1mm}
+    \begin{minipage}[t]{42mm}
+        \vspace{-0mm}%
+        \begin{flushleft}
+        {\scriptsize
+            \begin{Spacing}{1}%
+            \textbf{Job Title}\\
+            \hspace{5mm}Speciality 1\\
+            \hspace{5mm}Speciality 2\\
+            \hspace{5mm}Speciality 3 \vspace{2mm}\\
+            \end{Spacing}
+        }
+        {\tiny
+        	\begin{tabular}{rl}
+            	{\color{gray}web} & https://fqdn/\\
+            	{\color{gray}email} & helena@univ.edu\\
+            	{\color{gray}email} & hxr42@gmail.com\\
+            	{\color{gray}mobile} & +1 123 456 7890\\
+            \end{tabular}
+            \vspace*{2mm}
+        }
+        \end{flushleft}
+    \end{minipage}
+    \rule{74mm}{0mm}\\
+    \texttt{\fontsize{2.84mm}{3.55mm}\selectfont 425B 030A B8D2 0316 CA1B 4709 CA83 5DDA EC31 CA56} % GPG KEY ID
+    \end{Spacing}
+\end{document}

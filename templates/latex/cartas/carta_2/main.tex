@@ -1,0 +1,135 @@
+% Papier à en-tête ICube
+% Version du 3 février 2013
+% Infos et bugs : vincent.mazet@unistra.fr
+
+\documentclass[a4paper,11pt,twosided]{letter}
+
+% Paquets généraux
+\usepackage[utf8]{inputenc}     % Codage du fichier TeX
+\usepackage[T1]{fontenc}        % Codage du fichier PDF (les paquets cm-super ou lmodern doivent être installés pour obtenir un bon résultat)
+\usepackage{graphicx}           % Logos et autres illustrations
+\usepackage{fancyhdr}           % En-têtes et pieds de page
+\usepackage{color}              % Couleur
+\usepackage{ifthen}             % Condition
+\usepackage{helvet}             % Police Helvetica
+\usepackage[french]{babel}      % Courrier en français
+% \usepackage[english]{babel}   % Courrier en anglais
+
+\input{icube-style}             % Style de la lettre à en-tête
+
+\begin{document}
+
+% Lieu et date
+\lieudate{Illkirch, le \today}
+
+% Tutelles
+\logoengees         % Logo ENGEES
+% \nologoengees     % Pas de logo ENGEES
+\logoinsa           % Logo INSA
+% \nologoinsa         % Pas de logo INSA
+
+% Expéditeur
+\expediteur{Vincent}{Mazet}{%
+  Maître de conférences, \\
+  Tél~: +33 (0)3 68 85 44 91 \\
+  vincent.mazet@unistra.fr
+}
+
+% Affaire suivie par...
+\suivi{%
+  Prénom Nom \\
+  Tél~: \\
+  Mél~: \\
+  Réf.
+}
+
+% Adresse du laboratoire
+\adresse{%
+  Télécom Physique Strasbourg \\
+  300 bd Sébastien Brant -- BP 10413 \\
+  F--67412 Illkirch cedex \\
+  http://icube.unistra.fr
+}
+
+% Destinataire
+\destinataire{%
+  Laboratoire ICube \\
+  300 boulevard Sébastien Brant \\
+  BP 10413 \\
+  67412 Illkirch Cedex -- France
+}
+
+% Objet
+Objet~: rédaction d'une lettre avec papier à en-tête en \LaTeX{}
+
+\bigskip\bigskip
+
+Madame, Monsieur,
+
+\bigskip\bigskip
+
+la version \LaTeX{} du papier à en-tête du laboratoire ICube est configurable avec les éléments suivants~:
+\begin{itemize}
+  
+  \item \texttt{$\backslash{}$lieudate\{\dots\}} permet d'indiquer
+  le lieu et la date de rédaction en haut à droite sur la première page~;
+
+  \item \texttt{$\backslash{}$expediteur\{\textit{Prénom}\}\{\textit{Nom}\}\{\dots\}}
+  s'écrit dans la marge et identifie l'auteur de la lettre. Indiquez vos prénom, nom et coordonnées~;
+
+  \item \texttt{$\backslash{}$suivi\{\dots\}} permet de donner des informations sur la personne suivant le dossier~;
+
+  \item \texttt{$\backslash{}$adresse\{\dots\}} contient l'adresse du laboratoire,
+  à personnaliser suivant le site où on se trouve~;
+
+  \item \texttt{$\backslash{}$destinataire\{\dots\}} correspond au destinataire du courrier~;
+
+  \item ICube possède quatre tutelles. Le CNRS et l'Université de Strasbourg doivent apparaître.
+  En revanche, l'ENGEES et l'INSA sont optionnel~;
+  on peut les afficher avec les commandes \texttt{$\backslash$logoengees} et \texttt{$\backslash$logoinsa}
+  ou les faire cacher avec les commandes \texttt{$\backslash$nologoengees} et \texttt{$\backslash$nologoinsa}.
+
+\end{itemize}
+
+\bigskip
+
+Ce document nécessite les logos des tutelles (fichiers cnrs.eps, engees.eps, icube.eps, icube-sign.eps, insa.eps et unistra.eps)
+et les paquets suivants~:
+\begin{itemize}
+  
+  \item fontenc, pour créer des fichiers PDF avec des polices correctes
+  (les paquets cm-super ou lmodern doivent par ailleurs être installés pour obtenir un bon résultat)~;
+
+  \item graphicx pour afficher des images (en l'occurrence, les logos)~;
+
+  \item fancyhdr, pour pouvoir modifier les en-têtes et pieds de page~;
+
+  \item color, pour prendre en charge les couleurs de la charte graphique~;
+
+  \item ifthen, pour gérer des conditions~;
+
+  \item helvet pour écrire avec la police Helvetica~;
+
+  \item babel, avec l'option french ou english pour prendre en comptes les particularités de la langue.
+
+\end{itemize}
+Le fichier icube-style.tex est indispensable~: il contient les commandes nécessaires à la compilation.
+
+\bigskip
+
+Les logos inclus sont au format EPS. De ce fait, la compilation est à faire avec les commandes \texttt{latex}, \texttt{dvitops} et \texttt{pstopdf}.
+
+\bigskip
+
+Ce document correspond à la version du \today.
+Pour toute information supplémentaire, ou pour faire remonter une correction, veuillez m'envoyer un courriel à vincent.mazet@unistra.fr.
+
+\bigskip
+
+Veuillez agréer, Madame, Monsieur, mes salutations distinguées.
+
+\bigskip\bigskip
+
+\hfill Vincent Mazet
+
+\end{document}
