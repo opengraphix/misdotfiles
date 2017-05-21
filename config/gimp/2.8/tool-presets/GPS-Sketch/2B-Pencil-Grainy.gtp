@@ -7,6 +7,7 @@
     (opacity 0.800000)
     (brush "Z_study pencil 2H")
     (dynamics "2B Pencil Grainy")
+    (gradient "Frente a fondo (RGB)")
     (palette "Default")
     (brush-size 40.000000)
     (application-mode incremental)

@@ -1,0 +1,167 @@
+style "panel-arrow-remove"
+ 
+#the following removes the arrows from the panel
+{
+engine "pixmap"
+    {
+    image
+    {
+        function    = ARROW
+        recolorable    = TRUE
+        overlay_file    = "arrows/arrow-blank.png"
+        overlay_border    = {2,2,2,2}
+        overlay_stretch    = FALSE
+        arrow_direction    = UP
+    }
+ 
+    image
+    {
+        function    = ARROW
+        recolorable    = TRUE
+        overlay_file    = "arrows/arrow-blank.png"
+        overlay_border    = {2,2,2,2}
+        overlay_stretch    = FALSE
+        arrow_direction    = DOWN
+    }
+    }
+}
+
+style "theme-panel" = "theme-default"
+{	
+font_name = "Calibri 9.5" #Calibri Regular 9.5
+#font_name = "Lucida Grande Regular 10"
+fg[NORMAL] 			= "#000000" #Cambiar el color de la fuente Lucida Grande 10.
+
+#"Helvetica Neue LT Pro Ultra Light Condensed10.5"
+	xthickness		= 5
+	ythickness		= 0
+	#bg_pixmap[NORMAL]	= "/Panel/panel.png" # Disable for normal panel backgrounds.
+
+	bg[ACTIVE]				= shade (1.0, @selected_bg_color)
+	bg[SELECTED]				= shade (1.0, @selected_bg_color)
+	bg[PRELIGHT]				= shade (1.0, @selected_bg_color)
+
+	engine "murrine" {
+		roundness			= 0
+		highlight_shade     		= 1.0 
+		lightborder_shade   		= 0.88
+		#gradient_shades     		= {0.90,1.05,1.06,1.20}
+		gradient_shades     		= {1.20,1.06,1.05,0.72}
+		contrast			= 1.05
+		border_shades 			= {1.4, 1.2}
+		textstyle			= 1
+	}
+}
+
+style "theme-panel-buttons" = "theme-panel"
+{
+	GtkButton	::child-displacement-x	= 0
+	GtkButton	::child-displacement-y	= 0
+
+	xthickness	= 2
+	ythickness	= 0
+
+	bg[ACTIVE]	= shade (0.85, @bg_color)
+	bg[PRELIGHT]	= shade (1.1, @bg_color)
+
+	engine "pixmap"
+	{
+		image
+		{
+			function		= BOX
+			recolorable		= TRUE
+			state			= NORMAL
+		}
+		
+		image
+		{
+			function		= BOX
+			recolorable		= TRUE
+			state			= PRELIGHT
+			file			= "Panel/button-hover.png"
+			border			= { 3, 3, 2, 0 }
+			stretch			= TRUE
+		}
+		
+		image
+		{
+			function		= BOX
+			recolorable		= TRUE
+			state			= ACTIVE
+			file			= "Panel/button-active.png"
+			border			= { 2, 2, 1, 0 }
+			stretch			= TRUE
+		}
+
+		image
+		{
+			function		= BOX
+			recolorable		= TRUE
+			state			= SELECTED
+			file			= "Panel/button-active.png"
+			border			= { 2, 2, 1, 0 }
+			stretch			= TRUE
+		}
+ 
+		image
+		{
+			function		= BOX
+			recolorable		= TRUE
+			state			= INSENSITIVE
+		}  
+	}
+}
+
+style "theme-panel-light" = "theme-panel"
+{
+	fg[NORMAL]        = @fg_color
+}
+style "elementary-panel-handle" 
+{
+    engine "pixmap"
+    {    
+        image
+        {
+		function 	= HANDLE
+        }    
+ 
+	image
+        {
+        	function 	= HANDLE
+        }
+    }
+}
+# Panel settings. Do not change.
+widget "*PanelWidget*"			style "panel-arrow-remove"
+widget "*PanelApplet*"			style "theme-panel"
+widget "*fast-user-switch*"		style "theme-panel"
+widget "*gdm-user-switch*"		style "theme-panel"
+widget "*CPUFreq*Applet*"		style "theme-panel"
+widget "*indicator-applet*"		style "theme-panel"
+class "PanelApp*"			style "theme-panel"
+class "PanelToplevel*"			style "theme-panel"
+widget_class "*PanelToplevel*"		style "theme-panel"
+widget_class "*notif*"			style "theme-panel"
+widget_class "*Notif*"			style "theme-panel"
+widget_class "*Tray*"			style "theme-panel" 
+widget_class "*tray*"			style "theme-panel"
+widget_class "*computertemp*"		style "theme-panel"
+widget_class "*Applet*Tomboy*"		style "theme-panel"
+widget_class "*Applet*Netstatus*"	style "theme-panel"
+
+# Fixes for tooltip text in some apps.
+widget_class "*Notif*Beagle*"		style "theme-panel-light"
+widget_class "*Notif*Brasero*"		style "theme-panel-light"
+
+# XFCE panel theming.
+widget "*Xfce*Panel*"			style "theme-panel"
+class "*Xfce*Panel*"			style "theme-panel"
+
+# Panel buttons.
+widget_class "*Panel*GtkToggleButton"	style:highest "theme-panel-buttons"
+widget_class "*Panel*GtkButton"		style:highest "theme-panel-buttons"
+
+# Hide ugly handle
+class "PanelAppletFrame" 		style:highest "elementary-panel-handle"
+
+

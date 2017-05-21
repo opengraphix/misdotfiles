@@ -8,6 +8,7 @@
     (opacity 0.400000)
     (brush "P_Graphite Pencil")
     (dynamics "Graphite Shades 01")
+    (gradient "Frente a fondo (RGB)")
     (palette "Default")
     (brush-size 250.000000)
     (application-mode incremental)

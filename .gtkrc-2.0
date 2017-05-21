@@ -1,0 +1,14 @@
+# -- THEME AUTO-WRITTEN DO NOT EDIT
+include "/Users/lramirez/.themes/Adwaita/gtk-2.0/gtkrc"
+
+style "user-font" {
+	font_name = "Helvetica 13"
+}
+
+widget_class "*" style "user-font"
+
+gtk-font-name="Helvetica 13"
+
+include "/Users/lramirez/.gtkrc.mine"
+
+# -- THEME AUTO-WRITTEN DO NOT EDIT

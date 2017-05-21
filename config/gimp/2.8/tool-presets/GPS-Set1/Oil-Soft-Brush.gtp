@@ -6,6 +6,7 @@
     (tool "gimp-paintbrush-tool")
     (brush "O_Oil Soft")
     (dynamics "Oil Soft Brush")
+    (gradient "Frente a fondo (RGB)")
     (palette "Default")
     (brush-size 80.000000)
     (jitter-amount 0.350000)

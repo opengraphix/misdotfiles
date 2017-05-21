@@ -2,7 +2,7 @@
 
 (brush "Normal Nib 1")
 (dynamics "Dynamics Off")
-(gradient "FG to BG (RGB)")
+(gradient "Frente a fondo (RGB)")
 (palette "Default")
 
 # end of gimp-paintbrush-tool options

@@ -1,0 +1,44 @@
+style "button"{
+  xthickness = 3
+  ythickness = 2
+  
+     engine "pixmap"{
+          image{
+               function		= BOX
+               detail		= "buttondefault"
+               recolorable	= TRUE
+               file			= "buttons/default.png"
+               border		= { 13, 13, 9, 12 }
+               stretch		= TRUE
+          }
+          image{
+               function		= BOX
+               state		= PRELIGHT
+               recolorable	= TRUE
+               file			= "buttons/prelight.png"
+               border		= { 13, 13, 9, 12}
+               stretch		= TRUE
+          }
+          image{
+               function		= BOX
+               state		= ACTIVE
+               file			= "buttons/pressed.png"
+               border		= { 13, 13, 9, 12 }
+               stretch		= TRUE
+          }	
+          image{
+               function		= BOX
+               state		= INSENSITIVE
+               file			= "buttons/insensitive.png"
+               border		= { 13, 13, 9, 12  }
+               stretch		= TRUE
+          }
+          image{
+               function		= BOX
+               file			= "buttons/normal.png"		
+               border		= { 13, 13, 9, 12 }
+               stretch		= TRUE
+          }	
+     }
+}
+class "GtkButton"      style "button"

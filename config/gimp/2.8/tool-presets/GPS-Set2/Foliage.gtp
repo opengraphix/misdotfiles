@@ -6,6 +6,7 @@
     (tool "gimp-paintbrush-tool")
     (brush "L_Foliage 1")
     (dynamics "Foliage")
+    (gradient "Frente a fondo (RGB)")
     (palette "Firecode")
     (brush-size 250.000000)
     (application-mode incremental)

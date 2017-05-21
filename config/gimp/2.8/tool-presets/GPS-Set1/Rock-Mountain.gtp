@@ -6,6 +6,7 @@
     (tool "gimp-paintbrush-tool")
     (brush "Vyle Rock")
     (dynamics "Rock & Mountain")
+    (gradient "Frente a fondo (RGB)")
     (palette "Default")
     (brush-size 500.000000)
     (jitter-amount 0.350000)

@@ -1,8 +1,8 @@
 # GIMP gimp-pencil-tool options
 
-(brush "Clipboard")
+(brush "Portapapeles")
 (dynamics "Dynamics Off")
-(gradient "FG to BG (RGB)")
+(gradient "Frente a fondo (HSV en sentido antihorario)")
 (palette "Default")
 
 # end of gimp-pencil-tool options

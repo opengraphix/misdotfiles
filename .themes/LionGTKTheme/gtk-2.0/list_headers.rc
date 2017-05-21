@@ -1,0 +1,90 @@
+#listheaders
+style "theme-list-header"
+{
+
+ #font_name = "Helvetica Neue LT Pro Ultra Light Condensed 10"
+   #Comment out the ythickness setting below for thicker column headers.
+   #ythickness = 0
+font_name = "Calibri bold 10"
+xthickness = 20 # 40Efecto de mac
+
+	GtkTreeView::odd_row_color = "#ffffff"  #e4ebf5
+	GtkTreeView::even_row_color = "#E4E8EE"   #ffffff D5D9E2 nautilus sidebar
+
+  #fg[NORMAL] = "#ffffff"
+  #text[NORMAL] = "#ffffff"
+
+   engine "pixmap" 
+	{
+
+	#This image is used to draw the headers of columns in list views when they are
+	#not selected.
+    	image
+      		{
+        		function        	= BOX
+			recolorable    	= TRUE
+			state				= NORMAL
+			file            		= "ListHeaders/list_header.png"
+			border          	= { 2, 2, 2, 2 }
+			stretch         	= TRUE
+                        overlay_file	= "ListHeaders/blank.png" #agrega imagen a la
+	    	        overlay_border	= { 0, 0, 0, 0 }
+	    	        overlay_stretch	= FALSE
+      		}
+
+
+
+
+	#This image is used to draw the column headers in list views when they are
+	#clicked.
+    	image
+      		{
+        		function        	= BOX
+			recolorable    	= TRUE
+			state				= PRELIGHT
+			file            		= "ListHeaders/list_header-prelight.png"
+			border          	= { 2, 2, 2, 2 }
+			stretch         	= TRUE
+      		}
+
+	#Does this do anything?
+
+	image
+      		{
+        		function        	= BOX
+			recolorable    	= TRUE
+			state				= ACTIVE
+			file					= "ListHeaders/list_header-pressed.png"
+			border          	= { 2, 2, 2, 2}
+			stretch         	= TRUE
+      		}
+	image
+      		{
+        		function        	= BOX
+			recolorable    	= TRUE
+			state				= SELECTED
+			file					= "ListHeaders/list_header-prelight.png"
+			border          	= { 2, 2, 2, 2 }
+			stretch         	= TRUE
+      		}
+	image
+      		{
+        		function        	= BOX
+			recolorable    	= TRUE
+			state				= INSENSITIVE
+			file					= "ListHeaders/list_header-insens.png"
+			border          	= { 2, 2, 2, 2 }
+			stretch         	= TRUE
+      	}
+        image
+	{
+		function 			= FLAT_BOX
+		state    			= SELECTED
+		border			= {1,1,1,1}
+                stretch         		= TRUE
+		file				= "tree.png"
+      	}
+  	}
+}
+#
+

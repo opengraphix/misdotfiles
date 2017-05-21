@@ -8,6 +8,7 @@
     (background (color-rgb 0.118823 0.118823 0.118823))
     (brush "C_Cloud 1")
     (dynamics "Clouds")
+    (gradient "Frente a fondo (RGB)")
     (palette "Firecode")
     (brush-size 250.000000)
     (use-jitter yes)

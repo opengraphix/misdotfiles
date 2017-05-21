@@ -6,6 +6,7 @@
     (tool "gimp-paintbrush-tool")
     (brush "S_Splats 2")
     (dynamics "Dust Rough")
+    (gradient "Frente a fondo (RGB)")
     (palette "Firecode")
     (brush-size 250.000000)
     (use-jitter yes)

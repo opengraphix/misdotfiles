@@ -1,0 +1,40 @@
+8
+
+dir
+536
+https://svn.innerweb.novell.com/svn/pdes/branches/Common/widgets/Darkilouche/gtk-2.0
+https://svn.innerweb.novell.com/svn/pdes
+
+
+
+2007-02-27T11:22:58.950815Z
+536
+jimmac
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+7b1d760a-4e01-0410-b397-efcc6499a5f1
+
+gtkrc
+file
+537
+
+
+
+2007-02-27T11:21:47.000000Z
+8500476526c62d83f62d85854559eafb
+2007-02-27T11:26:07.721637Z
+537
+jimmac
+

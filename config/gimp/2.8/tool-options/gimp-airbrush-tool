@@ -2,7 +2,7 @@
 
 (brush "2. Hardness 050")
 (dynamics "Pressure Opacity")
-(gradient "FG to BG (RGB)")
+(gradient "Frente a fondo (HSV en sentido antihorario)")
 (palette "Default")
 
 # end of gimp-airbrush-tool options

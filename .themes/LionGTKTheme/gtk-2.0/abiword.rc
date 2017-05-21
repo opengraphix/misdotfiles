@@ -1,0 +1,67 @@
+style "abiword-combobox" = "theme-wider"
+{
+	xthickness = 2
+	bg[NORMAL] = shade (0.95, lighter (@abiwordcombo_color))
+	bg[ACTIVE] = shade (0.96, @abiwordcombo_color)
+	bg[PRELIGHT] = shade (0.96, @abiwordcombo_color)
+	text[NORMAL] = @selected_fg_color
+	text[PRELIGHT] = @selected_fg_color
+engine "equinox" {
+    
+    		}
+}
+
+
+style "abiword-toolbar" = "theme-wide"
+{
+
+GtkToolbar ::button-relief = GTK_RELIEF_NORMAL
+GtkToolbar ::internal-padding = 4
+
+	xthickness      = 7
+	ythickness	= 0
+	bg[NORMAL]	= @toolbar_color
+	
+	engine "pixmap"
+	{
+		image
+		{
+			function	= BOX
+			file		= "Toolbar/abiword-toolbar.png"
+			border		= { 0, 0, 0, 0 }
+			stretch		= TRUE
+    		}
+ 	}
+}
+
+style "abiword-toolbuttons" = "theme-wide"
+{
+
+	xthickness = 0
+	ythickness = 0
+	bg[NORMAL] = shade (0.95, lighter (@abiwordcombo_color))
+	bg[ACTIVE] = shade (0.96, @abiwordcombo_color)
+	bg[PRELIGHT] = shade (0.96, @abiwordcombo_color)
+	text[NORMAL] = @selected_fg_color
+	text[PRELIGHT] = @selected_fg_color
+	
+	engine "equinox" 
+	{
+	}
+}
+
+###icons###
+style "abiword-skip"
+{
+	stock["media-seek-forward"]	= {{ "abiword-icons/media-skip-forward.png", *, *, * }}	
+}
+
+
+widget_class "AbiWord*GtkToolbar*"		style "abiword-toolbar"
+widget_class "AbiWord*GtkToolbar"    		style "abiword-skip"
+widget_class "AbiWord*Tool*GtkButton"                          style "abiword-toolbuttons"
+widget_class "AbiWord*Tool*GtkToggleButton" 	                style "abiword-toolbuttons"
+#widget_class "AbiWord*<GtkComboBox>*"				style "abiword-combobox"
+#widget_class "AbiWord*<GtkCombo>*"         			style "abiword-combobox"
+
+#include "abiword-icons/abiwordiconsrc"

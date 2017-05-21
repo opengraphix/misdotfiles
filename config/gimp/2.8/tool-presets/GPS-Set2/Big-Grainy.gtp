@@ -9,6 +9,7 @@
     (opacity 0.650000)
     (brush "A-19 eroded round 2")
     (dynamics "Big Grainy")
+    (gradient "Frente a fondo (RGB)")
     (palette "Firecode")
     (brush-size 140.000000))
 (use-fg-bg no)

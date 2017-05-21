@@ -9,6 +9,7 @@
     (opacity 0.100000)
     (brush "P_2B Pencil  Angled")
     (dynamics "2B Pencil Angled")
+    (gradient "Frente a fondo (RGB)")
     (palette "Default")
     (brush-size 40.000000)
     (application-mode incremental)

@@ -1,0 +1,156 @@
+style "theme-notebook"{
+	xthickness = 4
+     ythickness = 4
+        engine "pixmap"{
+                #fondo tabs arriba
+                image {
+                        function = BOX_GAP
+                        recolorable = TRUE
+                        file = "tabs/notebook-top.png"
+                        border = {10,10,10,10}
+                        stretch = TRUE
+                        gap_file = "tabs/null.png"
+                        gap_border = {0,0,0,0}
+                        gap_start_file = "tabs/null.png"
+                        gap_start_border = {0,0,0,0}
+                        gap_end_file = "tabs/null.png"
+                        gap_end_border = {0,0,0,0}
+                        gap_side = TOP
+                }
+                
+               #tabs arriba
+               image {
+                    function			= EXTENSION
+                    recolorable		= TRUE
+                    state			= ACTIVE
+                    file				= "tabs/tab_top_normal.png"
+                    border			= {5,5,4,4}
+                    stretch			= TRUE
+                    gap_side			= BOTTOM
+               }
+               image {
+                    function			= EXTENSION
+                    recolorable		= TRUE
+                    #state			= ACTIVE
+                    file				= "tabs/tab_top_selected.png"
+                    border			= {5,5,4,4}
+                    stretch			= TRUE
+                    gap_side			= BOTTOM
+               }
+               
+               #TABS ABAJO-----------------------------------
+               #fondo
+                image {
+                        function = BOX_GAP
+                        recolorable = TRUE
+                        file = "tabs/notebook-bottom.png"
+                        border = {10,10,10,10}
+                        stretch = TRUE
+                        gap_file = "tabs/null.png"
+                        gap_border = {0,0,0,0}
+                        gap_start_file = "tabs/null.png"
+                        gap_start_border = {0,0,0,0}
+                        gap_end_file = "tabs/null.png"
+                        gap_end_border = {0,0,0,0}
+                        gap_side = BOTTOM
+                }
+               #tabs
+               image {
+                    function			= EXTENSION
+                    recolorable		= TRUE
+                    state			= ACTIVE
+                    file				= "tabs/tab_bottom_normal.png"
+                    border			= {5,5,4,4}
+                    stretch			= TRUE
+                    gap_side			= TOP
+               }
+               image {
+                    function			= EXTENSION
+                    recolorable		= TRUE
+                    #state			= ACTIVE
+                    file				= "tabs/tab_bottom_selected.png"
+                    border			= {5,5,4,4}
+                    stretch			= TRUE
+                    gap_side			= TOP
+               }
+               
+               #TABS IZQUIERDA---------------------------
+                #fondo tabs izquierda
+                image {
+                        function = BOX_GAP
+                        recolorable = TRUE
+                        file = "tabs/notebook-left.png"
+                        border = {10,10,10,10}
+                        stretch = TRUE
+                        gap_file = "tabs/null.png"
+                        gap_border = {0,0,0,0}
+                        gap_start_file = "tabs/null.png"
+                        gap_start_border = {0,0,0,0}
+                        gap_end_file = "tabs/null.png"
+                        gap_end_border = {0,0,0,0}
+                        gap_side = LEFT
+                }
+
+               #tabs
+               image {
+                    function			= EXTENSION
+                    recolorable		= TRUE
+                    state			= ACTIVE
+                    file				= "tabs/tab_left_normal.png"
+                    border			= {4,4,5,5}
+                    stretch			= TRUE
+                    gap_side			= RIGHT
+               }
+               image {
+                    function			= EXTENSION
+                    recolorable		= TRUE
+                    #state			= ACTIVE
+                    file				= "tabs/tab_left_selected.png"
+                    border			= {4,4,5,5}
+                    stretch			= TRUE
+                    gap_side			= RIGHT
+               }
+               
+               
+               #TABS DERECHA---------------------
+                #fondo tabs derecha
+                image {
+                        function = BOX_GAP
+                        recolorable = TRUE
+                        file = "tabs/notebook-right.png"
+                        border = {10,10,10,10}
+                        stretch = TRUE
+                        gap_file = "tabs/null.png"
+                        gap_border = {0,0,0,0}
+                        gap_start_file = "tabs/null.png"
+                        gap_start_border = {0,0,0,0}
+                        gap_end_file = "tabs/null.png"
+                        gap_end_border = {0,0,0,0}
+                        gap_side = RIGHT
+                }
+               #tabs
+               image {
+                    function			= EXTENSION
+                    recolorable		= TRUE
+                    state			= ACTIVE
+                    file				= "tabs/tab_right_normal.png"
+                    border			= {4,4,5,5}
+                    stretch			= TRUE
+                    gap_side			= LEFT
+               }
+               image {
+                    function			= EXTENSION
+                    recolorable		= TRUE
+                    #state			= ACTIVE
+                    file				= "tabs/tab_right_selected.png"
+                    border			= {4,4,5,5}
+                    stretch			= TRUE
+                    gap_side			= LEFT
+               }
+        }
+}
+
+
+class "GtkNotebook"    style "theme-notebook"
+widget_class "*.GtkNotebook.*.GtkEventBox" style "theme-notebook"
+widget_class "*.GtkNotebook.*.GtkViewport" style "theme-notebook"

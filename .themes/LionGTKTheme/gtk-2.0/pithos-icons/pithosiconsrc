@@ -1,0 +1,25 @@
+style "pithos-icons"
+{
+  stock["gtk-media-play"] = {{ "media-playback-start.png", *, *, * }}
+  stock["gtk-media-stop"] = {{ "media-playback-stop.png", *, *, * }}
+  stock["gtk-media-pause"] = {{ "media-playback-pause.png", *, *, * }}
+  stock["gtk-media-previous"] = {{ "media-skip-backward.png", *, *, * }}
+  stock["gtk-media-next"] = {{ "media-skip-forward.png", *, *, * }}
+  stock["gtk-media-record"] = {{ "gtk-record.png", *, *, * }}
+  stock["player_play"] = {{ "media-playback-start.png", *, *, * }}
+  stock["player_stop"] = {{ "media-playback-stop.png", *, *, * }}
+  stock["player_pause"] = {{ "media-playback-pause.png", *, *, * }}
+  stock["player_rew"] = {{ "media-skip-backward.png", *, *, * }}
+  stock["player_fwd"] = {{ "media-skip-forward.png", *, *, * }}
+  stock["player_record"] = {{ "gtk-record.png", *, *, * }}
+  stock["media-playback-start"] = {{ "media-playback-start.png", *, *, * }}
+  stock["media-playback-stop"] = {{ "media-playback-stop.png", *, *, * }}
+  stock["media-playback-pause"] = {{ "media-playback-pause.png", *, *, * }}
+  stock["media-seek-backward"] = {{ "media-skip-backward.png", *, *, * }}
+  stock["media-seek-forward"] = {{ "media-skip-forward.png", *, *, * }}
+  stock["media-record"] = {{ "gtk-record.png", *, *, * }}
+  stock["gtk-properties"] = {{ "stock_properties.png", *, *, * }}
+}
+class "GtkWidget" 	style "pithos-icons"
+
+

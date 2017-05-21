@@ -9,6 +9,7 @@
     (paint-mode overlay-mode)
     (brush "A-3 rocks1")
     (dynamics "Texture Overlay (Choose Brush...)")
+    (gradient "Frente a fondo (RGB)")
     (palette "Firecode")
     (brush-size 200.000000))
 (use-fg-bg no)

@@ -37,15 +37,11 @@ values."
      ;; Uncomment some layer names and press <SPC f e R> (Vim style) or
      ;; <M-m f e R> (Emacs style) to install them.
      ;; ----------------------------------------------------------------
+     org
      helm
      auto-completion
      better-defaults
      emacs-lisp
-     git
-     html
-     javascript
-     markdown
-     pandoc
      spell-checking
      speed-reading
      syntax-checking
@@ -53,22 +49,31 @@ values."
      ;;extra-langs
      ;;auctex
      colors
+     git
+     html
+     javascript
+     markdown
+     yaml
+     pandoc
      latex
      sql
+     shell-scripts
+     python
+     swift
      osx
      (shell :variables shell-default-height 30 shell-default-position 'bottom)
-     ;;shell
      ranger
-     shell-scripts
-     sql
      bibtex
      csv
-     python
-     yaml
      ;;search-engine
      ess
      finance
      ;;tabbar
+     selectric
+     imenu-list
+     ibuffer
+     spotify
+     games
 
      )
    ;; List of additional packages that will be installed without being
@@ -152,8 +157,8 @@ values."
                          spacemacs-light
                          solarized-dark
                          leuven
-                         monokai
-                         zenburn)
+                         pencil
+                         )
    ;; If non nil the cursor color matches the state color in GUI Emacs.
    dotspacemacs-colorize-cursor-according-to-state t
    ;; Default font, or prioritized list of fonts. `powerline-scale' allows to
@@ -272,6 +277,7 @@ values."
    ;; scrolling overrides the default behavior of Emacs which recenters point
    ;; when it reaches the top or bottom of the screen. (default t)
    dotspacemacs-smooth-scrolling t
+   ;;; dotspacemacs-smooth-scrolling nil
    ;; If non nil line numbers are turned on in all `prog-mode' and `text-mode'
    ;; derivatives. If set to `relative', also turns on relative line numbers.
    ;; (default nil)
@@ -334,12 +340,12 @@ you should place your code here."
   ;;(setq mac-command-key-is-meta t)
   ;;(setq mac-command-modifier 'meta)
   ;;(setq mac-option-modifier nil)
-  
+
   ;;Mi configuración de mac
   (define-key global-map (kbd "C-+") 'text-scale-increase)
   ;;(define-key global-map (kbd "C--") 'text-scale-decrease)
   (setq mac-option-modifier 'none)
-  (setq mac-option-modifier 'meta) 
+  (setq mac-option-modifier 'meta)
   (when (eq system-type 'darwin)
     (setq mac-right-option-modifier 'none))
 
@@ -347,6 +353,17 @@ you should place your code here."
   (setq mouse-wheel-scroll-amount '(0.07))
   (setq mouse-wheel-progressive-speed nil)
   (setq ring-bell-function 'ignore)
+
+  ;;
+  (setq-default js2-basic-offset 2)
+  (setq-default js-indent-level 2)
+
+  ;; Auto detectección de diccionario
+  (setq-default dotspacemacs-configuration-layers
+    '((spell-checking :variables spell-checking-enable-auto-dictionary t)))
+
+  ;; (setq-default dotspacemacs-configuration-layers
+  ;; '((spell-checking :variables =enable-flyspell-auto-completion= t)))
 
 ;;;;; Fin de configuracion de usuario
   )
@@ -360,7 +377,7 @@ you should place your code here."
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-    (tabbar spray ledger-mode flycheck-ledger ess-smart-equals ess-R-object-popup ess-R-data-view ctable ess julia-mode yapfify yaml-mode xterm-color web-mode web-beautify tagedit sql-indent smeargle slim-mode shell-pop scss-mode sass-mode reveal-in-osx-finder ranger rainbow-mode rainbow-identifiers pyvenv pytest pyenv-mode py-isort pug-mode pip-requirements pbcopy pandoc-mode ox-pandoc ht osx-trash osx-dictionary orgit org org-ref key-chord ivy mwim multi-term mmm-mode markdown-toc markdown-mode magit-gitflow livid-mode skewer-mode simple-httpd live-py-mode less-css-mode launchctl json-mode json-snatcher json-reformat js2-refactor multiple-cursors js2-mode js-doc insert-shebang hy-mode helm-pydoc helm-gitignore helm-css-scss helm-company helm-c-yasnippet helm-bibtex parsebib haml-mode gitignore-mode gitconfig-mode gitattributes-mode git-timemachine git-messenger git-link gh-md flyspell-correct-helm flyspell-correct flycheck-pos-tip pos-tip flycheck fish-mode evil-magit magit magit-popup git-commit with-editor async eshell-z eshell-prompt-extras esh-help emmet-mode cython-mode csv-mode company-web web-completion-data company-tern dash-functional tern company-statistics company-shell company-auctex company-anaconda company color-identifiers-mode coffee-mode biblio biblio-core auto-yasnippet yasnippet auto-dictionary auctex anaconda-mode pythonic ac-ispell auto-complete solarized-theme ws-butler window-numbering which-key volatile-highlights vi-tilde-fringe uuidgen use-package toc-org spacemacs-theme spaceline restart-emacs request rainbow-delimiters quelpa popwin persp-mode pcre2el paradox org-plus-contrib org-bullets open-junk-file neotree move-text macrostep lorem-ipsum linum-relative link-hint info+ indent-guide ido-vertical-mode hungry-delete hl-todo highlight-parentheses highlight-numbers highlight-indentation hide-comnt help-fns+ helm-themes helm-swoop helm-projectile helm-mode-manager helm-make helm-flx helm-descbinds helm-ag google-translate golden-ratio flx-ido fill-column-indicator fancy-battery eyebrowse expand-region exec-path-from-shell evil-visualstar evil-visual-mark-mode evil-unimpaired evil-tutor evil-surround evil-search-highlight-persist evil-numbers evil-nerd-commenter evil-mc evil-matchit evil-lisp-state evil-indent-plus evil-iedit-state evil-exchange evil-escape evil-ediff evil-args evil-anzu eval-sexp-fu elisp-slime-nav dumb-jump define-word column-enforce-mode clean-aindent-mode auto-highlight-symbol auto-compile aggressive-indent adaptive-wrap ace-window ace-link ace-jump-helm-line)))
+    (swift-mode typit mmt sudoku pacmacs 2048-game spotify helm-spotify multi apropospriate-theme org-projectile org-present org-pomodoro alert log4e gntp org-download htmlize gnuplot selectric-mode winum unfill fuzzy auctex-latexmk tabbar spray ledger-mode flycheck-ledger ess-smart-equals ess-R-object-popup ess-R-data-view ctable ess julia-mode yapfify yaml-mode xterm-color web-mode web-beautify tagedit sql-indent smeargle slim-mode shell-pop scss-mode sass-mode reveal-in-osx-finder ranger rainbow-mode rainbow-identifiers pyvenv pytest pyenv-mode py-isort pug-mode pip-requirements pbcopy pandoc-mode ox-pandoc ht osx-trash osx-dictionary orgit org org-ref key-chord ivy mwim multi-term mmm-mode markdown-toc markdown-mode magit-gitflow livid-mode skewer-mode simple-httpd live-py-mode less-css-mode launchctl json-mode json-snatcher json-reformat js2-refactor multiple-cursors js2-mode js-doc insert-shebang hy-mode helm-pydoc helm-gitignore helm-css-scss helm-company helm-c-yasnippet helm-bibtex parsebib haml-mode gitignore-mode gitconfig-mode gitattributes-mode git-timemachine git-messenger git-link gh-md flyspell-correct-helm flyspell-correct flycheck-pos-tip pos-tip flycheck fish-mode evil-magit magit magit-popup git-commit with-editor async eshell-z eshell-prompt-extras esh-help emmet-mode cython-mode csv-mode company-web web-completion-data company-tern dash-functional tern company-statistics company-shell company-auctex company-anaconda company color-identifiers-mode coffee-mode biblio biblio-core auto-yasnippet yasnippet auto-dictionary auctex anaconda-mode pythonic ac-ispell auto-complete solarized-theme ws-butler window-numbering which-key volatile-highlights vi-tilde-fringe uuidgen use-package toc-org spacemacs-theme spaceline restart-emacs request rainbow-delimiters quelpa popwin persp-mode pcre2el paradox org-plus-contrib org-bullets open-junk-file neotree move-text macrostep lorem-ipsum linum-relative link-hint info+ indent-guide ido-vertical-mode hungry-delete hl-todo highlight-parentheses highlight-numbers highlight-indentation hide-comnt help-fns+ helm-themes helm-swoop helm-projectile helm-mode-manager helm-make helm-flx helm-descbinds helm-ag google-translate golden-ratio flx-ido fill-column-indicator fancy-battery eyebrowse expand-region exec-path-from-shell evil-visualstar evil-visual-mark-mode evil-unimpaired evil-tutor evil-surround evil-search-highlight-persist evil-numbers evil-nerd-commenter evil-mc evil-matchit evil-lisp-state evil-indent-plus evil-iedit-state evil-exchange evil-escape evil-ediff evil-args evil-anzu eval-sexp-fu elisp-slime-nav dumb-jump define-word column-enforce-mode clean-aindent-mode auto-highlight-symbol auto-compile aggressive-indent adaptive-wrap ace-window ace-link ace-jump-helm-line)))
  '(tabbar-separator (quote (0.5))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.

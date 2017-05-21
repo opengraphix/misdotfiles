@@ -7,6 +7,7 @@
     (foreground (color-rgb 0.125000 0.125000 0.125000))
     (brush "Palette Knife Horiz")
     (dynamics "Palette Knife")
+    (gradient "Frente a fondo (RGB)")
     (palette "Default")
     (brush-size 180.000000)
     (jitter-amount 0.350000)

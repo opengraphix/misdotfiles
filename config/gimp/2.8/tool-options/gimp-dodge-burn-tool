@@ -1,6 +1,6 @@
 # GIMP gimp-dodge-burn-tool options
 
-(brush "Clipboard")
+(brush "Portapapeles")
 (dynamics "Dynamics Off")
 (palette "Default")
 

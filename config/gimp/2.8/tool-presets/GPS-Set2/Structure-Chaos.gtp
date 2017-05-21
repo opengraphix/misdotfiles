@@ -8,6 +8,7 @@
     (background (color-rgb 0.179662 0.094135 0.094135))
     (brush "Structure_03")
     (dynamics "Structure Chaos")
+    (gradient "Frente a fondo (RGB)")
     (palette "Default")
     (brush-size 400.000000)
     (jitter-amount 0.350000)

@@ -7,6 +7,7 @@
     (foreground (color-rgb 0.448926 0.133965 0.133965))
     (brush "T_Texture 1")
     (dynamics "3 Texture (Choose Brush...)")
+    (gradient "Frente a fondo (RGB)")
     (palette "Default")
     (brush-size 400.000000)
     (use-jitter yes)

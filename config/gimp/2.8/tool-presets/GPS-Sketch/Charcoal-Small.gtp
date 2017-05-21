@@ -8,6 +8,7 @@
     (opacity 0.666667)
     (brush "A-17 Knife eroded anim")
     (dynamics "Charcoal Small")
+    (gradient "Frente a fondo (RGB)")
     (palette "Default")
     (application-mode incremental))
 (use-fg-bg no)

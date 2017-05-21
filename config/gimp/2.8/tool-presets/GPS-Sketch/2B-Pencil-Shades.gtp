@@ -8,6 +8,7 @@
     (opacity 0.100000)
     (brush "P_Real Pencil 10x10")
     (dynamics "2B Pencil Shade")
+    (gradient "Frente a fondo (RGB)")
     (palette "Default")
     (application-mode incremental)
     (jitter-amount 0.350000)

@@ -8,6 +8,7 @@
     (background (color-rgb 0.118823 0.118823 0.118823))
     (brush "C_Dirty Spot")
     (dynamics "Dirty Spot")
+    (gradient "Frente a fondo (RGB)")
     (palette "Firecode")
     (brush-size 400.000000)
     (jitter-amount 0.350000)

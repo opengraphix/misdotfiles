@@ -1,7 +1,8 @@
 # GIMP gimp-clone-tool options
 
-(brush "Clipboard")
-(dynamics "Dynamics Off")
+(foreground (color-rgb 1.000000 1.000000 1.000000))
+(brush "Normal Nib 1")
+(dynamics "Pressure Opacity")
 (pattern "Pine")
 (palette "Default")
 

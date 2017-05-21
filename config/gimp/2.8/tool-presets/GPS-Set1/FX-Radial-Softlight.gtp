@@ -6,6 +6,7 @@
     (tool "gimp-blend-tool")
     (foreground (color-rgb 0.824897 0.218598 0.218598))
     (paint-mode softlight-mode)
+    (gradient "Frente a fondo (RGB)")
     (dynamics-expanded yes)
     (gradient-type radial))
 (use-fg-bg no)

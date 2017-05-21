@@ -1,0 +1,745 @@
+gtk-icon-sizes = "gtk-large-toolbar=22,16:panel-menu=24,24:panel=24,24:gtk-dialog=64,64"
+
+style "nautilus-window-base"
+{
+	bg[NORMAL] = "#d7e0e8"
+}
+
+style "nautilus-sidebar" = "theme-thin"
+{
+
+	xthickness	= 0
+	ythickness	= 10 #10
+
+	bg[NORMAL]	= @fm_color
+	bg[PRELIGHT]	= @fm_color
+
+	base[NORMAL]		= shade(1.1, @bg_color)
+	#base[SELECTED] 	= mix (0.4, @selected_bg_color, @fm_color)
+	#base[ACTIVE]	= mix (0.4, @selected_bg_color, @fm_color)
+
+	#text[SELECTED]	= @fg_color
+	#text[ACTIVE]	= @fg_color
+	
+	#text[NORMAL]	= @fm_color
+	#text[SELECTED]	= @fm_color
+	#text[ACTIVE]	= @fm_color
+
+	text[NORMAL]				= mix (0.3, @bg_color, @text_color)
+
+	font_name	= "Calibri 8"
+ text[NORMAL] = "#000000" #"#424242"
+
+	GtkTreeView	::odd-row_color		= "#ffffff" #"#ffffff",@fm_color
+	GtkTreeView	::even-row_color	= "#e4e8ee" #Cambia el color de la  #"#D5D9E2",@fm_color
+	
+	GtkPaned	::handle-size		= 0
+	GtkWidget	::wide-separator	= 0#
+	GtkWidget	::separator-width	= 0
+	GtkWidget	::separator-height	= 3
+	GtkWidget	::focus-line-width	= 1
+	GtkWidget	::draw-border		= {0,0,0,0}
+
+	GtkTreeView	::vertical-separator	= 3 #0
+	GtkTreeView	::horizontal-separator	= 10 #Real mac
+	GtkTreeView	::indent-expanders	= 1
+	GtkTreeView	::expander-size		= 8
+	GtkExpander	::expander-spacing	= 0 #16
+	GtkButton	::image-spacing		= 0
+
+	engine "murrine"
+	{
+		roundness		= 1
+		gradient_shades		= { 1.03, 1.0, 1.0, 0.94 }
+		highlight_shade		= 1.0
+		lightborderstyle	= 1
+		lightborder_shade	= 1.2
+		contrast		= 1.2
+               
+	}
+}
+
+style "nautilus-view" = "theme-thin"
+{
+	GtkScrolledWindow::scrollbars-within-bevel	= 0
+
+	base[NORMAL]	= lighter (@fm_color)
+}
+
+
+style "nautilus-sidebar-title"
+{
+	xthickness	= 5
+	ythickness	= 0
+        #text_color: "#1A1A1A"
+	fg[NORMAL]	        = @fg_color
+	fg[PRELIGHT]	        = @fg_color
+	fg[ACTIVE]		= @fg_color
+
+	bg[NORMAL]		= @fm_color
+	bg[PRELIGHT]       	= @fm_color
+	bg[ACTIVE]		= @fm_color
+
+	stock["gtk-close"] = {{ "Others/null.png", *, *, * }} # Get rid of the close icon
+
+	#font_name 	                  = "Semibold 7"
+        #font_name = "Helvetica Neue LT Pro Ultra Light Condensed 6"
+
+	GtkExpander	::expander-spacing	= 0
+	GtkExpander	::expander-size		= 0
+	GtkArrow	::arrow-scaling		= 0.1 # allowed: 0.1 ~ 1.0 (0.6 is an approximation to get 9 by 9 pixels arrow)
+	GtkButton	::image-spacing		= 0
+	GtkButton	::inner-border		= {0, 0, 0, 0}
+	GtkButton	::child-displacement-x	= 0
+	GtkButton	::child-displacement-y	= 0
+	GtkButton	::default-border	= { 0, 0, 0, 0 }
+	
+	engine "pixmap"
+	{
+		image
+		{
+			function	= SHADOW
+		}
+
+		image
+		{
+			function	= BUTTON
+		}
+
+		image
+		{
+			function		= ARROW
+			arrow_direction		= DOWN
+		}
+	}
+}
+
+
+style "nautilus-window-base" = "theme-thin"
+{
+	#bg[NORMAL]	= @selected_fg_color #this affects nautilus zoom slider and middle handle as well
+	bg_pixmap[NORMAL] = "Others/white.png"
+
+}
+
+style "nautilus-handle"
+{
+	GtkPaned	::handle-size	= 1
+
+	engine "pixmap"
+	{
+		image
+		{
+		    function		= HANDLE
+		    recolorable		= TRUE
+		    file		= "Handles/vertical.png"
+		    stretch		= TRUE
+		    border 		= { 0, 0, 0, 0 }
+		}
+	}
+}
+
+style "nautilus-statusbar" = "theme-default"
+{
+	xthickness	= 2
+#GtkStatusbar::shadow_type = GTK_SHADOW_NONE
+	
+	fg[NORMAL]	= @fg_color
+       #base[SELECTED]	= shade (0.8, @selected_bg_color)
+	#bg_pixmap[NORMAL] = "Panel/panelbutton3.png"
+ 
+engine "pixmap"
+{
+	image 
+	{
+	function		= SHADOW
+	shadow		= ETCHED_OUT
+	recolorable	= TRUE
+	file  			= "shadows/shadow-none.png"
+	border		= {0,0,24,0}
+	stretch 		= TRUE
+	}
+
+	image 
+	{
+	function        = SHADOW 
+	shadow          = ETCHED_OUT 		
+	recolorable     = TRUE
+	file            = "shadows/shadow-none.png"
+	border          = { 0, 0, 24, 0 }
+	stretch         = TRUE
+	}	
+}      //fin de engine
+
+
+}
+
+style "nautilus-scale" = "theme-scale"
+{
+  engine "pixmap" 
+  {
+    image 
+    {
+      function			= BOX
+      recolorable		= TRUE
+      detail				= "trough"
+      file				= "Range/trough-horizontal.png"
+      border			= { 10, 10, 1, 16 }
+      stretch			= TRUE
+      orientation		= HORIZONTAL
+    }	
+    image 
+    {
+      function			= BOX
+      recolorable		= TRUE
+      detail				= "trough"
+      file				= "Range/trough-vertical.png"
+      border			= { 0, 19, 10, 10 }
+      stretch			= TRUE
+      orientation		= VERTICAL
+    }
+
+############### the sliders ###############
+
+    image 
+    {
+      function				= SLIDER
+      recolorable			= TRUE
+      state           		= NORMAL
+      file					= "Range/null.png"
+      border				= { 0, 0, 0, 0 }
+      stretch				= TRUE
+      overlay_file			= "Range/slider-horiz.png"
+      overlay_stretch	= FALSE
+      orientation			= HORIZONTAL
+    }
+    image 
+    {
+      function				= SLIDER
+      recolorable			= TRUE
+     state           			= PRELIGHT
+      file					= "Range/null.png"
+      border				= { 0, 0, 0, 0 }
+      stretch				= TRUE
+      overlay_file			= "Range/slider-horiz-prelight.png"
+      overlay_stretch	= FALSE
+      orientation			= HORIZONTAL
+    }
+    image 
+    {
+      function				= SLIDER
+      recolorable			= TRUE
+      state           		= INSENSITIVE
+      file					= "Range/null.png"
+      border				= { 0, 0, 0, 0 }
+      stretch				= TRUE
+      overlay_file			= "Range/slider-horiz.png"
+      overlay_stretch	= FALSE
+      orientation			= HORIZONTAL
+    }
+
+######################### VERTICAL ###########################
+
+    image 
+    {
+      function				= SLIDER
+      recolorable			= TRUE
+      state           		= NORMAL
+      file					= "Range/null.png"
+      border				= { 0, 0, 0, 0 }
+      stretch				= TRUE
+      overlay_file			= "Range/slider-vert.png"
+      overlay_stretch	= FALSE
+      orientation			= VERTICAL
+    }
+    image 
+    {
+      function				= SLIDER
+      recolorable			= TRUE
+     state           			= PRELIGHT
+      file					= "Range/null.png"
+      border				= { 0, 0, 0, 0 }
+      stretch				= TRUE
+      overlay_file			= "Range/slider-vert-prelight.png"
+      overlay_stretch	= FALSE
+      orientation			= VERTICAL
+    }
+    image 
+    {
+      function				= SLIDER
+      recolorable			= TRUE
+      state           		= INSENSITIVE
+      file					= "Range/null.png"
+      border				= { 0, 0, 0, 0 }
+      stretch				= TRUE
+      overlay_file			= "Range/slider-vert.png"
+      overlay_stretch	= FALSE
+      orientation			= VERTICAL
+    }
+  }
+}
+
+style "nautilus-status-button" = "theme-button"
+{
+	xthickness	= 1
+	ythickness	= 1
+
+	engine "equinox"
+	{
+		curvature	= 1.0
+	}
+}
+
+style "nautilus-treeview"
+{
+	xthickness	= 2
+	ythickness	= 0
+
+	bg[NORMAL]	= shade (1.03, @bg_color)
+}
+
+style "nautilus-notebook" = "theme-notebook"
+{
+	engine "equinox"
+	{
+		curvature	= 0.0
+	}
+}	
+
+style "nautilus-mode-button"
+{
+
+	engine "pixmap"
+	{	
+		image
+		{
+			function        	= BOX
+			recolorable     	= TRUE
+			state			= PRELIGHT
+			overlay_file			= "/Nautilus/mode_prelight.png"
+			border			= { 3, 13, 3, 3 }
+			stretch         	= TRUE
+		}
+	  
+		image
+		{
+			function        	= BOX
+			recolorable     	= TRUE
+			state			= NORMAL
+			overlay_file			= "/Nautilus/mode_normal.png"
+			border			= { 3, 13, 3, 3 }
+			stretch         	= TRUE
+		}
+	
+		image
+		{
+			function        	= BOX
+			recolorable     	= TRUE
+			state			= ACTIVE
+			overlay_file			= "/Nautilus/mode_pressed.png"
+			border			= { 3, 13, 3, 3 }
+			stretch         	= TRUE
+		}  
+
+		image
+		{
+			function        	= BOX
+			recolorable     	= TRUE
+			state			= INSENSITIVE
+			overlay_file		= "/Nautilus/mode_normal.png"
+			border			= { 3, 13, 3, 3 }
+			stretch         	= TRUE
+		} 
+
+		image
+		{
+			function        	= BOX
+			recolorable     	= TRUE
+			state			= SELECTED
+			overlay_file			= "/Nautilus/mode_pressed.png"
+			border			= { 3, 13, 3, 3 }
+			stretch         	= TRUE
+		}
+	}
+
+}
+
+style "nautilus-entry"
+{
+
+  xthickness            			= 20
+  ythickness            			= 4
+  
+  GtkWidget::interior_focus	= 10
+  #WnckTasklist::fade-overlay-rect = 1
+  GtkEntry	::honors-transparent-bg-hint	= 1
+
+  bg[SELECTED]	= darker (@locationbar_color)
+   bg[NORMAL]      = "#dfdfdf" #@locationbar_color
+   #fg[NORMAL] = "#dddddd"
+
+   text[NORMAL]				= mix (0.3, @bg_color, @text_color)
+  
+  font_name = "Vegur Light 9" #afecta al spotlights
+  
+  engine "pixmap"
+  {
+    image
+    {
+      function			= FOCUS
+      recolorable		= TRUE
+      file			= "Nautilus/spotlight2.png"
+      border			= { 20,20,3,3 }
+      stretch			= TRUE
+    }	
+ image
+    {
+      function			= BOX
+      recolorable		= TRUE
+	shadow			= IN
+      state			= NORMAL
+      file			= "Nautilus/spotlight2.png"
+      border			= { 20,20,3,3 }
+      stretch			= TRUE
+    }	
+
+image
+    {
+      function			= BOX
+      recolorable		= TRUE
+      state			= NORMAL
+      file			= "Nautilus/spotlight.png"
+      border			= { 20,20,3,3 }
+      stretch			= TRUE
+    }	
+
+  image
+   {
+     function		     = SHADOW
+     detail			= "entry"
+     recolorable		= FALSE
+     file		     = "Nautilus/spotlight.png"
+     border			= { 20,20,3,3}
+     stretch		     = TRUE
+   }
+
+  }
+}
+
+
+
+#
+#style "nautilus-entry"
+#{
+#	xthickness	= 5 #5
+#	ythickness	= 1 #3
+#
+#	bg[SELECTED]	= darker (@locationbar_color)
+#	bg[NORMAL]      = @locationbar_color
+
+#	text[NORMAL]				= mix (0.3, @bg_color, @text_color)
+#	font_name = "Vegur Light 6"
+
+#	engine "murrine"
+#	{
+#		roundness		= 2
+#		contrast		= 0.5
+#	}
+#}
+
+############ Breadcrumbs in nautilus-elementary ##################
+
+style "nautilus-breadcrumbs"
+{
+	xthickness = 4
+	ythickness = 0
+	
+	GtkButton::child-displacement-y		= 0
+	GtkButton::inner-border				= { 0, 8, 0, 0}
+
+	engine "pixmap"
+	{	
+		image
+		{
+			function        	= BOX
+			shadow				= OUT
+			recolorable     	= TRUE
+			state				= PRELIGHT
+			file				= "Breadcrumbs/breadcrumb_prelight.png"
+			border				= { 3, 13, 3, 3 }
+			stretch         	= TRUE
+		}		
+
+		image
+		{
+			function        	= BOX
+			recolorable     	= TRUE
+			shadow				= IN
+			state				= PRELIGHT
+			file				= "Breadcrumbs/breadcrumb_active.png"
+			border				= { 3, 13, 3, 3 }
+			stretch         	= TRUE
+		}
+	  
+		image
+		{
+			function        	= BOX
+			recolorable     	= TRUE
+			state				= NORMAL
+			file				= "Breadcrumbs/breadcrumb_normal.png"
+			border				= { 3, 13, 3, 3 }
+			stretch         	= TRUE
+		}
+		
+		image
+		{
+			function        	= BOX
+			recolorable     	= TRUE
+			state				= PRELIGHT
+			file				= "Breadcrumbs/breadcrumb_active.png"
+			border				= { 3, 13, 3, 3 }
+			stretch         	= TRUE
+		}
+	
+
+		image
+		{
+			function        	= BOX
+			recolorable     	= TRUE
+			state				= ACTIVE
+			file				= "Breadcrumbs/breadcrumb_active.png"
+			border				= { 3, 13, 3, 3 }
+			stretch         	= TRUE
+		}  
+
+		image
+		{
+			function        	= BOX
+			recolorable     	= TRUE
+			state				= INSENSITIVE
+			file				= "Breadcrumbs/breadcrumb_normal.png"
+			border				= { 3, 13, 3, 3 }
+			stretch         	= TRUE
+		} 
+
+		image
+		{
+			function        	= BOX
+			recolorable     	= TRUE
+			state				= SELECTED
+			file				= "Breadcrumbs/breadcrumb_active.png"
+			border				= { 3, 13, 3, 3 }
+			stretch         	= TRUE
+		}
+	}
+}
+
+style "nautilus-left-slider"
+{
+	xthickness = 0
+	ythickness = 0
+	
+	engine "pixmap"
+	{
+		image {
+			function 		= BOX
+			file			= "Breadcrumbs/left_slider_normal.png"
+			border			= { 3, 3, 3, 3 }
+			stretch			= TRUE
+		}
+	}
+
+}
+style "nautilus-right-slider"
+{	
+	xthickness = 0
+	ythickness = 0
+	
+	engine "pixmap"
+	{
+		image {
+			function 		= BOX
+			file			= "Breadcrumbs/right_slider_normal.png"
+			border			= { 3, 3, 3, 3 }
+			stretch			= TRUE
+		}
+	}
+}
+####toolbar
+style "nautilus-toolbar" = "theme-wide"
+{
+GtkToolbar ::button-relief = GTK_RELIEF_NORMAL
+GtkToolbar ::internal-padding = 2 #mueve los iconos verticalmente
+xthickness			= 10 #10 6mueve los botones de la toolbar
+ythickness			= 0
+font_name ="0"
+	bg[NORMAL]	= @toolbar_color
+	
+	engine "pixmap"
+	{
+		image
+		{
+			function	= BOX
+			file		= "Toolbar/nautilus-toolbar.png"
+			border		= { 0, 0, 0, 2 }
+			stretch		= FALSE
+    		}
+ 	}
+}
+
+############ toolbar buttons #######################################
+
+style "nautilus-toolbuttons" = "default"
+{
+  xthickness            			= 0
+  ythickness            			= 0
+
+	GtkWidget::focus_padding = 3
+
+	engine "pixmap" {
+      
+image
+		{
+			function        		= BOX
+			recolorable     		= TRUE
+			state					= NORMAL
+			file            			= "/Others/null.png"
+			border          		= { 5, 5, 5, 5 }
+			stretch         		= TRUE
+		}
+image
+		{
+			function        		= BOX
+			recolorable     		= TRUE
+			state					= PRELIGHT
+			file            			= "/Nautilus/toolbutton.png"
+			border          		= { 5, 5, 5, 5 }
+			stretch         		= TRUE
+		}
+image
+		{
+			function        		= BOX
+			recolorable     		= TRUE
+			state					= ACTIVE
+			file            			= "/Nautilus/toolbutton2.png"
+			border          		= { 5, 5, 5, 5 }
+			stretch         		= TRUE
+		}  
+image
+		{
+			function        		= BOX
+			recolorable     		= TRUE
+			state					= INSENSITIVE
+			file            			= "/Others/null.png"
+			border          		= { 5, 5, 5, 5 }
+			stretch         		= TRUE
+		}  
+	}
+}
+
+
+############ toolbar buttons 2 #######################################
+
+style "toolbuttons2" = "default"
+{
+  	xthickness = 1
+	ythickness = 0
+
+	GtkWidget::focus_padding = 0
+
+	engine "pixmap" 
+	{
+
+		# Toolbar button
+		image
+		{
+			function        	= BOX
+			recolorable     	= TRUE
+			state			= NORMAL
+			file            	= "Toolbar/button-normal.png"
+			border          	= { 5, 5, 5, 5 }
+			stretch         	= TRUE
+		}
+		
+		# Toolbar button (mouse over)
+		image
+		{
+			function      		= BOX
+			recolorable    		= TRUE
+			state			= PRELIGHT
+			file          		= "Toolbar/button-prelight2.png"
+			border        		= { 5, 5, 1, 1 }
+			stretch       		= TRUE
+		}
+
+		# Toolbar button (clicked)
+		image
+		{
+			function        	= BOX
+			recolorable     	= TRUE
+			state			= ACTIVE
+			file            	= "Toolbar/button-prelight2.png"
+			border          	= { 5, 5, 1, 1 }
+			stretch         	= TRUE
+		}  
+		
+		# Toolbar button (disabled)
+		image
+		{
+			function      		= BOX
+			recolorable    		= TRUE
+			state			= INSENSITIVE
+			file          		= "Toolbar/button-normal.png"
+			border        		= { 5, 5, 5, 5 }
+			stretch       		= TRUE
+		}  
+	}
+}
+
+
+# Order of assignment is important
+
+widget_class "*Nautilus*Window*"		style "nautilus-window-base"
+widget_class "*Nautilus*Toolbar*"		style "nautilus-toolbar"
+widget_class "*Nautilus*Toolbar*Button"		style "nautilus-toolbuttons"
+widget_class "*Nautilus*Toolbar*Button"		style "nautilus-toolbuttons"
+widget_class "*Nautilus*Menu*"			style "theme-menu"
+widget_class "*Nautilus*MenuBar*"		style "theme-menubar"
+widget_class "*Nautilus*Statusbar*"		style "nautilus-statusbar"
+widget_class "*Nautilus*Scale*"			style "nautilus-scale"
+widget_class "*Nautilus*Statusbar*Button*"	style "nautilus-status-button"
+widget "*Nautilus*Splitter"			style "nautilus-handle"
+widget_class "*Nautilus*View*"			style "nautilus-view"
+widget_class "*NautilusSidePane.*"		style "nautilus-sidebar-title"
+widget_class "*Nautilus*Places*Sidebar*"	style "nautilus-sidebar"
+widget_class "*Nautilus*Side*.GtkWidget"	style "nautilus-sidebar"
+widget_class "*Nautilus*Side*Title*"		style "nautilus-sidebar-title"
+widget_class "*Nautilus*Notebook"		style "nautilus-notebook"
+widget_class "*Nautilus*Scrollbar"		style "scrollbar"
+widget_class "*Nautilus*Entry*"			style "nautilus-entry"
+#widget_class "*Nautilus*List*Button*"		style "nautilus-treeview"
+widget "*GtkModeButton*"			style:highest "nautilus-mode-button"
+
+widget_class "*Nautilus*ComboBox*"				style "theme-combobox"
+widget_class "*Nautilus*<GtkComboBoxEntry>*"		style "theme-comboboxentry"
+widget_class "*Nautilus*Combo*"         			style "theme-combobox"
+
+widget_class "*Nautilus*<GtkTreeView>.<GtkButton>" 		style "theme-list-header"
+widget_class "*Nautilus*<GtkCTree>.<GtkButton>"    		style "theme-treeview-header"
+#widget_class "*Nautilus*<GtkList>.<GtkButton>"     		style "theme-treeview-header"
+#widget_class "*Nautilus*<GtkCList>.<GtkButton>"    		style "theme-treeview-header"
+
+# Breadcrumbs below. Comment to disable.
+widget_class "*NautilusPathBar.*ToggleButton"	style:highest "nautilus-breadcrumbs"
+widget "Nautilus*left_slider*"			style:highest "nautilus-left-slider"
+widget "Nautilus*right_slider*"			style:highest "nautilus-right-slider"
+
+
+
+
+
+
+
+
+
+

@@ -7,6 +7,7 @@
     (foreground (color-rgb 0.463389 0.187798 0.187798))
     (brush "A-2 Splat")
     (dynamics "Splats")
+    (gradient "Frente a fondo (RGB)")
     (palette "Default")
     (brush-size 200.000000))
 (use-fg-bg no)

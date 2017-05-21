@@ -1,6 +1,6 @@
 # GIMP gimp-perspective-clone-tool options
 
-(brush "Clipboard")
+(brush "Portapapeles")
 (dynamics "Dynamics Off")
 (pattern "Pine")
 (palette "Default")

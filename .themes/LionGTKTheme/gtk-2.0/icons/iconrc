@@ -1,0 +1,6 @@
+style "glossy-icons"
+{
+  stock["gtk-go-back"] = { { "stock_back.png", *, *, *} }
+  stock["gtk-go-forward"] ={{ "stock_forward.png", *, *, *}}
+}
+class "GtkWidget" style "glossy-icons"

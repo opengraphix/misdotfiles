@@ -7,6 +7,7 @@
     (opacity 0.500000)
     (brush "Sc_Scratches3")
     (dynamics "Scratches")
+    (gradient "Frente a fondo (RGB)")
     (palette "Default")
     (brush-size 80.000000)
     (application-mode incremental)

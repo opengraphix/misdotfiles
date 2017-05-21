@@ -1,12 +1,12 @@
 # GIMP user context
 
-(tool "gimp-color-picker-tool")
+(tool "gimp-move-tool")
 (paint-info "gimp-paintbrush")
-(foreground (color-rgb 0.933333 0.925490 0.878431))
-(brush "2. Hardness 050")
+(foreground (color-rgb 0.831373 0.741176 0.341176))
+(brush "Normal Nib 1")
 (dynamics "Pressure Opacity")
 (pattern "Pine")
-(gradient "FG to BG (RGB)")
+(gradient "Frente a fondo (RGB)")
 (palette "Default")
 (font "Sans")
 

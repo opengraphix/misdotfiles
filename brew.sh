@@ -31,6 +31,7 @@ brew install gnu-sed --with-default-names
 brew install bash
 brew tap homebrew/versions
 brew install bash-completion2
+brew install zsh
 
 # Install `wget` with IRI support.
 brew install wget --with-iri
@@ -46,7 +47,7 @@ brew install vim --override-system-vi
 brew install homebrew/dupes/grep
 brew install homebrew/dupes/openssh
 brew install homebrew/dupes/screen
-brew install homebrew/php/php56 --with-gmp
+#brew install homebrew/php/php56 --with-gmp
 
 # Install font tools.
 brew tap bramstein/webfonttools
@@ -77,19 +78,19 @@ brew install tcpflow
 brew install tcpreplay
 brew install tcptrace
 brew install ucspi-tcp # `tcpserver` etc.
-brew install xpdf
+#brew install xpdf
 brew install xz
 
 # Install other useful binaries.
 brew install ack
-brew install dark-mode
+#brew install dark-mode
 #brew install exiv2
 brew install tmux
 brew install git
 brew install git-lfs
 brew install imagemagick --with-webp
 brew install lua
-brew install lynx
+brew install w3m
 brew install wget
 brew install fortune
 brew install p7zip
@@ -108,8 +109,21 @@ brew install lcdf-typetools
 brew install bibtools
 brew install pandoc
 brew install pandoc-citeproc
+brew install pandoc-crossref
 brew install cabal-install
 brew install wrk
+brew install telegram-cli
+brew install surfraw
+brew install poppler
+brew install syncthing
+brew install syncthing-inotify
+brew install htop
+brew install ranger
+brew install gnuplot
+brew install octave
+brew install mc
+brew install ispell
+brew install aspell
 
 # install-homebrew-cask
 brew tap phinze/cask
@@ -117,7 +131,15 @@ brew install brew-cask
 
 
 #install-quick-look-plugins
-brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzipql webp-quicklook suspicious-package
+# brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzipql qlimagesize webpquicklook suspicious-package quicklookase qlvideo
+
+
+# Install spacemacs
+brew tap d12frosted/emacs-plus
+brew install emacs-plus
+brew linkapps emacs-plus
+
+cd; git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d
 
 # Remove outdated versions from the cellar.
 brew cleanup

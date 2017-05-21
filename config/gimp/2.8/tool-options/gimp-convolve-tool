@@ -1,6 +1,6 @@
 # GIMP gimp-convolve-tool options
 
-(brush "Clipboard")
+(brush "Portapapeles")
 (dynamics "Dynamics Off")
 (palette "Default")
 

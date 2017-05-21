@@ -6,6 +6,7 @@
     (tool "gimp-paintbrush-tool")
     (brush "P_Graphite Black Grass")
     (dynamics "2B Pencil Detail")
+    (gradient "Frente a fondo (RGB)")
     (palette "Default")
     (brush-size 40.000000)
     (application-mode incremental)

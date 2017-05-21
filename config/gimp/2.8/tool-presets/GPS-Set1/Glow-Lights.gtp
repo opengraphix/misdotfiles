@@ -10,6 +10,7 @@
     (paint-mode addition-mode)
     (brush "Soft Brush")
     (dynamics "Glow Lights (Addition !)")
+    (gradient "Frente a fondo (RGB)")
     (palette "Default")
     (brush-size 400.000000)
     (application-mode incremental)

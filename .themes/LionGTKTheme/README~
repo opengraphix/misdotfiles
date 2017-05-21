@@ -1,0 +1,41 @@
+elementary Equinox-Murrine mod
+Author: weakhead <http://weakhead.deviantart.com>
+Based on elementary GTK by Daniel Fore, AKA DanRabbit <http://danrabbit.deviantart.com>
+License: GPL
+
+### REQUIREMENTS ###
+In order to use this theme, you must have following engines installed:
+- Equinox, version 1.1 or newer
+- Murrine, version from GIT (as of 05.04.2010) repositoryor or the one shipped with Ubuntu Lucid Lynx.
+- Nautilus-elementary 2.30 (GNOME & Nautilus users only)
+
+### INSTALLATION ###
+Place entitled "elementary EM" in '/usr/share/themes/' (to install theme for all users)
+or in '~/.themes' (this will install this theme just for you).
+
+~/ = /home/yourusername/
+
+
+### FAQ ###
+Q: I'm using official Nautilus 2.30. Will elementary EM theme work with it too?
+A: It looks ugly. You need to disable nautilus styles by opening '/usr/share/themes/elementary EM/gtkrc'
+   or '~/.themes/elementary EM/gtkrc' in a text editor and comment (put # in front) line 672.
+
+Q: Where can I get Nautilus-elementary from?
+A: Currently (as of 21.04.2010), it's available on Bazaar (for Ubuntu) and on HDPPA (for Debian).
+   Installation instructions can be found here: http://www.webupd8.org/2010/04/install-nautilus-elementary-230-in.html
+   Link to bzr: https://code.launchpad.net/~elementaryart/nautilus-elementary/nautilus-elementary
+   Link to HDPPA: http://hadret.rootnode.net/
+   Arch Linux users can install it from AUR: http://aur.archlinux.org/packages.php?ID=33749
+
+Q: I'm using older version of Nautilus (<2.30). It look horrible. What can I do about it?
+A: Open 'path_to_theme/gtk-2.0/gtkrc' in text editor and comment line (put # in front) 626. Now reload theme.
+
+Q: Tray / notification icons in my panel are buggy. What should I do?
+A: This may happen in GNOME panel (old, unsolved bug). Open 'path_to_theme/gtk-2.0/gtkrc' in text editor
+   and comment line (put # in front) 625. Now reload theme.
+
+Q: I've found a bug!
+A: Great! Leave a comment about it here: http://weakhead.deviantart.com/art/elementary-EM-GTK-159674715
+   or here: http://gnome-look.org/content/show.php/elementary+EM+GTK?content=122781
+

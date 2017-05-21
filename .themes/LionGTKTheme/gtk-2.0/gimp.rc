@@ -1,0 +1,61 @@
+style "gimp-statusbar"
+{
+	engine "murrine"
+	{
+		roundness	= 0
+	}
+}
+
+style "gimp-entry" = "theme-entry"
+{
+	xthickness	= 3
+	ythickness	= 3
+
+	bg[SELECTED]	= darker (@base_color)
+
+	engine "murrine"
+	{
+		roundness		= 0
+	}
+}
+
+style "gimp-comboboxentry" = "theme-comboboxentry"
+{
+	xthickness	= 3
+	ythickness	= 3
+
+	GtkButton	::inner-border	= { 0, 0, 0, 0 }
+
+	bg[SELECTED]	= darker (@base_color)
+
+	engine "murrine"
+	{
+		roundness		= 0
+	}
+}
+
+style "gimp-spinbutton" = "theme-spinbutton"
+{
+	xthickness	= 3
+	ythickness	= 3
+
+	engine "murrine"
+	{
+		roundness		= 0
+	}
+}
+
+style "gimp-notebook" = "theme-notebook"
+{
+	engine "murrine"
+	{
+		roundness		= 0
+	}
+}
+
+widget_class "*Gimp*Statusbar*"			style "gimp-statusbar"
+widget_class "*Gimp*<GtkEntry>"			style "gimp-entry"
+widget_class "*Gimp*<GtkComboBoxEntry>"		style "gimp-comboboxentry"
+widget_class "*Gimp*<GtkSpinButton>"		style "gimp-spinbutton"
+widget_class "*Gimp*<GtkNotebook>"		style "gimp-notebook"
+
