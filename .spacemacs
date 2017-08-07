@@ -11,7 +11,6 @@ values."
    ;; `+distribution'. For now available distributions are `spacemacs-base'
    ;; or `spacemacs'. (default 'spacemacs)
    dotspacemacs-distribution 'spacemacs
-
    ;; Lazy installation of layers (i.e. layers are installed only when a file
    ;; with a supported type is opened). Possible values are `all', `unused'
    ;; and `nil'. `unused' will lazy install only unused layers (i.e. layers
@@ -37,50 +36,60 @@ values."
      ;; Uncomment some layer names and press <SPC f e R> (Vim style) or
      ;; <M-m f e R> (Emacs style) to install them.
      ;; ----------------------------------------------------------------
-     org
      helm
-     auto-completion
+     ;;auto-completion
+     (auto-completion :disabled-for org
+                      :variables
+                      auto-completion-enable-sort-by-usage t)
      better-defaults
      emacs-lisp
-     spell-checking
-     speed-reading
-     syntax-checking
-     ;;version-control
-     ;;extra-langs
-     ;;auctex
-     colors
      git
+     markdown
+     (org :variables
+          org-enable-github-support t
+          org-enable-reveal-js-support t
+          org-enable-bootstrap-support t
+          org-projectile-file "TODOs.org") 
+     writeroom
+     (shell :variables
+            shell-default-height 30
+            shell-default-position 'bottom)
+     ;;spell-checking
+     (spell-checking :variables
+                     spell-checking-enable-auto-dictionary t
+                     enable-flyspell-auto-completion t)
+     ;;syntax-checking
+     (syntax-checking :variables
+                      syntax-checking-enable-tooltips nil)
+     version-control
+     colors
      html
      javascript
-     markdown
+     php
+     bootstrap
      yaml
      pandoc
      latex
      sql
      shell-scripts
-     python
+     ;;python
      swift
      osx
-     (shell :variables shell-default-height 30 shell-default-position 'bottom)
      ranger
      bibtex
      csv
-     ;;search-engine
-     ess
-     finance
-     ;;tabbar
-     selectric
-     imenu-list
-     ibuffer
-     spotify
-     games
-
+     ;;ess
+     ;;finance
      )
    ;; List of additional packages that will be installed without being
    ;; wrapped in a layer. If you need some configuration for these
    ;; packages, then consider creating a layer. You can also put the
    ;; configuration in `dotspacemacs/user-config'.
-   dotspacemacs-additional-packages '()
+   dotspacemacs-additional-packages '(
+   fountain-mode
+   focus
+   markdown-mode 
+   )
    ;; A list of packages that cannot be updated.
    dotspacemacs-frozen-packages '()
    ;; A list of packages that will not be installed and loaded.
@@ -152,22 +161,28 @@ values."
    ;; List of themes, the first of the list is loaded when spacemacs starts.
    ;; Press <SPC> T n to cycle to the next theme in the list (works great
    ;; with 2 themes variants, one dark and one light)
-   dotspacemacs-themes '(solarized-light
+   dotspacemacs-themes '(solarized-dark
+                         solarized-light
                          spacemacs-dark
                          spacemacs-light
-                         solarized-dark
-                         leuven
-                         pencil
-                         )
+                         ;;solarized-light
+                         ;;solarized-dark
+                         atom-dark
+                         atom-one-dark
+                         monokai-alt
+                         tronesque
+                         forest-blue
+                         leuven)
    ;; If non nil the cursor color matches the state color in GUI Emacs.
    dotspacemacs-colorize-cursor-according-to-state t
    ;; Default font, or prioritized list of fonts. `powerline-scale' allows to
    ;; quickly tweak the mode-line size to make separators look not too crappy.
-   dotspacemacs-default-font '("Fira Code"
+   ;; Font: Liberation Mono, Hack, Menlo, Office Code Pro, Fira Mono, Nitti WM2
+   dotspacemacs-default-font '("Office Code Pro"
                                :size 18
                                :weight normal
                                :width normal
-                               :powerline-scale 2)
+                               :powerline-scale 1.1)
    ;; The leader key
    dotspacemacs-leader-key "SPC"
    ;; The key used for Emacs commands (M-x) (after pressing on the leader key).
@@ -277,9 +292,18 @@ values."
    ;; scrolling overrides the default behavior of Emacs which recenters point
    ;; when it reaches the top or bottom of the screen. (default t)
    dotspacemacs-smooth-scrolling t
-   ;;; dotspacemacs-smooth-scrolling nil
-   ;; If non nil line numbers are turned on in all `prog-mode' and `text-mode'
-   ;; derivatives. If set to `relative', also turns on relative line numbers.
+   ;; Control line numbers activation.
+   ;; If set to `t' or `relative' line numbers are turned on in all `prog-mode' and
+   ;; `text-mode' derivatives. If set to `relative', line numbers are relative.
+   ;; This variable can also be set to a property list for finer control:
+   ;; '(:relative nil
+   ;;   :disabled-for-modes dired-mode
+   ;;                       doc-view-mode
+   ;;                       markdown-mode
+   ;;                       org-mode
+   ;;                       pdf-view-mode
+   ;;                       text-mode
+   ;;   :size-limit-kb 1000)
    ;; (default nil)
    dotspacemacs-line-numbers nil
    ;; Code folding method. Possible values are `evil' and `origami'.
@@ -322,7 +346,6 @@ executes.
  This function is mostly useful for variables that need to be set
 before packages are loaded. If you are unsure, you should try in setting them in
 `dotspacemacs/user-config' first."
-
   )
 
 (defun dotspacemacs/user-config ()
@@ -343,7 +366,7 @@ you should place your code here."
 
   ;;Mi configuración de mac
   (define-key global-map (kbd "C-+") 'text-scale-increase)
-  ;;(define-key global-map (kbd "C--") 'text-scale-decrease)
+  (define-key global-map (kbd "C--") 'text-scale-decrease)
   (setq mac-option-modifier 'none)
   (setq mac-option-modifier 'meta)
   (when (eq system-type 'darwin)
@@ -362,8 +385,88 @@ you should place your code here."
   (setq-default dotspacemacs-configuration-layers
     '((spell-checking :variables spell-checking-enable-auto-dictionary t)))
 
-  ;; (setq-default dotspacemacs-configuration-layers
-  ;; '((spell-checking :variables =enable-flyspell-auto-completion= t)))
+  (setq-default dotspacemacs-configuration-layers
+   '((spell-checking :variables =enable-flyspell-auto-completion= t)))
+
+  ;; Enabling auto-dictionary-mode
+  (setq-default dotspacemacs-configuration-layers
+    '((spell-checking :variables spell-checking-enable-by-default t)))
+
+  ;; Org Mode
+
+  ;; Turn on horizontal scrolling with mouse wheel
+    (global-set-key (kbd "<triple-wheel-left>") 'scroll-right)
+    (global-set-key (kbd "<triple-wheel-right>") 'scroll-left)
+
+  ;; Abrir en una sola ventana
+    (setq s-pop-up-frames nil)
+
+    (custom-set-faces
+     '(org-level-1 ((t (:inherit outline-1 :height 1.0 ))))
+     '(org-level-2 ((t (:inherit outline-2 :height 1.0 ))))
+     '(org-level-3 ((t (:inherit outline-3 :height 1.0 ))))
+     '(org-level-4 ((t (:inherit outline-3 :height 1.0 ))))
+     '(org-level-5 ((t (:inherit outline-3 :height 1.0 ))))
+     '(org-level-6 ((t (:inherit outline-3 :height 1.0 ))))
+     '(org-level-7 ((t (:inherit outline-3 :height 1.0 ))))
+     '(org-level-8 ((t (:inherit outline-3 :height 1.0 ))))
+     )
+
+     (setq org-priority-faces
+      '((?A . (:foreground "red" :weight 'bold))
+        (?B . (:foreground "yellow"))
+        (?C . (:foreground "green"))))
+
+      (setq org-todo-keywords
+       ;;'((sequence "TODO(t)" "SUBTREE(s)" "WAIT(w@/!)" "|" "DONE(d!)" "CANCELLED(c@/!)")
+       ;;   (sequence "CRASH(c)" "BUG(b)" "REQUEST(r)" "TEST(e)" "|" "FIXED(f)")))
+
+            '((sequence  "PROJECT(p)" "TODO(t)" "WAITING(w)" "New(n)" "Open(o)" "Resolved(r)" "Feedback(f)" "|" "DONE(d)" "CANCELLED(C)" "Closed(c)")))
+
+       (setq org-todo-keyword-faces
+       '(("WAITING" . "white")
+	      ("CANCELLED" . "red")
+	       ("Closed" . "red")
+	       ("PROJECT" . "grey")
+	        ("Resolved" . "turquoise1")
+	      ))
+
+  ;; Configuración de agenda org-mode
+  ;; https://github.com/nashamri/spacemacs-theme/issues/62
+  (setq org-agenda-time-grid
+        '((daily today today)
+            #("----------------" 0 16 (org-heading t))
+            (800 1000 1200 1400 1600 1800 2000 2200 2359))) ;; show default time lines
+  (setq org-agenda-prefix-format '((agenda  . "%-10:T% s%?-2t") ; (agenda . " %s %-12t ")
+                                    (timeline . "%-9:T%?-2t% s")
+                                    (todo . "%i%-8:T")
+                                    (tags . "%i%-8:T")
+                                    (search . "%i%-8:T")))
+  (setq org-agenda-remove-tags t)
+
+  ;;Configuración de faces para agenda org-mode
+  (custom-set-faces
+   '(org-agenda-done ((t (:foreground "#86dc2f" :height 1.0)))))
+
+  (custom-set-faces
+   '(org-scheduled-today ((t (:foreground "#bc6ec5" :height 1.0)))))
+
+  ;; Project support
+  (with-eval-after-load 'org-agenda
+    (require 'org-projectile)
+      (push (org-projectile:todo-files) org-agenda-files))
+
+  ;; Mode line support
+  (setq spaceline-org-clock-p t)
+
+  ;; Different bullets
+  (setq org-bullets-bullet-list '("■" "◆" "▲" "▶"))
+
+  ;; Mode Org Mobile
+  (setq org-mobile-directory "~/Dropbox/Aplicaciones/MobileOrg")
+
+  ;; Mode para escritores
+  ;;(require 'fountain-mode)
 
 ;;;;; Fin de configuracion de usuario
   )
@@ -375,13 +478,23 @@ you should place your code here."
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(evil-want-Y-yank-to-eol nil)
+ '(org-agenda-files nil)
  '(package-selected-packages
    (quote
-    (swift-mode typit mmt sudoku pacmacs 2048-game spotify helm-spotify multi apropospriate-theme org-projectile org-present org-pomodoro alert log4e gntp org-download htmlize gnuplot selectric-mode winum unfill fuzzy auctex-latexmk tabbar spray ledger-mode flycheck-ledger ess-smart-equals ess-R-object-popup ess-R-data-view ctable ess julia-mode yapfify yaml-mode xterm-color web-mode web-beautify tagedit sql-indent smeargle slim-mode shell-pop scss-mode sass-mode reveal-in-osx-finder ranger rainbow-mode rainbow-identifiers pyvenv pytest pyenv-mode py-isort pug-mode pip-requirements pbcopy pandoc-mode ox-pandoc ht osx-trash osx-dictionary orgit org org-ref key-chord ivy mwim multi-term mmm-mode markdown-toc markdown-mode magit-gitflow livid-mode skewer-mode simple-httpd live-py-mode less-css-mode launchctl json-mode json-snatcher json-reformat js2-refactor multiple-cursors js2-mode js-doc insert-shebang hy-mode helm-pydoc helm-gitignore helm-css-scss helm-company helm-c-yasnippet helm-bibtex parsebib haml-mode gitignore-mode gitconfig-mode gitattributes-mode git-timemachine git-messenger git-link gh-md flyspell-correct-helm flyspell-correct flycheck-pos-tip pos-tip flycheck fish-mode evil-magit magit magit-popup git-commit with-editor async eshell-z eshell-prompt-extras esh-help emmet-mode cython-mode csv-mode company-web web-completion-data company-tern dash-functional tern company-statistics company-shell company-auctex company-anaconda company color-identifiers-mode coffee-mode biblio biblio-core auto-yasnippet yasnippet auto-dictionary auctex anaconda-mode pythonic ac-ispell auto-complete solarized-theme ws-butler window-numbering which-key volatile-highlights vi-tilde-fringe uuidgen use-package toc-org spacemacs-theme spaceline restart-emacs request rainbow-delimiters quelpa popwin persp-mode pcre2el paradox org-plus-contrib org-bullets open-junk-file neotree move-text macrostep lorem-ipsum linum-relative link-hint info+ indent-guide ido-vertical-mode hungry-delete hl-todo highlight-parentheses highlight-numbers highlight-indentation hide-comnt help-fns+ helm-themes helm-swoop helm-projectile helm-mode-manager helm-make helm-flx helm-descbinds helm-ag google-translate golden-ratio flx-ido fill-column-indicator fancy-battery eyebrowse expand-region exec-path-from-shell evil-visualstar evil-visual-mark-mode evil-unimpaired evil-tutor evil-surround evil-search-highlight-persist evil-numbers evil-nerd-commenter evil-mc evil-matchit evil-lisp-state evil-indent-plus evil-iedit-state evil-exchange evil-escape evil-ediff evil-args evil-anzu eval-sexp-fu elisp-slime-nav dumb-jump define-word column-enforce-mode clean-aindent-mode auto-highlight-symbol auto-compile aggressive-indent adaptive-wrap ace-window ace-link ace-jump-helm-line)))
- '(tabbar-separator (quote (0.5))))
+    (ox-twbs ox-gfm fountain-mode flyspell-popup leuven-theme focus forest-blue-theme tronesque-theme yapfify swift-mode pyvenv pytest pyenv-mode py-isort pip-requirements live-py-mode ledger-mode hy-mode helm-pydoc flycheck-ledger ess-smart-equals ess-R-object-popup ess-R-data-view ctable ess julia-mode cython-mode company-anaconda anaconda-mode pythonic markdown-mode+ ox-ioslide ox-html5slide org-ac org-autolist org-dashboard org-journal color-theme-solarized solarized-theme atom-one-dark-theme atom-dark-theme monokai-alt-theme ox-epub ox-reveal yaml-mode xterm-color web-mode web-beautify unfill tagedit sql-indent smeargle slim-mode shell-pop scss-mode sass-mode reveal-in-osx-finder ranger rainbow-mode rainbow-identifiers pug-mode phpunit phpcbf php-extras php-auto-yasnippets pbcopy pandoc-mode ox-pandoc ht osx-trash osx-dictionary orgit org-ref pdf-tools key-chord ivy tablist org-projectile org-present org-pomodoro alert log4e gntp org-download mwim multi-term mmm-mode markdown-toc markdown-mode magit-gitflow livid-mode skewer-mode simple-httpd less-css-mode launchctl json-mode json-snatcher json-reformat js2-refactor multiple-cursors js2-mode js-doc insert-shebang htmlize helm-gitignore helm-css-scss helm-company helm-c-yasnippet helm-bibtex parsebib haml-mode gnuplot gitignore-mode gitconfig-mode gitattributes-mode git-timemachine git-messenger git-link git-gutter-fringe+ git-gutter-fringe fringe-helper git-gutter+ git-gutter gh-md fuzzy flyspell-correct-helm flyspell-correct flycheck-pos-tip pos-tip flycheck fish-mode evil-magit magit magit-popup git-commit with-editor eshell-z eshell-prompt-extras esh-help emmet-mode drupal-mode php-mode diff-hl csv-mode company-web web-completion-data company-tern dash-functional tern company-statistics company-shell company-auctex company color-identifiers-mode coffee-mode biblio biblio-core auto-yasnippet yasnippet auto-dictionary auctex-latexmk auctex ac-ispell auto-complete ws-butler winum which-key volatile-highlights vi-tilde-fringe uuidgen use-package toc-org spaceline powerline restart-emacs request rainbow-delimiters popwin persp-mode pcre2el paradox spinner org-plus-contrib org-bullets open-junk-file neotree move-text macrostep lorem-ipsum linum-relative link-hint info+ indent-guide hydra hungry-delete hl-todo highlight-parentheses highlight-numbers parent-mode highlight-indentation hide-comnt help-fns+ helm-themes helm-swoop helm-projectile helm-mode-manager helm-make projectile pkg-info epl helm-flx helm-descbinds helm-ag google-translate golden-ratio flx-ido flx fill-column-indicator fancy-battery eyebrowse expand-region exec-path-from-shell evil-visualstar evil-visual-mark-mode evil-unimpaired evil-tutor evil-surround evil-search-highlight-persist evil-numbers evil-nerd-commenter evil-mc evil-matchit evil-lisp-state smartparens evil-indent-plus evil-iedit-state iedit evil-exchange evil-escape evil-ediff evil-args evil-anzu anzu evil goto-chg undo-tree eval-sexp-fu highlight elisp-slime-nav dumb-jump f s diminish define-word column-enforce-mode clean-aindent-mode bind-map bind-key auto-highlight-symbol auto-compile packed dash aggressive-indent adaptive-wrap ace-window ace-link ace-jump-helm-line helm avy helm-core popup async))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- )
+ '(org-agenda-done ((t (:foreground "#86dc2f" :height 1.0))))
+ '(org-level-1 ((t (:inherit outline-1 :height 1.0))))
+ '(org-level-2 ((t (:inherit outline-2 :height 1.0))))
+ '(org-level-3 ((t (:inherit outline-3 :height 1.0))))
+ '(org-level-4 ((t (:inherit outline-3 :height 1.0))))
+ '(org-level-5 ((t (:inherit outline-3 :height 1.0))))
+ '(org-level-6 ((t (:inherit outline-3 :height 1.0))))
+ '(org-level-7 ((t (:inherit outline-3 :height 1.0))))
+ '(org-level-8 ((t (:inherit outline-3 :height 1.0))))
+ '(org-scheduled-today ((t (:foreground "#bc6ec5" :height 1.0)))))
